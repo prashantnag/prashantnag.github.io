@@ -4,7 +4,7 @@ about:
   image: images/nagpk.jpg
   links:
     - icon: github
-      href: https://github.com/prashantnag93
+      href: https://github.com/prashantnag
     - icon: envelope
       href: mailto:prashantnag.workmail@gmail.com
     - icon: linkedin
