@@ -4,6 +4,7 @@ project:
 website:
   title: "Prashant Kumar Nag"
   open-graph: true
+  site-url: "https://prashantnag.com"
   twitter-card:
     creator: "@prashantnag93"
   
