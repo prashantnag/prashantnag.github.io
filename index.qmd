@@ -17,5 +17,7 @@ comments: false
 ---
 
 ::: about-link-text
-I am an early-career researcher specializing in **artificial intelligence**, **deep learning**, and **affective computing**, with a particular focus on emotion detection, cognitive appraisal, and explainable AI. My work explores how AI models interpret human emotions in text and how transparent analytical methods can improve understanding, reliability, and human-centered applications. I am committed to developing rigorous, reproducible, and interpretable AI techniques while contributing to research, teaching, and collaborative academic growth.
+I am an Assistant Professor in the [Department of Computer Applications](https://galgotiacollege.edu/computer-applications-mca) at [Galgotias College of Engineering & Technology, Greater Noida, Uttar Pradesh, India.](https://galgotiacollege.edu/galgotias-college-of-engineering-&-technology) My academic and research interests lie in artificial intelligence, deep learning, and affective computing, with a particular focus on emotion detection, cognitive appraisal, and explainable AI.
+
+My work examines how AI models interpret human emotions in text and how transparent, well-grounded analytical methods can enhance understanding, reliability, and human-centered applications. I am committed to advancing rigorous and reproducible AI research while actively contributing to teaching, mentoring, and collaborative academic development.
 :::
