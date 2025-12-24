@@ -59,5 +59,5 @@ quarto render
 
 ## Contact
 
-- GitHub: [@prashantnag93](https://github.com/prashantnag93)
+- GitHub: [@prashantnag](https://github.com/prashantnag)
 - Website: [www.prashantnag.com](https://www.prashantnag.com)

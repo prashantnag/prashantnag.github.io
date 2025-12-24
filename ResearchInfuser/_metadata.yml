@@ -10,7 +10,7 @@ format:
     code-tools: true
     # comments:
       # giscus:
-      #   repo: prashantnag93/ResearchInfuser
+      #   repo: prashantnag/ResearchInfuser
       #   category: Blog comments
       #   category-id: DIC_kwDOIg6EJc4CSz92
       #   mapping: pathname

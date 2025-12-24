@@ -36,10 +36,10 @@ website:
         text: Software Suite
 
   page-footer:
-    left: "© 2025, Prashant Kumar Nag <a rel='me' href='https://github.com/prashantnag93'></a>"
+    left: "© 2025, Prashant Kumar Nag <a rel='me' href='https://github.com/prashantnag'></a>"
     right:
       - icon: github
-        href: https://github.com/prashantnag93
+        href: https://github.com/prashantnag
     background: "#234460"
 
 resources:
@@ -47,7 +47,7 @@ resources:
 
 comments:
   giscus:
-    repo: prashantnag93/prashantnag93.github.io
+    repo: prashantnag/prashantnag.github.io
 
 date-format: "D MMMM YYYY"
 freeze: auto

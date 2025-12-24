@@ -8,9 +8,9 @@ about:
     - icon: envelope
       href: mailto:prashantnag.workmail@gmail.com
     - icon: linkedin
-      href: https://www.linkedin.com/in/prashantnag93/
+      href: https://www.linkedin.com/in/prashantnag/
     - icon: twitter
-      href: https://twitter.com/prashantnag93
+      href: https://twitter.com/prashantnag
     - icon: youtube
       href: https://www.youtube.com/@ResearchInfuser
 comments: false
