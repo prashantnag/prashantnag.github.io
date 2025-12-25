@@ -47,16 +47,6 @@ The website code (SCSS, templates, configuration) is available for reference and
 - **Google Fonts**: OFL (SIL Open Font License)
 - **Hack Font**: MIT License
 
-## Building the Site
-
-```bash
-# Preview locally
-quarto preview
-
-# Build the site
-quarto render
-```
-
 ## Contact
 
 - GitHub: [@prashantnag](https://github.com/prashantnag)

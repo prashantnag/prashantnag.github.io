@@ -10,7 +10,7 @@ about:
     - icon: linkedin
       href: https://www.linkedin.com/in/prashantnag/
     - icon: twitter
-      href: https://twitter.com/prashantnag
+      href: https://twitter.com/nagprashant
     - icon: youtube
       href: https://www.youtube.com/@ResearchInfuser
 comments: false
