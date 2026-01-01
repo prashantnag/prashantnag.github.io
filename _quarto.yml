@@ -7,8 +7,14 @@ website:
   site-url: "https://prashantnag.com"
   twitter-card:
     creator: "@prashantnag93"
-  google-analytics: "G-8NSMVYVH2C"  # Replace with your Google Analytics measurement ID
- 
+  google-analytics:
+    tracking-id: "G-8NSMVYVH2C"
+    anonymize-ip: true
+  cookie-consent:
+    type: implied
+    style: simple
+    palette: dark
+  
   search: 
     location: navbar
     type: overlay
@@ -45,6 +51,7 @@ website:
 
 resources:
   - CNAME
+  - robots.txt
 
 comments:
   giscus:
