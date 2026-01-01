@@ -1,1 +1,23 @@
+# robots.txt for https://prashantnag.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
 Sitemap: https://prashantnag.com/sitemap.xml
+
+# Disallow crawling of search results
+Disallow: /search
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Crawl-delay for general bots
+Crawl-delay: 1
