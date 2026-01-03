@@ -187,13 +187,32 @@ AND NOT
 <p>Don’t search manually every few months. Automate it.</p>
 <section id="for-new-papers" class="level3">
 <h3 class="anchored" data-anchor-id="for-new-papers">For New Papers:</h3>
-<p><strong>Google Scholar Alerts:</strong> 1. Run your search in Google Scholar 2. Click “Create alert” (bottom left) 3. Receive weekly emails with new papers</p>
-<p><strong>Database-Specific Alerts:</strong> - <strong>Scopus:</strong> Save search → Create alert - <strong>Web of Science:</strong> Save search → Create citation alert - <strong>IEEE Xplore:</strong> Saved searches → Email alerts</p>
-<p><strong>RSS Feeds:</strong> - Most journals offer RSS feeds for new issues - Use an RSS reader (Feedly, Inoreader) to track multiple journals</p>
+<p><strong>Google Scholar Alerts:</strong></p>
+<ol type="1">
+<li>Run your search in Google Scholar</li>
+<li>Click “Create alert” (bottom left)</li>
+<li>Receive weekly emails with new papers</li>
+</ol>
+<p><strong>Database-Specific Alerts:</strong></p>
+<ul>
+<li><strong>Scopus:</strong> Save search → Create alert</li>
+<li><strong>Web of Science:</strong> Save search → Create citation alert</li>
+<li><strong>IEEE Xplore:</strong> Saved searches → Email alerts</li>
+</ul>
+<p><strong>RSS Feeds:</strong></p>
+<ul>
+<li>Most journals offer RSS feeds for new issues</li>
+<li>Use an RSS reader (Feedly, Inoreader) to track multiple journals</li>
+</ul>
 </section>
 <section id="for-citations-to-your-work" class="level3">
 <h3 class="anchored" data-anchor-id="for-citations-to-your-work">For Citations to Your Work:</h3>
-<p>Set up alerts for papers citing: - Your published work - Key papers in your field - Your supervisor’s papers</p>
+<p>Set up alerts for papers citing:</p>
+<ul>
+<li>Your published work</li>
+<li>Key papers in your field</li>
+<li>Your supervisor’s papers</li>
+</ul>
 <p>This keeps you aware of new developments without manual searching.</p>
 </section>
 </section>
@@ -238,8 +257,20 @@ AND NOT
 <p>Define <strong>before</strong> searching what papers you’ll include or exclude.</p>
 <section id="example-criteria" class="level3">
 <h3 class="anchored" data-anchor-id="example-criteria">Example Criteria:</h3>
-<p><strong>Inclusion:</strong> - Published between 2015–2025 - Peer-reviewed journals or top-tier conferences - Empirical studies with clear methodology - English language</p>
-<p><strong>Exclusion:</strong> - Opinion pieces without data - Studies outside your geographic/domain scope - Duplicate publications - Predatory journals</p>
+<p><strong>Inclusion:</strong></p>
+<ul>
+<li>Published between 2015–2025</li>
+<li>Peer-reviewed journals or top-tier conferences</li>
+<li>Empirical studies with clear methodology</li>
+<li>English language</li>
+</ul>
+<p><strong>Exclusion:</strong></p>
+<ul>
+<li>Opinion pieces without data</li>
+<li>Studies outside your geographic/domain scope</li>
+<li>Duplicate publications</li>
+<li>Predatory journals</li>
+</ul>
 <p><strong>Document these criteria.</strong> They justify why some papers were kept and others discarded.</p>
 </section>
 </section>
@@ -287,10 +318,17 @@ AND NOT
 <p>Now you have papers. Hundreds of PDFs sitting in a folder. You now know <strong>how to search systematically</strong>. You have search strings, filtered results, and documentation.</p>
 <p><strong>But here’s the gap:</strong> Those papers are still scattered across database interfaces. Some are bookmarked. Some are in browser tabs. None are organized.</p>
 <p><strong>The next problem:</strong> How do you capture, export, and store these papers so you can actually use them?</p>
-<p>In the next post, we’ll tackle: - <strong>Export formats:</strong> RIS, BibTeX, CSV—what they mean and which to use - <strong>Reference managers:</strong> Choosing between Zotero, Mendeley, EndNote - <strong>File naming systems:</strong> So you can find papers 6 months later - <strong>Folder structures:</strong> That scale from 50 to 500 papers - <strong>Metadata management:</strong> Why it matters more than PDFs</p>
+<p>In the next post, we’ll tackle:</p>
+<ul>
+<li><strong>Export formats:</strong> RIS, BibTeX, CSV—what they mean and which to use</li>
+<li><strong>Reference managers:</strong> Choosing between Zotero, Mendeley, EndNote</li>
+<li><strong>File naming systems:</strong> So you can find papers 6 months later</li>
+<li><strong>Folder structures:</strong> That scale from 50 to 500 papers</li>
+<li><strong>Metadata management:</strong> Why it matters more than PDFs</li>
+</ul>
 <p><strong>Searching systematically is step one. Storing systematically is what makes the search worthwhile.</strong></p>
 <hr>
-<p>*A systematic search finds the papers. A systematic storage system makes sure you can use them</p>
+<p><em>A systematic search finds the papers. A systematic storage system makes sure you can use them.</em></p>
 
 
 <!-- -->
