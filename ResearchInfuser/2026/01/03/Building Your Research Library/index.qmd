@@ -134,22 +134,26 @@ Don't search manually every few months. Automate it.
 ### For New Papers:
 
 **Google Scholar Alerts:**
+
 1. Run your search in Google Scholar
 2. Click "Create alert" (bottom left)
 3. Receive weekly emails with new papers
 
 **Database-Specific Alerts:**
+
 - **Scopus:** Save search → Create alert
 - **Web of Science:** Save search → Create citation alert
 - **IEEE Xplore:** Saved searches → Email alerts
 
 **RSS Feeds:**
+
 - Most journals offer RSS feeds for new issues
 - Use an RSS reader (Feedly, Inoreader) to track multiple journals
 
 ### For Citations to Your Work:
 
 Set up alerts for papers citing:
+
 - Your published work
 - Key papers in your field
 - Your supervisor's papers
@@ -187,12 +191,14 @@ Define **before** searching what papers you'll include or exclude.
 ### Example Criteria:
 
 **Inclusion:**
+
 - Published between 2015–2025
 - Peer-reviewed journals or top-tier conferences
 - Empirical studies with clear methodology
 - English language
 
 **Exclusion:**
+
 - Opinion pieces without data
 - Studies outside your geographic/domain scope
 - Duplicate publications
@@ -247,6 +253,7 @@ You now know **how to search systematically**. You have search strings, filtered
 **The next problem:** How do you capture, export, and store these papers so you can actually use them?
 
 In the next post, we'll tackle:
+
 - **Export formats:** RIS, BibTeX, CSV—what they mean and which to use
 - **Reference managers:** Choosing between Zotero, Mendeley, EndNote
 - **File naming systems:** So you can find papers 6 months later
@@ -257,4 +264,4 @@ In the next post, we'll tackle:
 
 ---
 
-*A systematic search finds the papers. A systematic storage system makes sure you can use them
+*A systematic search finds the papers. A systematic storage system makes sure you can use them.*
