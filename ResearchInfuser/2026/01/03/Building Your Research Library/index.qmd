@@ -1,0 +1,260 @@
+---
+title: "Building Your Research Library: The Systematic Search Framework"
+date: 2026-01-03
+description: "Move beyond random Google searches. Learn the systematic approach to finding research literature that ensures completeness, repeatability, and academic rigor."
+categories:
+  - Literature Management
+  - Research Skills
+  - Academic Productivity
+citation: true
+
+format: 
+  html: 
+    code-fold: false
+---
+
+## From Chaos to System
+
+Yesterday, we identified the problem: most PhD scholars search for papers randomly, relying on Google Scholar, a single database, or forwarded PDFs.
+
+Today, we solve it.
+
+The goal isn't to find *some* papers—it's to build a **systematic, repeatable, and defensible** literature search strategy.
+
+## The Three-Database Rule
+
+Don't rely on a single source. Research databases have different coverage, indexing, and bias.
+
+**Minimum requirement:** Search at least **three academic databases**.
+
+### Recommended Combination:
+
+1. **Scopus** (multidisciplinary, citation tracking)
+2. **Web of Science** (established journals, high-impact research)
+3. **IEEE Xplore** / **PubMed** / **ACM Digital Library** (domain-specific)
+
+If institutional access is limited, add:
+- **Google Scholar** (broad coverage, gray literature)
+- **arXiv** / **bioRxiv** / **TechRxiv** (preprints in your field)
+- **Semantic Scholar** (AI-powered recommendations)
+
+**Why three?** Each database has unique indexing. A systematic search reveals papers that single-database searches miss.
+
+### What If You Don't Have Institutional Access?
+
+Use these **free alternatives:**
+
+- **Google Scholar** (free, comprehensive)
+- **CORE** (free, open access papers)
+- **BASE** (Bielefeld Academic Search Engine)
+- **Microsoft Academic** (being sunset but archives remain)
+- **Directory of Open Access Journals (DOAJ)**
+- **ResearchGate** / **Academia.edu** (request papers from authors)
+
+Most preprint servers (arXiv, bioRxiv, SSRN) are completely free.
+
+## The Search String: Your Research Fingerprint
+
+Random keyword searches are not systematic. A **well-constructed search string** ensures consistency and repeatability.
+
+### Basic Structure:
+
+```
+(Keyword1 OR Synonym1 OR Related1) 
+AND 
+(Keyword2 OR Synonym2 OR Related2) 
+AND NOT 
+(Exclusion1 OR Exclusion2)
+```
+
+### Example: PhD Research on Educational Technology
+
+**Poor search:**
+> "AI in education"
+
+**Systematic search:**
+```
+("artificial intelligence" OR "machine learning" OR "deep learning") 
+AND 
+("education" OR "learning" OR "pedagogy" OR "teaching") 
+AND NOT 
+("medical education" OR "clinical training")
+```
+
+### Why This Matters:
+
+- **OR** expands search (captures synonyms)
+- **AND** narrows focus (finds intersection)
+- **NOT** removes noise (excludes irrelevant domains)
+
+**Document your search string.** You'll need it for reproducibility and thesis methodology chapters.
+
+### Database-Specific Syntax
+
+Each database has slightly different syntax:
+
+| Database | Example Search |
+|----------|----------------|
+| **Scopus** | `TITLE-ABS-KEY("machine learning" AND education)` |
+| **Web of Science** | `TS=("machine learning" AND education)` |
+| **IEEE Xplore** | `("All Metadata":"machine learning" AND "All Metadata":education)` |
+| **PubMed** | `("machine learning"[Title/Abstract] AND education[Title/Abstract])` |
+| **Google Scholar** | `allintitle: machine learning education` |
+
+Check each database's advanced search help page for exact syntax.
+
+## The Search Documentation Template
+
+A systematic search isn't complete without documentation.
+
+### Record These Details:
+
+| Field | Example |
+|-------|---------|
+| **Database** | Scopus |
+| **Search String** | `("literature review" OR "systematic review") AND ("PhD" OR "doctoral")` |
+| **Date Searched** | 2026-01-03 |
+| **Results Found** | 347 papers |
+| **Date Range Filter** | 2015–2025 |
+| **Language Filter** | English |
+| **Document Type** | Journal articles, conference papers |
+
+**Why document this?**
+
+1. **Repeatability:** Someone else can replicate your search
+2. **Thesis requirement:** Many universities require search methodology
+3. **Literature review updates:** Re-run the search before submission
+
+**Pro tip:** Keep a dedicated spreadsheet or document tracking all your searches across databases. You'll thank yourself later when writing your methodology chapter.
+
+## Setting Up Citation Alerts
+
+Don't search manually every few months. Automate it.
+
+### For New Papers:
+
+**Google Scholar Alerts:**
+1. Run your search in Google Scholar
+2. Click "Create alert" (bottom left)
+3. Receive weekly emails with new papers
+
+**Database-Specific Alerts:**
+- **Scopus:** Save search → Create alert
+- **Web of Science:** Save search → Create citation alert
+- **IEEE Xplore:** Saved searches → Email alerts
+
+**RSS Feeds:**
+- Most journals offer RSS feeds for new issues
+- Use an RSS reader (Feedly, Inoreader) to track multiple journals
+
+### For Citations to Your Work:
+
+Set up alerts for papers citing:
+- Your published work
+- Key papers in your field
+- Your supervisor's papers
+
+This keeps you aware of new developments without manual searching.
+
+## Filtering Strategy: The Funnel Approach
+
+You'll get hundreds (or thousands) of results. Don't try to read everything.
+
+### Step 1: Title Screening
+- Read titles
+- Remove obviously irrelevant papers
+- **Goal:** Reduce by ~70%
+
+### Step 2: Abstract Screening
+- Read abstracts of remaining papers
+- Check alignment with research questions
+- **Goal:** Reduce by another ~60%
+
+### Step 3: Full-Text Review
+- Read remaining papers fully
+- Extract key insights, methods, findings
+- **Goal:** Keep papers directly relevant to your work
+
+### Step 4: Citation Snowballing
+- Check references of key papers (backward snowballing)
+- Check papers citing your key papers (forward snowballing)
+- **Goal:** Discover foundational and recent work
+
+## The Inclusion/Exclusion Criteria
+
+Define **before** searching what papers you'll include or exclude.
+
+### Example Criteria:
+
+**Inclusion:**
+- Published between 2015–2025
+- Peer-reviewed journals or top-tier conferences
+- Empirical studies with clear methodology
+- English language
+
+**Exclusion:**
+- Opinion pieces without data
+- Studies outside your geographic/domain scope
+- Duplicate publications
+- Predatory journals
+
+**Document these criteria.** They justify why some papers were kept and others discarded.
+
+## Common Mistakes to Avoid
+
+### ❌ Mistake 1: Searching Once and Stopping
+Literature keeps growing. Schedule periodic re-searches (e.g., every 3 months).
+
+### ❌ Mistake 2: Not Using Boolean Operators
+"AI education" ≠ "AI AND education". Learn Boolean logic.
+
+### ❌ Mistake 3: Ignoring Gray Literature
+Theses, technical reports, preprints—sometimes these contain insights published papers don't.
+
+### ❌ Mistake 4: No Version Control
+Document which version of the search you ran. Database algorithms change over time.
+
+### ❌ Mistake 5: Using Only English Keywords
+If your research has global relevance, consider searching in other languages or using translated keywords.
+
+## Time Expectations: Be Realistic
+
+**Initial systematic search:** 4-8 hours  
+**Export and organization:** 1-2 hours  
+**Title screening (500 papers):** 2-3 hours  
+**Abstract screening (150 papers):** 3-5 hours  
+**Title screening (500 papers):** 2-3 hours  
+**Abstract screening (150 papers):** 3-5 hours  
+**Full-text review (40 papers):** 8-12 hours  
+
+**Total for initial search and screening:** 18-28
+## What This Achieves
+
+A systematic search ensures:
+
+✅ **Completeness:** You didn't miss foundational papers  
+✅ **Transparency:** Others can verify your process  
+✅ **Defensibility:** You can justify paper selection to supervisors/reviewers  
+✅ **Efficiency:** You avoid re-searching from scratch later
+
+## What Comes Next
+
+Now you have papers. Hundreds of PDFs sitting in a folder.
+You now know **how to search systematically**. You have search strings, filtered results, and documentation.
+
+**But here's the gap:** Those papers are still scattered across database interfaces. Some are bookmarked. Some are in browser tabs. None are organized.
+
+**The next problem:** How do you capture, export, and store these papers so you can actually use them?
+
+In the next post, we'll tackle:
+- **Export formats:** RIS, BibTeX, CSV—what they mean and which to use
+- **Reference managers:** Choosing between Zotero, Mendeley, EndNote
+- **File naming systems:** So you can find papers 6 months later
+- **Folder structures:** That scale from 50 to 500 papers
+- **Metadata management:** Why it matters more than PDFs
+
+**Searching systematically is step one. Storing systematically is what makes the search worthwhile.**
+
+---
+
+*A systematic search finds the papers. A systematic storage system makes sure you can use them
