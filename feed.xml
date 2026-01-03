@@ -39,7 +39,12 @@
 <li><strong>Web of Science</strong> (established journals, high-impact research)</li>
 <li><strong>IEEE Xplore</strong> / <strong>PubMed</strong> / <strong>ACM Digital Library</strong> (domain-specific)</li>
 </ol>
-<p>If institutional access is limited, add: - <strong>Google Scholar</strong> (broad coverage, gray literature) - <strong>arXiv</strong> / <strong>bioRxiv</strong> / <strong>TechRxiv</strong> (preprints in your field) - <strong>Semantic Scholar</strong> (AI-powered recommendations)</p>
+<p>If institutional access is limited, add:</p>
+<ul>
+<li><strong>Google Scholar</strong> (broad coverage, gray literature)</li>
+<li><strong>arXiv</strong> / <strong>bioRxiv</strong> / <strong>TechRxiv</strong> (preprints in your field)</li>
+<li><strong>Semantic Scholar</strong> (AI-powered recommendations)</li>
+</ul>
 <p><strong>Why three?</strong> Each database has unique indexing. A systematic search reveals papers that single-database searches miss.</p>
 </section>
 <section id="what-if-you-dont-have-institutional-access" class="level3">
