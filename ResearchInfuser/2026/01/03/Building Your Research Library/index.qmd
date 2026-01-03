@@ -165,21 +165,25 @@ This keeps you aware of new developments without manual searching.
 You'll get hundreds (or thousands) of results. Don't try to read everything.
 
 ### Step 1: Title Screening
+
 - Read titles
 - Remove obviously irrelevant papers
 - **Goal:** Reduce by ~70%
 
 ### Step 2: Abstract Screening
+
 - Read abstracts of remaining papers
 - Check alignment with research questions
 - **Goal:** Reduce by another ~60%
 
 ### Step 3: Full-Text Review
+
 - Read remaining papers fully
 - Extract key insights, methods, findings
 - **Goal:** Keep papers directly relevant to your work
 
 ### Step 4: Citation Snowballing
+
 - Check references of key papers (backward snowballing)
 - Check papers citing your key papers (forward snowballing)
 - **Goal:** Discover foundational and recent work
@@ -226,14 +230,14 @@ If your research has global relevance, consider searching in other languages or 
 ## Time Expectations: Be Realistic
 
 **Initial systematic search:** 4-8 hours  
-**Export and organization:** 1-2 hours  
-**Title screening (500 papers):** 2-3 hours  
-**Abstract screening (150 papers):** 3-5 hours  
 **Title screening (500 papers):** 2-3 hours  
 **Abstract screening (150 papers):** 3-5 hours  
 **Full-text review (40 papers):** 8-12 hours  
 
-**Total for initial search and screening:** 18-28
+**Total for initial search and screening:** 18-28 hours spread over 1-2 weeks.
+
+This seems long, but it prevents the **50+ hours** lost to disorganized re-searching later.
+
 ## What This Achieves
 
 A systematic search ensures:
