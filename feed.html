@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prashant Kumar Nag">
-<meta name="description" content="ResearcherInfuser blog">
 
-<title>Blog – Prashant Kumar Nag</title>
+<title>ResearchInfuser Blog – Prashant Kumar Nag</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,27 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-1b3db88def35042d172274863c1cdcf0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-bec79c4490882c5e2d23d64f6467ec3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-1b3db88def35042d172274863c1cdcf0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-bec79c4490882c5e2d23d64f6467ec3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,48 +73,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts_2026 .list');
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-resources','listing-comments','listing-date-format','listing-freeze','listing-format','listing-language','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-author','listing-title','listing-date','listing-description','listing-categories','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-resources","listing-comments","listing-date-format","listing-freeze","listing-format","listing-language","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-author","listing-title","listing-date","listing-description","listing-categories","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts_2026'] = new List('listing-posts_2026', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts_2023 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-resources','listing-comments','listing-date-format','listing-freeze','listing-format','listing-language','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-author','listing-title','listing-date','listing-description','listing-categories','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-resources","listing-comments","listing-date-format","listing-freeze","listing-format","listing-language","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-author","listing-title","listing-date","listing-description","listing-categories","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts_2023'] = new List('listing-posts_2023', options);
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -156,12 +126,6 @@ cookieconsent.run({
 });
 </script> 
   
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: #234460;
-      }
-</style>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&amp;family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -196,23 +160,21 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Blog – Prashant Kumar Nag">
-<meta property="og:description" content="ResearcherInfuser blog">
+<link rel="alternate" type="application/rss+xml" title="ResearchInfuser by Prashant Kumar Nag" href="feed.xml" data-external="1"><meta property="og:title" content="ResearchInfuser Blog – Prashant Kumar Nag">
 <meta property="og:site_name" content="Prashant Kumar Nag">
-<meta name="twitter:title" content="Blog – Prashant Kumar Nag">
-<meta name="twitter:description" content="ResearcherInfuser blog">
+<meta name="twitter:title" content="ResearchInfuser Blog – Prashant Kumar Nag">
 <meta name="twitter:creator" content="@prashantnag93">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Prashant Kumar Nag</span>
     </a>
   </div>
@@ -223,203 +185,148 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html"> 
+    <a class="nav-link" href="./cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../ResearchInfuser/index.html" aria-current="page"> 
+    <a class="nav-link" href="./ResearchInfuser/index.html"> 
 <span class="menu-text">ResearchInfuser Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="./publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../talks/index.html"> 
+    <a class="nav-link" href="./talks/index.html"> 
 <span class="menu-text">Talks</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../softwares/index.html"> 
+    <a class="nav-link" href="./softwares/index.html"> 
 <span class="menu-text">Software Suite</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default blog-post page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                  <div>
-        <div class="description">
-          ResearcherInfuser blog
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Prashant Kumar Nag </p>
-            </div>
-    </div>
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Year</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section">2026</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2023</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="QWNhZGVtaWMlMjBQcm9kdWN0aXZpdHk=">Academic Productivity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QW5ub3VuY2VtZW50">Announcement <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWR1Y2F0aW9u">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGl0ZXJhdHVyZSUyME1hbmFnZW1lbnQ=">Literature Management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVzZWFyY2glMjBTa2lsbHM=">Research Skills <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U29mdHdhcmU=">Software <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVzdA==">Test <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<div class="cell">
-<style type="text/css">
-#title-block-header .description {
-    display: none;
-}
-</style>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ResearchInfuser Blog</h1>
 </div>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2026</h2>
-<div id="listing-posts_2026" class="quarto-listing quarto-listing-container-custom">
-<div class="list blog">
+
+
+
+<div class="quarto-title-meta">
+
     
-    <div class="blog-entry" data-index="0" data-categories="TGl0ZXJhdHVyZSUyME1hbmFnZW1lbnQlMkNSZXNlYXJjaCUyMFNraWxscyUyQ0FjYWRlbWljJTIwUHJvZHVjdGl2aXR5" data-listing-date-sort="1767312000000" data-listing-file-modified-sort="1767439434083" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
-        <div class="metadata">          
-            <p class="date listing-date">January 2, 2026</p>
-        </div>
-        <div class="body">
-            <p class="title listing-title"><a href="../ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html">The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)</a></p>
-
-            
-            <div class="post-categories listing-categories">
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Literature Management'); return false;">
-                    Literature Management
-                </div>
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Research Skills'); return false;">
-                    Research Skills
-                </div>
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Academic Productivity'); return false;">
-                    Academic Productivity
-                </div>
-                
-            </div>
-            
-
-            <p class="description listing-description">Most PhD scholars face the same silent struggle—managing research papers without a system. This post explores why early literature habits shape the entire PhD journey.</p>
-            
-            
-        </div>
-        
-    </div>
+  
     
-    <div class="blog-entry" data-index="1" data-categories="QW5ub3VuY2VtZW50JTJDRWR1Y2F0aW9uJTJDU29mdHdhcmU=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1767439434083" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
-        <div class="metadata">          
-            <p class="date listing-date">January 1, 2026</p>
-        </div>
-        <div class="body">
-            <p class="title listing-title"><a href="../ResearchInfuser/2026/01/01/Happy New Year 2026/index.html">Happy New Year 2026!</a></p>
+  </div>
+  
 
-            
-            <div class="post-categories listing-categories">
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Announcement'); return false;">
-                    Announcement
-                </div>
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Education'); return false;">
-                    Education
-                </div>
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Software'); return false;">
-                    Software
-                </div>
-                
-            </div>
-            
 
-            <p class="description listing-description">Announcing comprehensive educational video tutorials and resources designed for scholars, researchers, faculty, and educators to streamline academic workflows</p>
-            
-            
-        </div>
-        
-    </div>
-    
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="TGl0ZXJhdHVyZSUyME1hbmFnZW1lbnQlMkNSZXNlYXJjaCUyMFNraWxscyUyQ0FjYWRlbWljJTIwUHJvZHVjdGl2aXR5" data-listing-date-sort="1767312000000" data-listing-file-modified-sort="1767439434083" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
+<div class="thumbnail"><a href="./ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html" class="no-external">The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)</a>
+</h3>
+<div class="delink listing-description"><a href="./ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html" class="no-external">
+<p>Most PhD scholars face the same silent struggle—managing research papers without a system. This post explores why early literature habits shape the entire PhD journey.</p>
+</a></div>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
+<div class="metadata">
+<a href="./ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html" class="no-external">
+<div class="listing-date">
+2 January 2026
 </div>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2023</h2>
-<div id="listing-posts_2023" class="quarto-listing quarto-listing-container-custom">
-<div class="list blog">
-    
-    <div class="blog-entry" data-index="0" data-categories="VGVzdA==" data-listing-date-sort="1697241600000" data-listing-file-modified-sort="1767439434083" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-        <div class="metadata">          
-            <p class="date listing-date">October 14, 2023</p>
-        </div>
-        <div class="body">
-            <p class="title listing-title"><a href="../ResearchInfuser/2023/10/18/Hello World/index.html">Hello World</a></p>
+<div class="listing-author">
+Prashant Kumar Nag
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="QW5ub3VuY2VtZW50JTJDRWR1Y2F0aW9uJTJDU29mdHdhcmU=" data-listing-date-sort="1767225600000" data-listing-file-modified-sort="1767439434083" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
+<div class="thumbnail"><a href="./ResearchInfuser/2026/01/01/Happy New Year 2026/index.html" class="no-external">
 
-            
-            <div class="post-categories listing-categories">
-                
-                <div class="post-category listing-category" onclick="window.quartoListingCategory('Test'); return false;">
-                    Test
-                </div>
-                
-            </div>
-            
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
 
-            <p class="description listing-description">First Blog Post Testing</p>
-            
-            
-        </div>
-        
-    </div>
-    
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./ResearchInfuser/2026/01/01/Happy New Year 2026/index.html" class="no-external">Happy New Year 2026!</a>
+</h3>
+<div class="delink listing-description"><a href="./ResearchInfuser/2026/01/01/Happy New Year 2026/index.html" class="no-external">
+<p>Announcing comprehensive educational video tutorials and resources designed for scholars, researchers, faculty, and educators to streamline academic workflows</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./ResearchInfuser/2026/01/01/Happy New Year 2026/index.html" class="no-external">
+<div class="listing-date">
+1 January 2026
+</div>
+<div class="listing-author">
+Prashant Kumar Nag
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="VGVzdA==" data-listing-date-sort="1697241600000" data-listing-file-modified-sort="1767439434083" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="thumbnail"><a href="./ResearchInfuser/2023/10/18/Hello World/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./ResearchInfuser/2023/10/18/Hello World/index.html" class="no-external">Hello World</a>
+</h3>
+<div class="delink listing-description"><a href="./ResearchInfuser/2023/10/18/Hello World/index.html" class="no-external">
+<p>First Blog Post Testing</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./ResearchInfuser/2023/10/18/Hello World/index.html" class="no-external">
+<div class="listing-date">
+14 October 2023
+</div>
+<div class="listing-author">
+Prashant Kumar Nag
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -820,6 +727,35 @@ window.Quarto = {
     }
   });
   </script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+<script>
+  function loadGiscus() {
+    // Function to get the theme based on body class
+    const getTheme = () => {
+      let baseTheme = document.getElementById('giscus-base-theme').value;
+      let altTheme = document.getElementById('giscus-alt-theme').value;
+      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
+    };
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.dataset.repo = "prashantnag/prashantnag.github.io";
+    script.dataset.repoId = "R_kgDOQubQXg";
+    script.dataset.category = "General";
+    script.dataset.categoryId = "";
+    script.dataset.mapping = "title";
+    script.dataset.reactionsEnabled = "1";
+    script.dataset.emitMetadata = "0";
+    script.dataset.inputPosition = "top";
+    script.dataset.theme = getTheme();
+    script.dataset.lang = "en";
+    script.crossOrigin = "anonymous";
+    // Append the script to the desired div instead of at the end of the body
+    document.getElementById("quarto-content").appendChild(script);
+  }
+  loadGiscus();
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

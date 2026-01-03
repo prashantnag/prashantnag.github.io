@@ -245,130 +245,11 @@
     "text": "Citation\n@inproceedings{nag2024LeveragingTextData,\n  title = {Leveraging {Text} {Data} in {Healthcare}: {A} {Systematic} {Review} of {AI}-{Driven} {Emotional} {Analysis} and {Patient}-{Centric} {Innovations}},\n  author = {Nag, Prashant Kumar and Bhagat, Amit and Priya, R Vishnu and Malviya, Sunil and Mishra, Sanjay},\n  year = {2024},\n  note = {In Press}\n}"
   },
   {
-    "objectID": "ResearchInfuser/2023/10/18/Hello World/index.html",
-    "href": "ResearchInfuser/2023/10/18/Hello World/index.html",
-    "title": "Hello World",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Prashant Kumar Nag",
     "section": "",
-    "text": "Note\n\n\n\nHello Word Testing\n\n\n\n\n\n\n\nCitationBibTeX citation:@online{kumar_nag2023,\n  author = {Kumar Nag, Prashant},\n  title = {Hello {World}},\n  date = {2023-10-14},\n  url = {https://prashantnag.com/ResearchInfuser/2023/10/18/Hello World/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKumar Nag, Prashant. 2023. “Hello World.” October 14, 2023.\nhttps://prashantnag.com/ResearchInfuser/2023/10/18/Hello\nWorld/."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "",
-    "text": "For most PhD scholars, the journey begins the same way: a supervisor asks you to “read some papers.”\nWhat follows is often confusion—Google searches, dozens of PDFs, and folders named paper1, final, or important. I’ve seen this pattern repeated across disciplines, institutions, and generations of researchers.\nThis early phase silently shapes the rest of your PhD, often more than you realize."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#your-first-encounter-with-research-literature",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#your-first-encounter-with-research-literature",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "",
-    "text": "For most PhD scholars, the journey begins the same way: a supervisor asks you to “read some papers.”\nWhat follows is often confusion—Google searches, dozens of PDFs, and folders named paper1, final, or important. I’ve seen this pattern repeated across disciplines, institutions, and generations of researchers.\nThis early phase silently shapes the rest of your PhD, often more than you realize."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#searching-papers-is-not-as-simple-as-it-looks",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#searching-papers-is-not-as-simple-as-it-looks",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "Searching Papers Is Not as Simple as It Looks",
-    "text": "Searching Papers Is Not as Simple as It Looks\nMost scholars start by relying on:\n\nRandom Google searches\nA single digital library\nWhatever PDF someone forwards on WhatsApp\n\nVery few stop to ask whether this way of searching is systematic, complete, or repeatable.\nThe result?\nMissed foundational papers, weak literature reviews, and repeated backtracking."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#storing-papers-without-a-system-creates-hidden-problems",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#storing-papers-without-a-system-creates-hidden-problems",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "Storing Papers Without a System Creates Hidden Problems",
-    "text": "Storing Papers Without a System Creates Hidden Problems\nDownloading papers without a clear structure leads to:\n\nDuplicate PDFs\nLost citations during writing\nDifficulty recalling why a paper was saved in the first place\n\nThese problems usually appear much later—when writing chapters or papers—making them harder to fix."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#a-question-every-scholar-eventually-faces",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#a-question-every-scholar-eventually-faces",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "A Question Every Scholar Eventually Faces",
-    "text": "A Question Every Scholar Eventually Faces\nAt some point, almost every PhD scholar wonders:\n\n“Why did I save this paper?”\n\nIf that question cannot be answered easily, the literature collection has already started working against the researcher."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-silent-cost-of-poor-literature-management",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-silent-cost-of-poor-literature-management",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "The Silent Cost of Poor Literature Management",
-    "text": "The Silent Cost of Poor Literature Management\nThese problems don’t announce themselves loudly. They accumulate quietly:\nDuring daily research: - Hours wasted searching for papers you know you’ve downloaded - Confusion about which studies support which claims\nDuring critical moments: - Panic before paper submissions when citations need verification - Frustration when reviewers ask about papers you vaguely remember but can’t locate\nBy the time these issues become obvious, the damage is already done—and fixing the mess takes more time than building the right system from the start."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "The Real Problem: You’re Choosing Tools Without Understanding Your Workflow",
-    "text": "The Real Problem: You’re Choosing Tools Without Understanding Your Workflow\nThe real problem isn’t the lack of tools. Reference managers, note-taking apps, and cloud storage solutions are everywhere.\nThe problem is that most scholars:\n\nStart collecting papers without asking the right questions\nChoose tools before understanding their workflow needs\nNever develop a systematic approach to literature management\n\nThis backwards approach creates a fragile foundation that cracks under the weight of a full PhD."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#what-comes-next",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#what-comes-next",
-    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
-    "section": "What Comes Next",
-    "text": "What Comes Next\nUnder the ResearchInfuser initiative, upcoming posts will address:\n\nHow to search research literature systematically\nHow to store papers with long-term clarity\nHow early decisions affect thesis writing and publication later\nPractical workflows that prevent these problems before they start\n\nThe answers to these problems will be explored step by step in the coming posts.\nA strong PhD begins by asking the right questions about literature—before choosing tools.\n\nNext post: We’ll explore how to build a systematic approach to searching research literature that ensures completeness and repeatability from day one."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html",
-    "title": "Happy New Year 2026!",
-    "section": "",
-    "text": "As we step into 2026, I’m excited to share some wonderful news with the academic and research community!"
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#happy-new-year-2026",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#happy-new-year-2026",
-    "title": "Happy New Year 2026!",
-    "section": "",
-    "text": "As we step into 2026, I’m excited to share some wonderful news with the academic and research community!"
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#whats-coming-this-year",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#whats-coming-this-year",
-    "title": "Happy New Year 2026!",
-    "section": "What’s Coming This Year",
-    "text": "What’s Coming This Year\nOver the coming months, I’ll be creating and uploading comprehensive video tutorials and educational content specifically designed for scholars, researchers, PhD students, faculty, and educators. These tutorials will focus on my Software Suite, which I’ve developed and refined through years of experience in the research workflow."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#my-mission",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#my-mission",
-    "title": "Happy New Year 2026!",
-    "section": "My Mission",
-    "text": "My Mission\nHaving navigated the challenges of PhD research myself, I understand the complexities and pain points that researchers face daily. These tools and workflows are derived from real PhD research, publications, and academic teaching experience. Through my software suite and the upcoming tutorials, my goal is to:\n\nStreamline your research workflow - Making complex tasks simpler and more efficient\nShare practical expertise - Real-world solutions based on hands-on experience\nEase the PhD journey - Helping you focus on your research, not the tools\n\nAll content will be published under the ResearchInfuser initiative, focused on practical, reproducible, and researcher-centric tools."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#what-to-expect",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#what-to-expect",
-    "title": "Happy New Year 2026!",
-    "section": "What to Expect",
-    "text": "What to Expect\nThe tutorials will cover:\n\nStep-by-step guides for using the software tools\nBest practices learned from years of research experience\nTips and tricks to optimize your academic workflow\nReal-world examples and use cases\n\nContent will be released in structured series, starting with essential research productivity tools, followed by advanced workflows for thesis writing, experimentation, and publication. Feedback and suggestions from the research community will help shape future tutorials."
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#how-you-can-get-involved",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#how-you-can-get-involved",
-    "title": "Happy New Year 2026!",
-    "section": "How You Can Get Involved",
-    "text": "How You Can Get Involved\nIf you’d like early access to tutorials, updates, and examples:\n\nBookmark this blog\nExplore the Software Suite\nSubscribe to upcoming ResearchInfuser video content"
-  },
-  {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#stay-connected",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#stay-connected",
-    "title": "Happy New Year 2026!",
-    "section": "Stay Connected",
-    "text": "Stay Connected\nKeep an eye on this blog for updates, new tutorial releases, and valuable insights. I’m committed to making your research journey smoother and more productive.\nHere’s to a productive and successful 2026! 🚀\n\nLooking forward to sharing this journey with you!"
-  },
-  {
-    "objectID": "ResearchInfuser/index.html#section",
-    "href": "ResearchInfuser/index.html#section",
-    "title": "Blog",
-    "section": "2026",
-    "text": "2026\n\n\n    \n    \n                  \n            January 2, 2026\n        \n        \n            The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)\n\n            \n            \n                \n                \n                    Literature Management\n                \n                \n                \n                    Research Skills\n                \n                \n                \n                    Academic Productivity\n                \n                \n            \n            \n\n            Most PhD scholars face the same silent struggle—managing research papers without a system. This post explores why early literature habits shape the entire PhD journey.\n            \n            \n        \n        \n    \n    \n    \n                  \n            January 1, 2026\n        \n        \n            Happy New Year 2026!\n\n            \n            \n                \n                \n                    Announcement\n                \n                \n                \n                    Education\n                \n                \n                \n                    Software\n                \n                \n            \n            \n\n            Announcing comprehensive educational video tutorials and resources designed for scholars, researchers, faculty, and educators to streamline academic workflows\n            \n            \n        \n        \n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "ResearchInfuser/index.html#section-1",
-    "href": "ResearchInfuser/index.html#section-1",
-    "title": "Blog",
-    "section": "2023",
-    "text": "2023\n\n\n    \n    \n                  \n            October 14, 2023\n        \n        \n            Hello World\n\n            \n            \n                \n                \n                    Test\n                \n                \n            \n            \n\n            First Blog Post Testing\n            \n            \n        \n        \n    \n    \n\nNo matching items"
+    "text": "I am an Assistant Professor in the Department of Computer Applications at Galgotias College of Engineering & Technology, Greater Noida, Uttar Pradesh, India. My academic and research interests lie in artificial intelligence, deep learning, and affective computing, with a particular focus on emotion detection, cognitive appraisal, and explainable AI.\nMy work examines how AI models interpret human emotions in text and how transparent, well-grounded analytical methods can enhance understanding, reliability, and human-centered applications. I am committed to advancing rigorous and reproducible AI research while actively contributing to teaching, mentoring, and collaborative academic development."
   },
   {
     "objectID": "softwares/index.html",
@@ -469,11 +350,130 @@
     "text": "Hardware\nI primarily work on a 15″ Dell Alienware M15 R6 equipped with an 11th generation Intel® Core™ i7, 16 GB DDR4 RAM, and an NVIDIA® GeForce RTX™ 3070 (8 GB) GPU. This setup provides a strong balance between development responsiveness, deep learning experimentation, and content creation."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Prashant Kumar Nag",
+    "objectID": "ResearchInfuser/index.html#section",
+    "href": "ResearchInfuser/index.html#section",
+    "title": "Blog",
+    "section": "2026",
+    "text": "2026\n\n\n    \n    \n                  \n            January 2, 2026\n        \n        \n            The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)\n\n            \n            \n                \n                \n                    Literature Management\n                \n                \n                \n                    Research Skills\n                \n                \n                \n                    Academic Productivity\n                \n                \n            \n            \n\n            Most PhD scholars face the same silent struggle—managing research papers without a system. This post explores why early literature habits shape the entire PhD journey.\n            \n            \n        \n        \n    \n    \n    \n                  \n            January 1, 2026\n        \n        \n            Happy New Year 2026!\n\n            \n            \n                \n                \n                    Announcement\n                \n                \n                \n                    Education\n                \n                \n                \n                    Software\n                \n                \n            \n            \n\n            Announcing comprehensive educational video tutorials and resources designed for scholars, researchers, faculty, and educators to streamline academic workflows\n            \n            \n        \n        \n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "ResearchInfuser/index.html#section-1",
+    "href": "ResearchInfuser/index.html#section-1",
+    "title": "Blog",
+    "section": "2023",
+    "text": "2023\n\n\n    \n    \n                  \n            October 14, 2023\n        \n        \n            Hello World\n\n            \n            \n                \n                \n                    Test\n                \n                \n            \n            \n\n            First Blog Post Testing\n            \n            \n        \n        \n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html",
+    "title": "Happy New Year 2026!",
     "section": "",
-    "text": "I am an Assistant Professor in the Department of Computer Applications at Galgotias College of Engineering & Technology, Greater Noida, Uttar Pradesh, India. My academic and research interests lie in artificial intelligence, deep learning, and affective computing, with a particular focus on emotion detection, cognitive appraisal, and explainable AI.\nMy work examines how AI models interpret human emotions in text and how transparent, well-grounded analytical methods can enhance understanding, reliability, and human-centered applications. I am committed to advancing rigorous and reproducible AI research while actively contributing to teaching, mentoring, and collaborative academic development."
+    "text": "As we step into 2026, I’m excited to share some wonderful news with the academic and research community!"
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#happy-new-year-2026",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#happy-new-year-2026",
+    "title": "Happy New Year 2026!",
+    "section": "",
+    "text": "As we step into 2026, I’m excited to share some wonderful news with the academic and research community!"
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#whats-coming-this-year",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#whats-coming-this-year",
+    "title": "Happy New Year 2026!",
+    "section": "What’s Coming This Year",
+    "text": "What’s Coming This Year\nOver the coming months, I’ll be creating and uploading comprehensive video tutorials and educational content specifically designed for scholars, researchers, PhD students, faculty, and educators. These tutorials will focus on my Software Suite, which I’ve developed and refined through years of experience in the research workflow."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#my-mission",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#my-mission",
+    "title": "Happy New Year 2026!",
+    "section": "My Mission",
+    "text": "My Mission\nHaving navigated the challenges of PhD research myself, I understand the complexities and pain points that researchers face daily. These tools and workflows are derived from real PhD research, publications, and academic teaching experience. Through my software suite and the upcoming tutorials, my goal is to:\n\nStreamline your research workflow - Making complex tasks simpler and more efficient\nShare practical expertise - Real-world solutions based on hands-on experience\nEase the PhD journey - Helping you focus on your research, not the tools\n\nAll content will be published under the ResearchInfuser initiative, focused on practical, reproducible, and researcher-centric tools."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#what-to-expect",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#what-to-expect",
+    "title": "Happy New Year 2026!",
+    "section": "What to Expect",
+    "text": "What to Expect\nThe tutorials will cover:\n\nStep-by-step guides for using the software tools\nBest practices learned from years of research experience\nTips and tricks to optimize your academic workflow\nReal-world examples and use cases\n\nContent will be released in structured series, starting with essential research productivity tools, followed by advanced workflows for thesis writing, experimentation, and publication. Feedback and suggestions from the research community will help shape future tutorials."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#how-you-can-get-involved",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#how-you-can-get-involved",
+    "title": "Happy New Year 2026!",
+    "section": "How You Can Get Involved",
+    "text": "How You Can Get Involved\nIf you’d like early access to tutorials, updates, and examples:\n\nBookmark this blog\nExplore the Software Suite\nSubscribe to upcoming ResearchInfuser video content"
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#stay-connected",
+    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#stay-connected",
+    "title": "Happy New Year 2026!",
+    "section": "Stay Connected",
+    "text": "Stay Connected\nKeep an eye on this blog for updates, new tutorial releases, and valuable insights. I’m committed to making your research journey smoother and more productive.\nHere’s to a productive and successful 2026! 🚀\n\nLooking forward to sharing this journey with you!"
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "",
+    "text": "For most PhD scholars, the journey begins the same way: a supervisor asks you to “read some papers.”\nWhat follows is often confusion—Google searches, dozens of PDFs, and folders named paper1, final, or important. I’ve seen this pattern repeated across disciplines, institutions, and generations of researchers.\nThis early phase silently shapes the rest of your PhD, often more than you realize."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#your-first-encounter-with-research-literature",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#your-first-encounter-with-research-literature",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "",
+    "text": "For most PhD scholars, the journey begins the same way: a supervisor asks you to “read some papers.”\nWhat follows is often confusion—Google searches, dozens of PDFs, and folders named paper1, final, or important. I’ve seen this pattern repeated across disciplines, institutions, and generations of researchers.\nThis early phase silently shapes the rest of your PhD, often more than you realize."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#searching-papers-is-not-as-simple-as-it-looks",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#searching-papers-is-not-as-simple-as-it-looks",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "Searching Papers Is Not as Simple as It Looks",
+    "text": "Searching Papers Is Not as Simple as It Looks\nMost scholars start by relying on:\n\nRandom Google searches\nA single digital library\nWhatever PDF someone forwards on WhatsApp\n\nVery few stop to ask whether this way of searching is systematic, complete, or repeatable.\nThe result?\nMissed foundational papers, weak literature reviews, and repeated backtracking."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#storing-papers-without-a-system-creates-hidden-problems",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#storing-papers-without-a-system-creates-hidden-problems",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "Storing Papers Without a System Creates Hidden Problems",
+    "text": "Storing Papers Without a System Creates Hidden Problems\nDownloading papers without a clear structure leads to:\n\nDuplicate PDFs\nLost citations during writing\nDifficulty recalling why a paper was saved in the first place\n\nThese problems usually appear much later—when writing chapters or papers—making them harder to fix."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#a-question-every-scholar-eventually-faces",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#a-question-every-scholar-eventually-faces",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "A Question Every Scholar Eventually Faces",
+    "text": "A Question Every Scholar Eventually Faces\nAt some point, almost every PhD scholar wonders:\n\n“Why did I save this paper?”\n\nIf that question cannot be answered easily, the literature collection has already started working against the researcher."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-silent-cost-of-poor-literature-management",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-silent-cost-of-poor-literature-management",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "The Silent Cost of Poor Literature Management",
+    "text": "The Silent Cost of Poor Literature Management\nThese problems don’t announce themselves loudly. They accumulate quietly:\nDuring daily research: - Hours wasted searching for papers you know you’ve downloaded - Confusion about which studies support which claims\nDuring critical moments: - Panic before paper submissions when citations need verification - Frustration when reviewers ask about papers you vaguely remember but can’t locate\nBy the time these issues become obvious, the damage is already done—and fixing the mess takes more time than building the right system from the start."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "The Real Problem: You’re Choosing Tools Without Understanding Your Workflow",
+    "text": "The Real Problem: You’re Choosing Tools Without Understanding Your Workflow\nThe real problem isn’t the lack of tools. Reference managers, note-taking apps, and cloud storage solutions are everywhere.\nThe problem is that most scholars:\n\nStart collecting papers without asking the right questions\nChoose tools before understanding their workflow needs\nNever develop a systematic approach to literature management\n\nThis backwards approach creates a fragile foundation that cracks under the weight of a full PhD."
+  },
+  {
+    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#what-comes-next",
+    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#what-comes-next",
+    "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
+    "section": "What Comes Next",
+    "text": "What Comes Next\nUnder the ResearchInfuser initiative, upcoming posts will address:\n\nHow to search research literature systematically\nHow to store papers with long-term clarity\nHow early decisions affect thesis writing and publication later\nPractical workflows that prevent these problems before they start\n\nThe answers to these problems will be explored step by step in the coming posts.\nA strong PhD begins by asking the right questions about literature—before choosing tools.\n\nNext post: We’ll explore how to build a systematic approach to searching research literature that ensures completeness and repeatability from day one."
+  },
+  {
+    "objectID": "ResearchInfuser/2023/10/18/Hello World/index.html",
+    "href": "ResearchInfuser/2023/10/18/Hello World/index.html",
+    "title": "Hello World",
+    "section": "",
+    "text": "Note\n\n\n\nHello Word Testing\n\n\n\n\n\n\n\nCitationBibTeX citation:@online{kumar_nag2023,\n  author = {Kumar Nag, Prashant},\n  title = {Hello {World}},\n  date = {2023-10-14},\n  url = {https://prashantnag.com/ResearchInfuser/2023/10/18/Hello World/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nKumar Nag, Prashant. 2023. “Hello World.” October 14, 2023.\nhttps://prashantnag.com/ResearchInfuser/2023/10/18/Hello\nWorld/."
   },
   {
     "objectID": "publications/conferences/AIR-2021-BiDAF/index.html",
