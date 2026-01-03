@@ -11,7 +11,311 @@
 <description>Practical tools and workflows for PhD scholars and researchers</description>
 <language>en</language>
 <generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 02 Jan 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 03 Jan 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building Your Research Library: The Systematic Search Framework</title>
+  <dc:creator>Prashant Kumar Nag</dc:creator>
+  <link>https://prashantnag.com/ResearchInfuser/2026/01/03/Building Your Research Library/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="from-chaos-to-system" class="level2">
+<h2 class="anchored" data-anchor-id="from-chaos-to-system">From Chaos to System</h2>
+<p>Yesterday, we identified the problem: most PhD scholars search for papers randomly, relying on Google Scholar, a single database, or forwarded PDFs.</p>
+<p>Today, we solve it.</p>
+<p>The goal isn’t to find <em>some</em> papers—it’s to build a <strong>systematic, repeatable, and defensible</strong> literature search strategy.</p>
+</section>
+<section id="the-three-database-rule" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-database-rule">The Three-Database Rule</h2>
+<p>Don’t rely on a single source. Research databases have different coverage, indexing, and bias.</p>
+<p><strong>Minimum requirement:</strong> Search at least <strong>three academic databases</strong>.</p>
+<section id="recommended-combination" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-combination">Recommended Combination:</h3>
+<ol type="1">
+<li><strong>Scopus</strong> (multidisciplinary, citation tracking)</li>
+<li><strong>Web of Science</strong> (established journals, high-impact research)</li>
+<li><strong>IEEE Xplore</strong> / <strong>PubMed</strong> / <strong>ACM Digital Library</strong> (domain-specific)</li>
+</ol>
+<p>If institutional access is limited, add: - <strong>Google Scholar</strong> (broad coverage, gray literature) - <strong>arXiv</strong> / <strong>bioRxiv</strong> / <strong>TechRxiv</strong> (preprints in your field) - <strong>Semantic Scholar</strong> (AI-powered recommendations)</p>
+<p><strong>Why three?</strong> Each database has unique indexing. A systematic search reveals papers that single-database searches miss.</p>
+</section>
+<section id="what-if-you-dont-have-institutional-access" class="level3">
+<h3 class="anchored" data-anchor-id="what-if-you-dont-have-institutional-access">What If You Don’t Have Institutional Access?</h3>
+<p>Use these <strong>free alternatives:</strong></p>
+<ul>
+<li><strong>Google Scholar</strong> (free, comprehensive)</li>
+<li><strong>CORE</strong> (free, open access papers)</li>
+<li><strong>BASE</strong> (Bielefeld Academic Search Engine)</li>
+<li><strong>Microsoft Academic</strong> (being sunset but archives remain)</li>
+<li><strong>Directory of Open Access Journals (DOAJ)</strong></li>
+<li><strong>ResearchGate</strong> / <strong>Academia.edu</strong> (request papers from authors)</li>
+</ul>
+<p>Most preprint servers (arXiv, bioRxiv, SSRN) are completely free.</p>
+</section>
+</section>
+<section id="the-search-string-your-research-fingerprint" class="level2">
+<h2 class="anchored" data-anchor-id="the-search-string-your-research-fingerprint">The Search String: Your Research Fingerprint</h2>
+<p>Random keyword searches are not systematic. A <strong>well-constructed search string</strong> ensures consistency and repeatability.</p>
+<section id="basic-structure" class="level3">
+<h3 class="anchored" data-anchor-id="basic-structure">Basic Structure:</h3>
+<pre><code>(Keyword1 OR Synonym1 OR Related1) 
+AND 
+(Keyword2 OR Synonym2 OR Related2) 
+AND NOT 
+(Exclusion1 OR Exclusion2)</code></pre>
+</section>
+<section id="example-phd-research-on-educational-technology" class="level3">
+<h3 class="anchored" data-anchor-id="example-phd-research-on-educational-technology">Example: PhD Research on Educational Technology</h3>
+<p><strong>Poor search:</strong> &gt; “AI in education”</p>
+<p><strong>Systematic search:</strong></p>
+<pre><code>("artificial intelligence" OR "machine learning" OR "deep learning") 
+AND 
+("education" OR "learning" OR "pedagogy" OR "teaching") 
+AND NOT 
+("medical education" OR "clinical training")</code></pre>
+</section>
+<section id="why-this-matters" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-matters">Why This Matters:</h3>
+<ul>
+<li><strong>OR</strong> expands search (captures synonyms)</li>
+<li><strong>AND</strong> narrows focus (finds intersection)</li>
+<li><strong>NOT</strong> removes noise (excludes irrelevant domains)</li>
+</ul>
+<p><strong>Document your search string.</strong> You’ll need it for reproducibility and thesis methodology chapters.</p>
+</section>
+<section id="database-specific-syntax" class="level3">
+<h3 class="anchored" data-anchor-id="database-specific-syntax">Database-Specific Syntax</h3>
+<p>Each database has slightly different syntax:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Database</th>
+<th>Example Search</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Scopus</strong></td>
+<td><code>TITLE-ABS-KEY("machine learning" AND education)</code></td>
+</tr>
+<tr class="even">
+<td><strong>Web of Science</strong></td>
+<td><code>TS=("machine learning" AND education)</code></td>
+</tr>
+<tr class="odd">
+<td><strong>IEEE Xplore</strong></td>
+<td><code>("All Metadata":"machine learning" AND "All Metadata":education)</code></td>
+</tr>
+<tr class="even">
+<td><strong>PubMed</strong></td>
+<td><code>("machine learning"[Title/Abstract] AND education[Title/Abstract])</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Google Scholar</strong></td>
+<td><code>allintitle: machine learning education</code></td>
+</tr>
+</tbody>
+</table>
+<p>Check each database’s advanced search help page for exact syntax.</p>
+</section>
+</section>
+<section id="the-search-documentation-template" class="level2">
+<h2 class="anchored" data-anchor-id="the-search-documentation-template">The Search Documentation Template</h2>
+<p>A systematic search isn’t complete without documentation.</p>
+<section id="record-these-details" class="level3">
+<h3 class="anchored" data-anchor-id="record-these-details">Record These Details:</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 43%">
+<col style="width: 56%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Database</strong></td>
+<td>Scopus</td>
+</tr>
+<tr class="even">
+<td><strong>Search String</strong></td>
+<td><code>("literature review" OR "systematic review") AND ("PhD" OR "doctoral")</code></td>
+</tr>
+<tr class="odd">
+<td><strong>Date Searched</strong></td>
+<td>2026-01-03</td>
+</tr>
+<tr class="even">
+<td><strong>Results Found</strong></td>
+<td>347 papers</td>
+</tr>
+<tr class="odd">
+<td><strong>Date Range Filter</strong></td>
+<td>2015–2025</td>
+</tr>
+<tr class="even">
+<td><strong>Language Filter</strong></td>
+<td>English</td>
+</tr>
+<tr class="odd">
+<td><strong>Document Type</strong></td>
+<td>Journal articles, conference papers</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why document this?</strong></p>
+<ol type="1">
+<li><strong>Repeatability:</strong> Someone else can replicate your search</li>
+<li><strong>Thesis requirement:</strong> Many universities require search methodology</li>
+<li><strong>Literature review updates:</strong> Re-run the search before submission</li>
+</ol>
+<p><strong>Pro tip:</strong> Keep a dedicated spreadsheet or document tracking all your searches across databases. You’ll thank yourself later when writing your methodology chapter.</p>
+</section>
+</section>
+<section id="setting-up-citation-alerts" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-citation-alerts">Setting Up Citation Alerts</h2>
+<p>Don’t search manually every few months. Automate it.</p>
+<section id="for-new-papers" class="level3">
+<h3 class="anchored" data-anchor-id="for-new-papers">For New Papers:</h3>
+<p><strong>Google Scholar Alerts:</strong> 1. Run your search in Google Scholar 2. Click “Create alert” (bottom left) 3. Receive weekly emails with new papers</p>
+<p><strong>Database-Specific Alerts:</strong> - <strong>Scopus:</strong> Save search → Create alert - <strong>Web of Science:</strong> Save search → Create citation alert - <strong>IEEE Xplore:</strong> Saved searches → Email alerts</p>
+<p><strong>RSS Feeds:</strong> - Most journals offer RSS feeds for new issues - Use an RSS reader (Feedly, Inoreader) to track multiple journals</p>
+</section>
+<section id="for-citations-to-your-work" class="level3">
+<h3 class="anchored" data-anchor-id="for-citations-to-your-work">For Citations to Your Work:</h3>
+<p>Set up alerts for papers citing: - Your published work - Key papers in your field - Your supervisor’s papers</p>
+<p>This keeps you aware of new developments without manual searching.</p>
+</section>
+</section>
+<section id="filtering-strategy-the-funnel-approach" class="level2">
+<h2 class="anchored" data-anchor-id="filtering-strategy-the-funnel-approach">Filtering Strategy: The Funnel Approach</h2>
+<p>You’ll get hundreds (or thousands) of results. Don’t try to read everything.</p>
+<section id="step-1-title-screening" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-title-screening">Step 1: Title Screening</h3>
+<ul>
+<li>Read titles</li>
+<li>Remove obviously irrelevant papers</li>
+<li><strong>Goal:</strong> Reduce by ~70%</li>
+</ul>
+</section>
+<section id="step-2-abstract-screening" class="level3">
+<h3 class="anchored" data-anchor-id="step-2-abstract-screening">Step 2: Abstract Screening</h3>
+<ul>
+<li>Read abstracts of remaining papers</li>
+<li>Check alignment with research questions</li>
+<li><strong>Goal:</strong> Reduce by another ~60%</li>
+</ul>
+</section>
+<section id="step-3-full-text-review" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-full-text-review">Step 3: Full-Text Review</h3>
+<ul>
+<li>Read remaining papers fully</li>
+<li>Extract key insights, methods, findings</li>
+<li><strong>Goal:</strong> Keep papers directly relevant to your work</li>
+</ul>
+</section>
+<section id="step-4-citation-snowballing" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-citation-snowballing">Step 4: Citation Snowballing</h3>
+<ul>
+<li>Check references of key papers (backward snowballing)</li>
+<li>Check papers citing your key papers (forward snowballing)</li>
+<li><strong>Goal:</strong> Discover foundational and recent work</li>
+</ul>
+</section>
+</section>
+<section id="the-inclusionexclusion-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="the-inclusionexclusion-criteria">The Inclusion/Exclusion Criteria</h2>
+<p>Define <strong>before</strong> searching what papers you’ll include or exclude.</p>
+<section id="example-criteria" class="level3">
+<h3 class="anchored" data-anchor-id="example-criteria">Example Criteria:</h3>
+<p><strong>Inclusion:</strong> - Published between 2015–2025 - Peer-reviewed journals or top-tier conferences - Empirical studies with clear methodology - English language</p>
+<p><strong>Exclusion:</strong> - Opinion pieces without data - Studies outside your geographic/domain scope - Duplicate publications - Predatory journals</p>
+<p><strong>Document these criteria.</strong> They justify why some papers were kept and others discarded.</p>
+</section>
+</section>
+<section id="common-mistakes-to-avoid" class="level2">
+<h2 class="anchored" data-anchor-id="common-mistakes-to-avoid">Common Mistakes to Avoid</h2>
+<section id="mistake-1-searching-once-and-stopping" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-1-searching-once-and-stopping">❌ Mistake 1: Searching Once and Stopping</h3>
+<p>Literature keeps growing. Schedule periodic re-searches (e.g., every 3 months).</p>
+</section>
+<section id="mistake-2-not-using-boolean-operators" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-2-not-using-boolean-operators">❌ Mistake 2: Not Using Boolean Operators</h3>
+<p>“AI education” ≠ “AI AND education”. Learn Boolean logic.</p>
+</section>
+<section id="mistake-3-ignoring-gray-literature" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-3-ignoring-gray-literature">❌ Mistake 3: Ignoring Gray Literature</h3>
+<p>Theses, technical reports, preprints—sometimes these contain insights published papers don’t.</p>
+</section>
+<section id="mistake-4-no-version-control" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-4-no-version-control">❌ Mistake 4: No Version Control</h3>
+<p>Document which version of the search you ran. Database algorithms change over time.</p>
+</section>
+<section id="mistake-5-using-only-english-keywords" class="level3">
+<h3 class="anchored" data-anchor-id="mistake-5-using-only-english-keywords">❌ Mistake 5: Using Only English Keywords</h3>
+<p>If your research has global relevance, consider searching in other languages or using translated keywords.</p>
+</section>
+</section>
+<section id="time-expectations-be-realistic" class="level2">
+<h2 class="anchored" data-anchor-id="time-expectations-be-realistic">Time Expectations: Be Realistic</h2>
+<p><strong>Initial systematic search:</strong> 4-8 hours<br>
+<strong>Export and organization:</strong> 1-2 hours<br>
+<strong>Title screening (500 papers):</strong> 2-3 hours<br>
+<strong>Abstract screening (150 papers):</strong> 3-5 hours<br>
+<strong>Title screening (500 papers):</strong> 2-3 hours<br>
+<strong>Abstract screening (150 papers):</strong> 3-5 hours<br>
+<strong>Full-text review (40 papers):</strong> 8-12 hours</p>
+<p><strong>Total for initial search and screening:</strong> 18-28 ## What This Achieves</p>
+<p>A systematic search ensures:</p>
+<p>✅ <strong>Completeness:</strong> You didn’t miss foundational papers<br>
+✅ <strong>Transparency:</strong> Others can verify your process<br>
+✅ <strong>Defensibility:</strong> You can justify paper selection to supervisors/reviewers<br>
+✅ <strong>Efficiency:</strong> You avoid re-searching from scratch later</p>
+</section>
+<section id="what-comes-next" class="level2">
+<h2 class="anchored" data-anchor-id="what-comes-next">What Comes Next</h2>
+<p>Now you have papers. Hundreds of PDFs sitting in a folder. You now know <strong>how to search systematically</strong>. You have search strings, filtered results, and documentation.</p>
+<p><strong>But here’s the gap:</strong> Those papers are still scattered across database interfaces. Some are bookmarked. Some are in browser tabs. None are organized.</p>
+<p><strong>The next problem:</strong> How do you capture, export, and store these papers so you can actually use them?</p>
+<p>In the next post, we’ll tackle: - <strong>Export formats:</strong> RIS, BibTeX, CSV—what they mean and which to use - <strong>Reference managers:</strong> Choosing between Zotero, Mendeley, EndNote - <strong>File naming systems:</strong> So you can find papers 6 months later - <strong>Folder structures:</strong> That scale from 50 to 500 papers - <strong>Metadata management:</strong> Why it matters more than PDFs</p>
+<p><strong>Searching systematically is step one. Storing systematically is what makes the search worthwhile.</strong></p>
+<hr>
+<p>*A systematic search finds the papers. A systematic storage system makes sure you can use them</p>
+
+
+<!-- -->
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{kumar_nag2026,
+  author = {Kumar Nag, Prashant},
+  title = {Building {Your} {Research} {Library:} {The} {Systematic}
+    {Search} {Framework}},
+  date = {2026-01-03},
+  url = {https://prashantnag.com/ResearchInfuser/2026/01/03/Building Your Research Library/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-kumar_nag2026" class="csl-entry quarto-appendix-citeas">
+Kumar Nag, Prashant. 2026. <span>“Building Your Research Library: The
+Systematic Search Framework.”</span> January 3, 2026. <a href="https://prashantnag.com/ResearchInfuser/2026/01/03/Building Your Research Library/">https://prashantnag.com/ResearchInfuser/2026/01/03/Building
+Your Research Library/</a>.
+</div></div></section></div> ]]></description>
+  <category>Literature Management</category>
+  <category>Research Skills</category>
+  <category>Academic Productivity</category>
+  <guid>https://prashantnag.com/ResearchInfuser/2026/01/03/Building Your Research Library/</guid>
+  <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)</title>
   <dc:creator>Prashant Kumar Nag</dc:creator>
