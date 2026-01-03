@@ -1,0 +1,15 @@
+---
+title: "ResearchInfuser Blog"
+search: false
+listing:
+  sort: "date desc"
+  feed: 
+    title: "ResearchInfuser by Prashant Kumar Nag"
+    description: "Practical tools and workflows for PhD scholars and researchers"
+    items: 60
+    type: full
+    language: en
+  contents:
+    - "ResearchInfuser/**/index.qmd"
+    - "!ResearchInfuser/index.qmd"
+---
