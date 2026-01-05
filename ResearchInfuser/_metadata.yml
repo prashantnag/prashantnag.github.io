@@ -11,7 +11,7 @@ format:
     comments:
       giscus:
         repo: prashantnag/prashantnag.github.io
-        repo-id: R_kgDOQubQXg 
+        repo-id: "R_kgDOQubQXg" 
         category: "Announcements"
         category-id: "DIC_kwDOQubQXs4C0mcm"
         mapping: "pathname"
