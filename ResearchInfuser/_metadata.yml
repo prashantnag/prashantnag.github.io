@@ -10,7 +10,7 @@ format:
     code-tools: true
     comments:
       giscus:
-        repo: prashantnag/prashantnag.com
+        repo: prashantnag/prashantnag.github.io
         repo-id: R_kgDOQubQXg 
         category: "Announcements"
         category-id: "DIC_kwDOQubQXs4C0mcm"

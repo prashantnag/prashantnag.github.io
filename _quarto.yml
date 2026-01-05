@@ -53,10 +53,6 @@ resources:
   - CNAME
   - robots.txt
 
-comments:
-  giscus:
-    repo: prashantnag/prashantnag.github.io
-
 date-format: "D MMMM YYYY"
 freeze: auto
 
