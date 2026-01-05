@@ -364,190 +364,190 @@
     "text": "2023\n\n\n    \n    \n                  \n            October 14, 2023\n        \n        \n            Hello World\n\n            \n            \n                \n                \n                    Test\n                \n                \n            \n            \n\n            First Blog Post Testing\n            \n            \n        \n        \n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "",
     "text": "Yesterday, we identified the problem: most PhD scholars search for papers randomly, relying on Google Scholar, a single database, or forwarded PDFs.\nToday, we solve it.\nThe goal isn’t to find some papers—it’s to build a systematic, repeatable, and defensible literature search strategy."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#from-chaos-to-system",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#from-chaos-to-system",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#from-chaos-to-system",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#from-chaos-to-system",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "",
     "text": "Yesterday, we identified the problem: most PhD scholars search for papers randomly, relying on Google Scholar, a single database, or forwarded PDFs.\nToday, we solve it.\nThe goal isn’t to find some papers—it’s to build a systematic, repeatable, and defensible literature search strategy."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-three-database-rule",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-three-database-rule",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-three-database-rule",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-three-database-rule",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "The Three-Database Rule",
     "text": "The Three-Database Rule\nDon’t rely on a single source. Research databases have different coverage, indexing, and bias.\nMinimum requirement: Search at least three academic databases.\n\nRecommended Combination:\n\nScopus (multidisciplinary, citation tracking)\nWeb of Science (established journals, high-impact research)\nIEEE Xplore / PubMed / ACM Digital Library (domain-specific)\n\nIf institutional access is limited, add:\n\nGoogle Scholar (broad coverage, gray literature)\narXiv / bioRxiv / TechRxiv (preprints in your field)\nSemantic Scholar (AI-powered recommendations)\n\nWhy three? Each database has unique indexing. A systematic search reveals papers that single-database searches miss.\n\n\nWhat If You Don’t Have Institutional Access?\nUse these free alternatives:\n\nGoogle Scholar (free, comprehensive)\nCORE (free, open access papers)\nBASE (Bielefeld Academic Search Engine)\nMicrosoft Academic (being sunset but archives remain)\nDirectory of Open Access Journals (DOAJ)\nResearchGate / Academia.edu (request papers from authors)\n\nMost preprint servers (arXiv, bioRxiv, SSRN) are completely free."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-search-string-your-research-fingerprint",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-search-string-your-research-fingerprint",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-search-string-your-research-fingerprint",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-search-string-your-research-fingerprint",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "The Search String: Your Research Fingerprint",
     "text": "The Search String: Your Research Fingerprint\nRandom keyword searches are not systematic. A well-constructed search string ensures consistency and repeatability.\n\nBasic Structure:\n(Keyword1 OR Synonym1 OR Related1) \nAND \n(Keyword2 OR Synonym2 OR Related2) \nAND NOT \n(Exclusion1 OR Exclusion2)\n\n\nExample: PhD Research on Educational Technology\nPoor search: &gt; “AI in education”\nSystematic search:\n(\"artificial intelligence\" OR \"machine learning\" OR \"deep learning\") \nAND \n(\"education\" OR \"learning\" OR \"pedagogy\" OR \"teaching\") \nAND NOT \n(\"medical education\" OR \"clinical training\")\n\n\nWhy This Matters:\n\nOR expands search (captures synonyms)\nAND narrows focus (finds intersection)\nNOT removes noise (excludes irrelevant domains)\n\nDocument your search string. You’ll need it for reproducibility and thesis methodology chapters.\n\n\nDatabase-Specific Syntax\nEach database has slightly different syntax:\n\n\n\n\n\n\n\nDatabase\nExample Search\n\n\n\n\nScopus\nTITLE-ABS-KEY(\"machine learning\" AND education)\n\n\nWeb of Science\nTS=(\"machine learning\" AND education)\n\n\nIEEE Xplore\n(\"All Metadata\":\"machine learning\" AND \"All Metadata\":education)\n\n\nPubMed\n(\"machine learning\"[Title/Abstract] AND education[Title/Abstract])\n\n\nGoogle Scholar\nallintitle: machine learning education\n\n\n\nCheck each database’s advanced search help page for exact syntax."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-search-documentation-template",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-search-documentation-template",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-search-documentation-template",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-search-documentation-template",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "The Search Documentation Template",
     "text": "The Search Documentation Template\nA systematic search isn’t complete without documentation.\n\nRecord These Details:\n\n\n\n\n\n\n\nField\nExample\n\n\n\n\nDatabase\nScopus\n\n\nSearch String\n(\"literature review\" OR \"systematic review\") AND (\"PhD\" OR \"doctoral\")\n\n\nDate Searched\n2026-01-03\n\n\nResults Found\n347 papers\n\n\nDate Range Filter\n2015–2025\n\n\nLanguage Filter\nEnglish\n\n\nDocument Type\nJournal articles, conference papers\n\n\n\nWhy document this?\n\nRepeatability: Someone else can replicate your search\nThesis requirement: Many universities require search methodology\nLiterature review updates: Re-run the search before submission\n\nPro tip: Keep a dedicated spreadsheet or document tracking all your searches across databases. You’ll thank yourself later when writing your methodology chapter."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#setting-up-citation-alerts",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#setting-up-citation-alerts",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#setting-up-citation-alerts",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#setting-up-citation-alerts",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "Setting Up Citation Alerts",
     "text": "Setting Up Citation Alerts\nDon’t search manually every few months. Automate it.\n\nFor New Papers:\nGoogle Scholar Alerts:\n\nRun your search in Google Scholar\nClick “Create alert” (bottom left)\nReceive weekly emails with new papers\n\nDatabase-Specific Alerts:\n\nScopus: Save search → Create alert\nWeb of Science: Save search → Create citation alert\nIEEE Xplore: Saved searches → Email alerts\n\nRSS Feeds:\n\nMost journals offer RSS feeds for new issues\nUse an RSS reader (Feedly, Inoreader) to track multiple journals\n\n\n\nFor Citations to Your Work:\nSet up alerts for papers citing:\n\nYour published work\nKey papers in your field\nYour supervisor’s papers\n\nThis keeps you aware of new developments without manual searching."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#filtering-strategy-the-funnel-approach",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#filtering-strategy-the-funnel-approach",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#filtering-strategy-the-funnel-approach",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#filtering-strategy-the-funnel-approach",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "Filtering Strategy: The Funnel Approach",
     "text": "Filtering Strategy: The Funnel Approach\nYou’ll get hundreds (or thousands) of results. Don’t try to read everything.\n\nStep 1: Title Screening\n\nRead titles\nRemove obviously irrelevant papers\nGoal: Reduce by ~70%\n\n\n\nStep 2: Abstract Screening\n\nRead abstracts of remaining papers\nCheck alignment with research questions\nGoal: Reduce by another ~60%\n\n\n\nStep 3: Full-Text Review\n\nRead remaining papers fully\nExtract key insights, methods, findings\nGoal: Keep papers directly relevant to your work\n\n\n\nStep 4: Citation Snowballing\n\nCheck references of key papers (backward snowballing)\nCheck papers citing your key papers (forward snowballing)\nGoal: Discover foundational and recent work"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-inclusionexclusion-criteria",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#the-inclusionexclusion-criteria",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-inclusionexclusion-criteria",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#the-inclusionexclusion-criteria",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "The Inclusion/Exclusion Criteria",
     "text": "The Inclusion/Exclusion Criteria\nDefine before searching what papers you’ll include or exclude.\n\nExample Criteria:\nInclusion:\n\nPublished between 2015–2025\nPeer-reviewed journals or top-tier conferences\nEmpirical studies with clear methodology\nEnglish language\n\nExclusion:\n\nOpinion pieces without data\nStudies outside your geographic/domain scope\nDuplicate publications\nPredatory journals\n\nDocument these criteria. They justify why some papers were kept and others discarded."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#common-mistakes-to-avoid",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#common-mistakes-to-avoid",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#common-mistakes-to-avoid",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#common-mistakes-to-avoid",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "Common Mistakes to Avoid",
     "text": "Common Mistakes to Avoid\n\n❌ Mistake 1: Searching Once and Stopping\nLiterature keeps growing. Schedule periodic re-searches (e.g., every 3 months).\n\n\n❌ Mistake 2: Not Using Boolean Operators\n“AI education” ≠ “AI AND education”. Learn Boolean logic.\n\n\n❌ Mistake 3: Ignoring Gray Literature\nTheses, technical reports, preprints—sometimes these contain insights published papers don’t.\n\n\n❌ Mistake 4: No Version Control\nDocument which version of the search you ran. Database algorithms change over time.\n\n\n❌ Mistake 5: Using Only English Keywords\nIf your research has global relevance, consider searching in other languages or using translated keywords."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#time-expectations-be-realistic",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#time-expectations-be-realistic",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#time-expectations-be-realistic",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#time-expectations-be-realistic",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "Time Expectations: Be Realistic",
     "text": "Time Expectations: Be Realistic\nInitial systematic search: 4-8 hours\nTitle screening (500 papers): 2-3 hours\nAbstract screening (150 papers): 3-5 hours\nFull-text review (40 papers): 8-12 hours\nTotal for initial search and screening: 18-28 hours spread over 1-2 weeks.\nThis seems long, but it prevents the 50+ hours lost to disorganized re-searching later."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#what-this-achieves",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#what-this-achieves",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#what-this-achieves",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#what-this-achieves",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "What This Achieves",
     "text": "What This Achieves\nA systematic search ensures:\n✅ Completeness: You didn’t miss foundational papers\n✅ Transparency: Others can verify your process\n✅ Defensibility: You can justify paper selection to supervisors/reviewers\n✅ Efficiency: You avoid re-searching from scratch later"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#what-comes-next",
-    "href": "ResearchInfuser/2026/01/03/Building Your Research Library/index.html#what-comes-next",
+    "objectID": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#what-comes-next",
+    "href": "ResearchInfuser/2026/01/03/building-your-research-library/index.html#what-comes-next",
     "title": "Building Your Research Library: The Systematic Search Framework",
     "section": "What Comes Next",
     "text": "What Comes Next\nNow you have papers. Hundreds of PDFs sitting in a folder. You now know how to search systematically. You have search strings, filtered results, and documentation.\nBut here’s the gap: Those papers are still scattered across database interfaces. Some are bookmarked. Some are in browser tabs. None are organized.\nThe next problem: How do you capture, export, and store these papers so you can actually use them?\nIn the next post, we’ll tackle:\n\nExport formats: RIS, BibTeX, CSV—what they mean and which to use\nReference managers: Choosing between Zotero, Mendeley, EndNote\nFile naming systems: So you can find papers 6 months later\nFolder structures: That scale from 50 to 500 papers\nMetadata management: Why it matters more than PDFs\n\nSearching systematically is step one. Storing systematically is what makes the search worthwhile.\n\nA systematic search finds the papers. A systematic storage system makes sure you can use them."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html",
     "title": "Happy New Year 2026!",
     "section": "",
     "text": "As we step into 2026, I’m excited to share some wonderful news with the academic and research community!"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#happy-new-year-2026",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#happy-new-year-2026",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#happy-new-year-2026",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#happy-new-year-2026",
     "title": "Happy New Year 2026!",
     "section": "",
     "text": "As we step into 2026, I’m excited to share some wonderful news with the academic and research community!"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#whats-coming-this-year",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#whats-coming-this-year",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#whats-coming-this-year",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#whats-coming-this-year",
     "title": "Happy New Year 2026!",
     "section": "What’s Coming This Year",
     "text": "What’s Coming This Year\nOver the coming months, I’ll be creating and uploading comprehensive video tutorials and educational content specifically designed for scholars, researchers, PhD students, faculty, and educators. These tutorials will focus on my Software Suite, which I’ve developed and refined through years of experience in the research workflow."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#my-mission",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#my-mission",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#my-mission",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#my-mission",
     "title": "Happy New Year 2026!",
     "section": "My Mission",
     "text": "My Mission\nHaving navigated the challenges of PhD research myself, I understand the complexities and pain points that researchers face daily. These tools and workflows are derived from real PhD research, publications, and academic teaching experience. Through my software suite and the upcoming tutorials, my goal is to:\n\nStreamline your research workflow - Making complex tasks simpler and more efficient\nShare practical expertise - Real-world solutions based on hands-on experience\nEase the PhD journey - Helping you focus on your research, not the tools\n\nAll content will be published under the ResearchInfuser initiative, focused on practical, reproducible, and researcher-centric tools."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#what-to-expect",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#what-to-expect",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#what-to-expect",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#what-to-expect",
     "title": "Happy New Year 2026!",
     "section": "What to Expect",
     "text": "What to Expect\nThe tutorials will cover:\n\nStep-by-step guides for using the software tools\nBest practices learned from years of research experience\nTips and tricks to optimize your academic workflow\nReal-world examples and use cases\n\nContent will be released in structured series, starting with essential research productivity tools, followed by advanced workflows for thesis writing, experimentation, and publication. Feedback and suggestions from the research community will help shape future tutorials."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#how-you-can-get-involved",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#how-you-can-get-involved",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#how-you-can-get-involved",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#how-you-can-get-involved",
     "title": "Happy New Year 2026!",
     "section": "How You Can Get Involved",
     "text": "How You Can Get Involved\nIf you’d like early access to tutorials, updates, and examples:\n\nBookmark this blog\nExplore the Software Suite\nSubscribe to upcoming ResearchInfuser video content"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#stay-connected",
-    "href": "ResearchInfuser/2026/01/01/Happy New Year 2026/index.html#stay-connected",
+    "objectID": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#stay-connected",
+    "href": "ResearchInfuser/2026/01/01/happy-new-year-2026/index.html#stay-connected",
     "title": "Happy New Year 2026!",
     "section": "Stay Connected",
     "text": "Stay Connected\nKeep an eye on this blog for updates, new tutorial releases, and valuable insights. I’m committed to making your research journey smoother and more productive.\nHere’s to a productive and successful 2026! 🚀\n\nLooking forward to sharing this journey with you!"
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "",
     "text": "For most PhD scholars, the journey begins the same way: a supervisor asks you to “read some papers.”\nWhat follows is often confusion—Google searches, dozens of PDFs, and folders named paper1, final, or important. I’ve seen this pattern repeated across disciplines, institutions, and generations of researchers.\nThis early phase silently shapes the rest of your PhD, often more than you realize."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#your-first-encounter-with-research-literature",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#your-first-encounter-with-research-literature",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#your-first-encounter-with-research-literature",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#your-first-encounter-with-research-literature",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "",
     "text": "For most PhD scholars, the journey begins the same way: a supervisor asks you to “read some papers.”\nWhat follows is often confusion—Google searches, dozens of PDFs, and folders named paper1, final, or important. I’ve seen this pattern repeated across disciplines, institutions, and generations of researchers.\nThis early phase silently shapes the rest of your PhD, often more than you realize."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#searching-papers-is-not-as-simple-as-it-looks",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#searching-papers-is-not-as-simple-as-it-looks",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#searching-papers-is-not-as-simple-as-it-looks",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#searching-papers-is-not-as-simple-as-it-looks",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "Searching Papers Is Not as Simple as It Looks",
     "text": "Searching Papers Is Not as Simple as It Looks\nMost scholars start by relying on:\n\nRandom Google searches\nA single digital library\nWhatever PDF someone forwards on WhatsApp\n\nVery few stop to ask whether this way of searching is systematic, complete, or repeatable.\nThe result?\nMissed foundational papers, weak literature reviews, and repeated backtracking."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#storing-papers-without-a-system-creates-hidden-problems",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#storing-papers-without-a-system-creates-hidden-problems",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#storing-papers-without-a-system-creates-hidden-problems",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#storing-papers-without-a-system-creates-hidden-problems",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "Storing Papers Without a System Creates Hidden Problems",
     "text": "Storing Papers Without a System Creates Hidden Problems\nDownloading papers without a clear structure leads to:\n\nDuplicate PDFs\nLost citations during writing\nDifficulty recalling why a paper was saved in the first place\n\nThese problems usually appear much later—when writing chapters or papers—making them harder to fix."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#a-question-every-scholar-eventually-faces",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#a-question-every-scholar-eventually-faces",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#a-question-every-scholar-eventually-faces",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#a-question-every-scholar-eventually-faces",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "A Question Every Scholar Eventually Faces",
     "text": "A Question Every Scholar Eventually Faces\nAt some point, almost every PhD scholar wonders:\n\n“Why did I save this paper?”\n\nIf that question cannot be answered easily, the literature collection has already started working against the researcher."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-silent-cost-of-poor-literature-management",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-silent-cost-of-poor-literature-management",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#the-silent-cost-of-poor-literature-management",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#the-silent-cost-of-poor-literature-management",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "The Silent Cost of Poor Literature Management",
     "text": "The Silent Cost of Poor Literature Management\nThese problems don’t announce themselves loudly. They accumulate quietly:\nDuring daily research: - Hours wasted searching for papers you know you’ve downloaded - Confusion about which studies support which claims\nDuring critical moments: - Panic before paper submissions when citations need verification - Frustration when reviewers ask about papers you vaguely remember but can’t locate\nBy the time these issues become obvious, the damage is already done—and fixing the mess takes more time than building the right system from the start."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#the-real-problem-youre-choosing-tools-without-understanding-your-workflow",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "The Real Problem: You’re Choosing Tools Without Understanding Your Workflow",
     "text": "The Real Problem: You’re Choosing Tools Without Understanding Your Workflow\nThe real problem isn’t the lack of tools. Reference managers, note-taking apps, and cloud storage solutions are everywhere.\nThe problem is that most scholars:\n\nStart collecting papers without asking the right questions\nChoose tools before understanding their workflow needs\nNever develop a systematic approach to literature management\n\nThis backwards approach creates a fragile foundation that cracks under the weight of a full PhD."
   },
   {
-    "objectID": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#what-comes-next",
-    "href": "ResearchInfuser/2026/01/02/The Hidden Problem with Research Literature Management/index.html#what-comes-next",
+    "objectID": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#what-comes-next",
+    "href": "ResearchInfuser/2026/01/02/the-hidden-problem-with-research-literature-management/index.html#what-comes-next",
     "title": "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)",
     "section": "What Comes Next",
     "text": "What Comes Next\nUnder the ResearchInfuser initiative, upcoming posts will address:\n\nHow to search research literature systematically\nHow to store papers with long-term clarity\nHow early decisions affect thesis writing and publication later\nPractical workflows that prevent these problems before they start\n\nThe answers to these problems will be explored step by step in the coming posts.\nA strong PhD begins by asking the right questions about literature—before choosing tools.\n\nNext post: We’ll explore how to build a systematic approach to searching research literature that ensures completeness and repeatability from day one."
