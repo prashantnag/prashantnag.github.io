@@ -1,0 +1,21 @@
+---
+title: "Teaching"
+listing:
+  - id: ay_25-26
+    contents: ay_25-26.yml
+    sort: "date desc"
+    template: ../html/teaching/listing.ejs
+title-block-banner: "#234460"
+page-layout: full
+toc: true
+toc-location: right
+toc-title: Contents
+toc-expand: 3
+---
+
+## Courses
+
+### 2025–26
+
+::: {#ay_25-26}
+:::

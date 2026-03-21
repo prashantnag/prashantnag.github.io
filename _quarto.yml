@@ -37,6 +37,8 @@ website:
         text: ResearchInfuser Blog
       - href: publications/index.qmd
         text: Publications
+      - href: teaching/index.qmd
+        text: Teaching
       - href: talks/index.qmd
         text: Talks
       - href: softwares/index.qmd

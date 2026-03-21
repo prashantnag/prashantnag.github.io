@@ -1,0 +1,14 @@
+- title: "Web Technology"
+  number: "BMC201"
+  university: "Galgotias College of Engineering & Technology"
+  role: "Instructor"
+  description: >
+    Core MCA course covering the full web development stack—from HTML, CSS,
+    and JavaScript fundamentals through server-side programming, databases,
+    and modern frameworks. Follows the AKTU MCA Model Curriculum 2020-21.
+  logo: "/files/wt_favicon.png"
+  url: "https://webtech2026.classes.prashantnag.com"
+  date: "2026-01-01"
+  semester:
+    - name: "MCA Sem 2, 2025–26"
+      url: "https://webtech2026.classes.prashantnag.com"
