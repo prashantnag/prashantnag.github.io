@@ -43,7 +43,7 @@ website:
         text: Software Suite
 
   page-footer:
-    left: "© 2016–2025, Prashant Kumar Nag <a rel='me' href='https://github.com/prashantnag'></a>"
+    left: "© 2016–2026, Prashant Kumar Nag <a rel='me' href='https://github.com/prashantnag'></a>"
     right:
       - icon: github
         href: https://github.com/prashantnag
