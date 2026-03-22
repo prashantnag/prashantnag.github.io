@@ -69,6 +69,13 @@ $code-color: #212529 !default;
 
 div.quarto-about-trestles {
 	.about-entity {
+		.about-image {
+			width: 260px !important;
+			height: 330px !important;
+            object-fit: contain;
+			// border-radius: 50% !important;
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+		}
 		.about-link {
 			&:hover {
 				background-color: $Navy-Blue;
