@@ -1,0 +1,220 @@
+---
+title: "About me"
+comments: false
+toc: true
+toc-title: Contents
+toc-location: right
+---
+
+## Bio
+
+>**Dr. Prashant Kumar Nag** is an Assistant Professor in the Department of Computer Applications at [Galgotias College of Engineering and Technology (GCET)](https://www.galgotiacollege.edu/), Greater Noida, India. He received his Ph.D. in Computer Applications from [Maulana Azad National Institute of Technology (MANIT)](https://www.manit.ac.in/), Bhopal, where his doctoral research focused on designing efficient artificial intelligence and deep learning models for human emotion detection. His research interests include Artificial Intelligence, Deep Learning, Natural Language Processing, Affective Computing, Emotion Recognition, Machine Learning, and Healthcare Informatics, with a focus on building intelligent models for understanding human emotions from textual data and applying AI-driven methods to real-world problems. Dr. Nag has qualified the UGC-NET examination four times and received a national research fellowship for his doctoral research. Alongside teaching postgraduate courses in the MCA program, he is actively involved in student mentoring, curriculum development, training and placement activities, career planning initiatives, and outcome-based education practices. He is committed to research-driven teaching, interdisciplinary collaboration, and the development of practical AI solutions for education, healthcare, and society.
+
+<style>
+.bio-links a {
+  text-decoration: none;
+}
+</style>
+
+:::: {.columns .bio-links}
+
+::: {.column width="25%"}
+
+<ul class="fa-ul">
+  <li><a href="https://www.prashantnag.com"><i class="fa-li fa-solid fa-globe"></i>Website</a></li>
+  <li><a href="../cv/curriculum-vitae.html"><i class="fa-li fa-solid fa-file-pdf"></i>Curriculum Vitae</a></li>
+</ul>
+
+:::
+
+::: {.column width="25%"}
+
+<ul class="fa-ul">
+  <li><a href="https://orcid.org/0000-0002-1601-1455"><i class="fa-li fa-solid fa-id-badge"></i>ORCID</a></li>
+  <li><a href="https://scholar.google.com/citations?user=REku3NkAAAAJ"><i class="fa-li fa-solid fa-graduation-cap"></i>Google Scholar</a></li>
+  <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57408214000"><i class="fa-li fa-solid fa-book"></i>Scopus</a></li>
+</ul>
+
+:::
+
+::: {.column width="25%"}
+
+<ul class="fa-ul">
+  <li><a href="https://www.webofscience.com/wos/author/record/HPE-9262-2023"><i class="fa-li fa-solid fa-flask"></i>Web of Science</a></li>
+  <li><a href="https://www.semanticscholar.org/author/Prashant-Kumar-Nag/2147432391"><i class="fa-li fa-solid fa-brain"></i>Semantic Scholar</a></li>
+  <li><a href="https://arxiv.org/a/nag_p_1.html"><i class="fa-li fa-solid fa-file-lines"></i>arXiv</a></li>
+</ul>
+
+:::
+
+::: {.column width="25%"}
+
+<ul class="fa-ul">
+  <li><a href="https://www.linkedin.com/in/prashantnag/"><i class="fa-li fa-brands fa-linkedin"></i>LinkedIn</a></li>
+  <li><a href="https://github.com/prashantnag"><i class="fa-li fa-brands fa-github"></i>GitHub</a></li>
+  <li><a href="https://www.youtube.com/@ResearchInfuser"><i class="fa-li fa-brands fa-youtube"></i>YouTube</a></li>
+</ul>
+
+:::
+
+::::
+
+
+## Address
+
+**Office** : Room A06, Admin Block, [Galgotias College of Engineering & Technology](https://www.galgotiacollege.edu/), Greater Noida, U.P., India
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1753.8818409662204!2d77.4961448565166!3d28.45653935205808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDI3JzIzLjUiTiA3N8KwMjknNTAuOCJF!5e0!3m2!1sen!2sin!4v1783227073463!5m2!1sen!2sin" style="border:0; width:100%; max-width:100%; height:480px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+
+## Research Interests
+
+- Affective computing
+- Text-based emotion recognition
+- Explainable AI for NLP
+
+## Education
+
+### Doctor of Philosophy (Ph.D.) in Computer Applications
+
+Maulana Azad National Institute of Technology, Bhopal, M.P., India
+
+Jul. 2019 - Jun. 2026
+
+Thesis: *Design of Efficient Artificial Intelligent Deep Learning Models for Human Emotion Detection*
+
+### Master of Computer Applications (MCA)
+
+National Institute of Technology, Tiruchirappalli, T.N., India
+
+Jul. 2012 - Jul. 2015
+
+Thesis: *QR Code-Based Automated Attendance System for Classrooms*
+
+### Bachelor of Computer Applications (BCA)
+
+Devi Ahilya Vishwavidyalaya, Indore, M.P., India
+
+Jul. 2008 - Aug. 2011
+
+## Teaching Experience
+
+### Assistant Professor, Computer Applications
+
+Galgotias College of Engineering & Technology, Greater Noida, U.P., India
+
+Dec. 2025 - Present
+
+Postgraduate teaching in MCA, including lectures, practical sessions, assessments, project supervision, student mentoring, training and placement coordination, and departmental academic administration.
+
+### Faculty, Computer Science
+
+Institute for Excellence in Higher Education, Bhopal, M.P., India
+
+Aug. 2016 - Apr. 2019
+
+Undergraduate teaching in Computer Science, including lectures, practicals, evaluation, mentoring, and continuous classroom engagement.
+
+### Computer Faculty, Computer Applications
+
+Unique Girls College Parasia, Chhindwara, M.P., India
+
+Apr. 2016 - Jun. 2016
+
+### Assistant Professor, Computer Science
+
+Sony College of Mgmt. and Technology, Chhindwara, M.P., India
+
+Nov. 2015 - Apr. 2016
+
+## Publications
+
+I have published journal articles, conference papers, preprints, and other scholarly work in artificial intelligence, healthcare text analytics, and emotion recognition.
+
+### Selected Journal Articles
+
+- *Expanding AI’s Role in Healthcare Applications: A Systematic Review of Emotional and Cognitive Analysis Techniques* (IEEE Access, 2025)
+- *Yolov5-Based Attention Mechanism for Gesture Recognition in Complex Environment* (IJACSA, 2024)
+- *Text-Based Emotion Recognition Using Contextual Phrase Embedding Model* (Multimedia Tools and Applications, 2023)
+
+### Selected Conference Papers
+
+- *Leveraging Text Data in Healthcare: A Systematic Review of AI-Driven Emotional Analysis and Patient-Centric Innovations*
+- *Emotional Intelligence Through Artificial Intelligence: NLP and Deep Learning in the Analysis of Healthcare Texts*
+- *Contextual BI-Directional Attention Flow With Embeddings From Language Models: A Generative Approach to Emotion Detection*
+
+### Selected Preprints
+
+- *Advancing Patient Care through Text Data: A Systematic Review of AI, Emotional Analysis, and Patient-Centric Applications in Healthcare*
+- *Emotional Intelligence Through Artificial Intelligence: NLP and Deep Learning in the Analysis of Healthcare Texts*
+- *A Systematic Review of AI, Emotional Analysis, and Patient-Centric Applications in Healthcare*
+
+## Awards & Achievements
+
+- National Fellowship for Scheduled Caste Students (2020-21), National Testing Agency, India
+- Entrance Examination for Full-Time Ph.D. (with Institute TA), Maulana Azad National Institute of Technology
+- National Eligibility Test for Assistant Professor
+- MCA Entrance Examinations
+
+## Expert Lectures Delivered
+
+- Question Bank Development Workshop
+- National Workshop on Scilab
+- AICTE Training and Learning (ATAL) Academy FDP
+- Certificate Course in Cryptography (CCC)
+- Basic Computer Training
+
+## Workshops & Seminars
+
+- IEEE Authorship and Open Access Symposium
+- Workshop on Artificial Intelligence and High-Performance Computing
+- Six-Day Student Excellence and Learning Program (NPIU-SELP)
+- NPTEL Awareness Workshop and Online Learning
+- National Seminar on Emerging Trends in CS and IT
+
+## Professional Development
+
+- ATAL Academy FDP on Augmented Reality / Virtual Reality
+- ATAL Academy FDP on Internet of Things
+- Faculty Induction Programme (FIP) under TLC Project
+- Faculty Development Programme on Innovative Teaching Methodologies
+
+## Academic Service & Leadership
+
+### Academic Leadership & Administration
+
+- Cyber Security, Cloud & Emerging Technologies Module
+- NBA Accreditation Activities - Criterion 2
+- Department Academic Timetable Management
+- MCA Project Coordination
+- Career Planning and Development Division (CPDD) Activities
+- Department Training and Placement Activities
+- Board of Studies - Computer Science
+
+### Reviewing & Editorial Activities
+
+- Students’ Conference on Electrical, Electronics and Computer Sciences (SCEECS2025)
+- 1st International Conference on Artificial Intelligence for Innovations in Healthcare Industries (ICAIIHI)
+- 4th IEEE International Conference on Signal Processing, Informatics, Communication and Energy Systems (IEEE SPICES 2024)
+- 7th International Conference on Recent Trends in Image Processing & Pattern Recognition (RTIP2R 2024)
+
+### Conference & Event Leadership
+
+- 6th International Conference on Communication and Intelligent Systems (ICCIS 2024)
+- TechFest (Computer Forum) event coordination
+
+### Academic Technology & Digital Initiatives
+
+- TechFest Promotional Teaser (IEHE)
+- Moodle-based online assignment submission system
+- Google Sites-based student workflow system
+
+## Open Source Projects
+
+- MANIT Thesis Quarto Extension (`manit-thesis`)
+- MANIT Presentation Template (`manit-presentation`)
+- MANIT Pre-Thesis Template (`manit-pre-thesis`)
+
+## Full CV
+
+The full rendered CV is available in [cv/curriculum-vitae.html](../cv/curriculum-vitae.html).

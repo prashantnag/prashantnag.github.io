@@ -1,0 +1,108 @@
+```{=html}
+<%
+function toYear(item) {
+  function extractYear(value) {
+    if (value == null || value === "") return "";
+
+    if (value instanceof Date && !isNaN(value.getTime())) {
+      return String(value.getFullYear());
+    }
+
+    if (typeof value === "number") {
+      const y = String(Math.trunc(value));
+      return /^\d{4}$/.test(y) ? y : "";
+    }
+
+    if (typeof value === "string") {
+      const m = value.match(/\b(19|20)\d{2}\b/);
+      return m ? m[0] : "";
+    }
+
+    if (typeof value === "object") {
+      if (value.year != null) {
+        const y = extractYear(value.year);
+        if (y) return y;
+      }
+      const m = JSON.stringify(value).match(/\b(19|20)\d{2}\b/);
+      return m ? m[0] : "";
+    }
+
+    return "";
+  }
+
+  const candidates = [
+    item.date,
+    item.year,
+    item.issued,
+    item["listing-date-sort"],
+    item["pub-date-label"],
+    item["pub-info"] && item["pub-info"].reference,
+  ];
+
+  for (const c of candidates) {
+    const y = extractYear(c);
+    if (y) return y;
+  }
+
+  return "Unknown";
+}
+
+function publicationType(item) {
+  const path = String(item.path || "");
+  const status = String(item.status || "").toLowerCase();
+  if (path.includes("/conferences/")) return "Conference";
+  if (path.includes("/chapters/")) return "Book Chapter";
+  if (status === "preprint") return "Preprint";
+  return "Article";
+}
+
+function typeLabel(type, n) {
+  if (type === "Article") return `${n} Article${n === 1 ? "" : "s"}`;
+  if (type === "Preprint") return `${n} Preprint${n === 1 ? "" : "s"}`;
+  if (type === "Conference") return `${n} Conference${n === 1 ? "" : "s"}`;
+  if (type === "Book Chapter") return `${n} Book Chapter${n === 1 ? "" : "s"}`;
+  return `${n} ${type}${n === 1 ? "" : "s"}`;
+}
+
+const counts = new Map();
+const typeCounts = new Map();
+for (const item of items) {
+  const y = toYear(item);
+  counts.set(y, (counts.get(y) || 0) + 1);
+
+  const t = publicationType(item);
+  if (!typeCounts.has(y)) typeCounts.set(y, new Map());
+  const yTypes = typeCounts.get(y);
+  yTypes.set(t, (yTypes.get(t) || 0) + 1);
+}
+
+const years = [...counts.keys()].sort((a, b) => {
+  if (a === "Unknown") return 1;
+  if (b === "Unknown") return -1;
+  return Number(b) - Number(a);
+});
+
+const timelineYears = [...years].reverse();
+%>
+<section class="timeline-count-strip timeline-count-strip-publications" aria-label="Publications timeline counts by year and type">
+  <ol class="timeline-count-track">
+<% for (const year of timelineYears) {
+  const total = counts.get(year) || 0;
+  const yTypes = typeCounts.get(year) || new Map();
+  const breakdown = [...yTypes.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([t, n]) => typeLabel(t, n))
+    .join(" · ");
+%>
+    <li class="timeline-count-item">
+      <span class="timeline-count-dot" aria-hidden="true"></span>
+      <div class="timeline-count-pill">
+        <span class="timeline-count-year"><%- year %></span>
+        <span class="timeline-count-total"><%- total %></span>
+      </div>
+      <div class="timeline-count-types"><%- breakdown %></div>
+    </li>
+<% } %>
+  </ol>
+</section>
+```

@@ -1,0 +1,25 @@
+```{=html}
+<div class="news">
+  <% for (const item of items) { %>
+  <div class="news-entry" <%= metadataAttrs(item) %>>
+    <p class="news-date"><%= item.date %></p>
+    <p class="news-title">
+      <% if (item.href) { %>
+      <a href="<%- item.href %>"><%= item.title %></a>
+      <% } else { %>
+      <%= item.title %>
+      <% } %>
+    </p>
+    <% if (item.outlet) { %>
+    <p class="news-outlet">
+      <% if (item['outlet-url']) { %>
+      <a href="<%- item['outlet-url'] %>"><%= item.outlet %></a>
+      <% } else { %>
+      <%= item.outlet %>
+      <% } %>
+    </p>
+    <% } %>
+  </div>
+  <% } %>
+</div>
+```
