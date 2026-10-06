@@ -31,8 +31,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: cv/index.qmd
-        text: CV
       - href: ResearchInfuser/index.qmd
         text: ResearchInfuser Blog
       - href: publications/index.qmd
@@ -43,6 +41,8 @@ website:
         text: Talks
       - href: softwares/index.qmd
         text: Software Suite
+      - href: about/index.qmd
+        text: About
 
   page-footer:
     left: "© 2016–2026, Prashant Kumar Nag <a rel='me' href='https://github.com/prashantnag'></a>"

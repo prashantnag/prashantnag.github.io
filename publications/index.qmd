@@ -1,6 +1,16 @@
 ---
 title: "Publications"
+exclude-from-recent: true
 listing:
+  - id: publications-counts
+    contents:
+      - "articles/*/index.qmd"
+      - "conferences/*/index.qmd"
+      - "chapters/*/index.qmd"
+    sort: "date desc"
+    template: ../html/research/timeline-count.ejs
+    categories: false
+    filter-ui: false
   - id: published-articles
     contents: "articles/*/index.qmd"
     sort: "date desc"
@@ -41,6 +51,11 @@ My research spans artificial intelligence, deep learning, affective computing, a
 ::: imgcolumn
 <a href=" "><img src="/images/bookcover8x10.jpg" height="270" align="center"/></a>
 :::
+:::
+
+## Timeline
+
+::: {#publications-counts}
 :::
 
 ## Journal Articles

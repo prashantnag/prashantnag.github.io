@@ -696,3 +696,288 @@ pre.text, pre.sourceCode, .cell-output pre {
     background-color: $Navy-Blue;
     border-color: $Navy-Blue;
 }
+
+.quarto-about-trestles section.recent-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3.recent-heading {
+    margin-top: 0.9rem;
+    margin-bottom: 0.35rem;
+}
+
+.frontpage-listing {
+    margin-bottom: 1.2rem;
+}
+
+.news {
+    .news-entry {
+        border-left: 4px solid shift-color($Navy-Blue, -85%);
+        padding: 0.5rem 0 0.5rem 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .news-date {
+        margin: 0;
+        font-size: 0.85rem;
+        color: $gray-600;
+    }
+
+    .news-title {
+        margin: 0.2rem 0;
+        font-weight: 500;
+    }
+
+    .news-outlet {
+        margin: 0;
+        font-size: 0.9rem;
+        color: $gray-700;
+    }
+}
+
+.frontpage-listing .recent-updates,
+.frontpage-listing .recent-news {
+    padding-left: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-position: outside;
+    line-height: 1.25;
+}
+
+.frontpage-listing .recent-updates li,
+.frontpage-listing .recent-news li {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    margin: 0;
+    padding: 0;
+}
+
+.frontpage-listing .recent-updates li + li,
+.frontpage-listing .recent-news li + li {
+    margin-top: 0.2rem;
+}
+
+.frontpage-listing .recent-updates-title,
+.frontpage-listing .recent-news-title {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.frontpage-listing a,
+.recent-heading a {
+    text-decoration: none;
+}
+
+.frontpage-listing a:hover,
+.frontpage-listing a:focus,
+.recent-heading a:hover,
+.recent-heading a:focus {
+    text-decoration: none;
+}
+
+.timeline-count-strip {
+    margin: 0.9rem 0 1.5rem;
+
+    .timeline-count-track {
+        list-style: none;
+        margin: 0;
+        padding: 0.5rem 0.25rem 0;
+        display: flex;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 1.45rem;
+            border-top: 2px solid shift-color($Navy-Blue, -80%);
+            z-index: 0;
+        }
+    }
+
+    .timeline-count-item {
+        position: relative;
+        z-index: 1;
+        min-width: 150px;
+        max-width: 220px;
+    }
+
+    .timeline-count-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: $Navy-Blue;
+        display: block;
+        margin: 0 auto 0.35rem;
+        border: 2px solid $white;
+        box-shadow: 0 0 0 1px shift-color($Navy-Blue, -65%);
+    }
+
+    .timeline-count-pill {
+        border: 1px solid $gray-300;
+        color: $Navy-Blue;
+        background: $white;
+        font-family: $headings-font-family;
+        font-weight: 600;
+        border-radius: 999px;
+        padding: 0.15rem 0.65rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        white-space: nowrap;
+    }
+
+    .timeline-count-year {
+        font-size: 0.87rem;
+    }
+
+    .timeline-count-total {
+        min-width: 1.2rem;
+        text-align: center;
+        border-radius: 999px;
+        background: shift-color($Navy-Blue, -86%);
+        padding: 0 0.3rem;
+        font-size: 0.78rem;
+    }
+
+    .timeline-count-types {
+        margin-top: 0.3rem;
+        font-size: 0.76rem;
+        line-height: 1.25;
+        color: $gray-700;
+        max-width: 220px;
+    }
+}
+
+// Timeline listings (publications and talks)
+.timeline-listing {
+    margin-top: 1rem;
+
+    .timeline-nav {
+        margin: 0 0 1.5rem;
+        padding: 0.5rem 0;
+        border-top: 1px solid $gray-300;
+        border-bottom: 1px solid $gray-300;
+    }
+
+    .timeline-nav-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .timeline-nav-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.45rem;
+        text-decoration: none;
+        border: 1px solid $gray-300;
+        border-radius: 999px;
+        padding: 0.2rem 0.7rem;
+        font-family: $headings-font-family;
+        font-size: 0.85rem;
+        background: $white;
+    }
+
+    .timeline-nav-count {
+        background: shift-color($Navy-Blue, -85%);
+        color: $Navy-Blue;
+        border-radius: 999px;
+        min-width: 1.5rem;
+        text-align: center;
+        padding: 0.05rem 0.35rem;
+        font-size: 0.75rem;
+    }
+
+    .timeline-year-block {
+        margin-bottom: 2rem;
+    }
+
+    .timeline-year-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        border-bottom: 2px solid shift-color($Navy-Blue, -80%);
+        margin: 0 0 0.9rem;
+        padding-bottom: 0.45rem;
+        font-family: $headings-font-family;
+        font-size: 1.25rem;
+    }
+
+    .timeline-year-total {
+        font-size: 0.88rem;
+        font-weight: 400;
+        color: $gray-700;
+    }
+
+    .timeline-cards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 0.9rem;
+    }
+
+    .timeline-card {
+        border-left: 4px solid shift-color($Navy-Blue, -75%);
+        background: shift-color($Navy-Blue, -93%);
+        padding: 0.8rem 0.95rem;
+    }
+
+    .timeline-card-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 0.75rem;
+        align-items: center;
+        margin-bottom: 0.45rem;
+    }
+
+    .timeline-badge {
+        display: inline-block;
+        font-family: $headings-font-family;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        background: $Navy-Blue;
+        color: $white;
+        border-radius: 999px;
+        padding: 0.1rem 0.6rem;
+    }
+
+    .timeline-date {
+        font-size: 0.82rem;
+        color: $gray-700;
+    }
+
+    .timeline-reference,
+    .timeline-title,
+    .timeline-meta {
+        margin: 0;
+    }
+
+    .timeline-location {
+        margin-top: 0.2rem;
+        color: $gray-700;
+    }
+
+    .timeline-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.35rem 0.8rem;
+        margin-top: 0.55rem;
+        font-size: 0.88rem;
+    }
+
+    .timeline-actions a {
+        text-decoration: none;
+        white-space: nowrap;
+    }
+}

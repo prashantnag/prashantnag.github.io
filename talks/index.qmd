@@ -1,6 +1,11 @@
 ---
 title: "Talks"
+exclude-from-recent: true
 listing:
+  - id: talks-counts
+    contents: talks_*.yml
+    sort: "date desc"
+    template: ../html/talks/timeline-count.ejs
   - id: talks_2024
     contents: talks_2024.yml
     sort: "date desc"
@@ -44,6 +49,11 @@ This page contains the detail of various workshops, talks, lectures, and present
 ### Copyright
 
 Except where noted, all content is ©Prashant Kumar Nag.
+:::
+
+## Timeline
+
+::: {#talks-counts}
 :::
 
 ## 2024

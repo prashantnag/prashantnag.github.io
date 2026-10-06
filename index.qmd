@@ -1,7 +1,7 @@
 ---
 about:
   template: trestles
-  image: images/nagpk.jpg
+  image: images/passport.png
   links:
     - icon: github
       href: https://github.com/prashantnag
@@ -14,10 +14,69 @@ about:
     - icon: youtube
       href: https://www.youtube.com/@ResearchInfuser
 comments: false
+toc: false
+
+listing:
+  - id: recent-publications
+    contents:
+      - publications/
+    exclude:
+      exclude-from-recent: true
+    sort: "date desc"
+    max-items: 3
+    template: html/home/updates.ejs
+    sort-ui: false
+    filter-ui: false
+
+  - id: recent-talks
+    contents:
+      - talks/*.yml
+    exclude:
+      exclude-from-recent: true
+    sort: "date desc"
+    max-items: 3
+    template: html/home/updates.ejs
+    sort-ui: false
+    filter-ui: false
+
+  - id: recent-blog-posts
+    contents:
+      - ResearchInfuser/
+    exclude:
+      exclude-from-recent: true
+    sort: "date desc"
+    max-items: 3
+    template: html/home/updates.ejs
+    sort-ui: false
+    filter-ui: false
+
+  - id: recent-news
+    contents: news.yml
+    sort: "date desc"
+    max-items: 3
+    template: html/home/news-updates.ejs
+    field-types:
+      date: date
+    sort-ui: false
+    filter-ui: false
 ---
 
-::: about-link-text
-I am an Assistant Professor in the [Department of Computer Applications](https://galgotiacollege.edu/computer-applications-mca) at [Galgotias College of Engineering & Technology, Greater Noida, Uttar Pradesh, India.](https://galgotiacollege.edu/galgotias-college-of-engineering-&-technology) My academic and research interests lie in artificial intelligence, deep learning, and affective computing, with a particular focus on emotion detection, cognitive appraisal, and explainable AI.
+### [Recent publications](/publications/) {.recent-heading}
 
-My work examines how AI models interpret human emotions in text and how transparent, well-grounded analytical methods can enhance understanding, reliability, and human-centered applications. I am committed to advancing rigorous and reproducible AI research while actively contributing to teaching, mentoring, and collaborative academic development.
+::: {#recent-publications .frontpage-listing}
+:::
+
+### [Recent talks](/talks/) {.recent-heading}
+
+::: {#recent-talks .frontpage-listing}
+:::
+
+### [Recent blog posts](/ResearchInfuser/) {.recent-heading}
+
+::: {#recent-blog-posts .frontpage-listing}
+:::
+
+### Recent news items {.recent-heading}
+
+::: {#recent-news .frontpage-listing}
 :::

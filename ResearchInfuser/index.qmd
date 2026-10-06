@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+exclude-from-recent: true
 author: "Prashant Kumar Nag"
 description: "ResearcherInfuser blog"
 listing:
