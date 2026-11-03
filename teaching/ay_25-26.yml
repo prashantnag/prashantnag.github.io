@@ -12,3 +12,17 @@
   semester:
     - name: "MCA Sem 2, 2025–26"
       url: "https://webtech2026.classes.prashantnag.com"
+
+- title: "Fundamentals of Computers & Emerging Technologies"
+  number: "BMC101"
+  university: "Galgotias College of Engineering & Technology"
+  role: "Instructor"
+  description: >
+    Introductory MCA course covering computer fundamentals, problem solving,
+    and emerging technologies.
+  logo: "/files/fcet_favicon.png"
+  url: "http://fcet2026.classes.prashantnag.com/"
+  date: "2026-01-28"
+  semester:
+    - name: "MCA Sem 1, 2025–26"
+      url: "http://fcet2026.classes.prashantnag.com/"
