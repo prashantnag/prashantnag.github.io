@@ -208,27 +208,23 @@ I maintain and contribute to open-source projects that support academic writing 
 
 ### Quarto Extensions
 
-<table>
-<tr>
-<td width='15%'><a href='https://github.com/ResearchInfuser/manit-thesis'><img src='https://github.com/ResearchInfuser/manit-thesis/raw/main/manit-thesis.jpg' width='120px' style='vertical-align:middle; box-shadow:0 4px 8px rgba(0,0,0,0.2);'></a></td>
-<td width='75%'>
+```{r}
+#| echo: false
+#| results: asis
+source("software_functions.R")
 
-#### [MANIT Thesis Quarto Extension (manit-thesis)](https://github.com/ResearchInfuser/manit-thesis)
-A Quarto extension for fully reproducible MANIT-style thesis formatting, providing a LaTeX-based template integrated with Quarto and Pandoc workflows.
+quarto_extension(
+  "manit-thesis",
+  "MANIT Thesis Template",
+  "A Quarto extension for fully reproducible MANIT-style thesis formatting, providing a LaTeX-based template integrated with Quarto and Pandoc workflows."
+)
 
-</td>
-</tr>
-
-<tr>
-<td><a href='https://github.com/ResearchInfuser/manit-pre-thesis'><img src='https://github.com/ResearchInfuser/manit-pre-thesis/raw/main/manit-pre-thesis.jpg' width='120px' style='vertical-align:middle; box-shadow:0 4px 8px rgba(0,0,0,0.2);'></a></td>
-<td>
-
-#### [MANIT Pre-Thesis Quarto Extension (manit-pre-thesis)](https://github.com/ResearchInfuser/manit-pre-thesis)
-A Quarto template designed for MANIT-compliant pre-thesis submissions, with automated LaTeX styling and structured sections.
-
-</td>
-</tr>
-</table>
+quarto_extension(
+  "manit-pre-thesis",
+  "MANIT Pre-Thesis Template",
+  "A Quarto template designed for MANIT-compliant pre-thesis submissions, with automated LaTeX styling and structured sections."
+)
+```
 
 ## Hardware
 

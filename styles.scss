@@ -981,3 +981,62 @@ h3.recent-heading {
         white-space: nowrap;
     }
 }
+// Quarto extension/template cards
+%card-base {
+    border: 1.5px solid rgba($Navy-Blue, 0.2);
+    border-radius: 14px;
+    background: #eeeeee;
+    padding: 1rem 1.25rem;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+// Cards that are a single link glow on hover
+%card-link {
+    @extend %card-base;
+
+    &:hover {
+        border-color: $Navy-Blue;
+        box-shadow:
+            0 0 16px 1px rgba($Navy-Blue, 0.18),
+            0 6px 16px rgba($Navy-Blue, 0.12);
+    }
+}
+
+.template-card {
+    @extend %card-link;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.template-card-img-link {
+    display: contents;
+}
+
+.template-card-img {
+    width: 140px;
+    height: 200px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.template-card-body {
+    flex: 1;
+    min-width: 0;
+    align-self: flex-start;
+
+    h4 {
+        margin-top: 0;
+    }
+}
+
+.template-card-cmd {
+    background: #d5d5d5;
+    border-radius: 6px;
+    padding: 0.4rem 0.6rem;
+    margin: 0.5rem 0 0 0;
+}
