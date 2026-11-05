@@ -29,6 +29,12 @@ engine: knitr
 }
 ```
 
+::: {.callout-note icon="false"}
+## 📚 Academic Productivity Roadmap
+
+New to the blog? Follow a structured [learning roadmap](academic-productivity/index.qmd) for literature management, academic writing, reproducible research, and collaboration instead of browsing posts chronologically.
+:::
+
 ## 2026
 
 ::: {#posts_2026}

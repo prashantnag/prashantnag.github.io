@@ -1,249 +1,287 @@
 ---
-title: "Academic Productivity"
-description: "Comprehensive guides and workflows for maximizing productivity in academic research, from literature management to writing and collaboration."
+title: "Academic Productivity Roadmap"
+description: "Practical learning paths for literature management, academic writing, reproducible research, project planning, and collaboration."
 date-modified: last-modified
 categories: [productivity, workflow, research-methods]
 toc: true
+toc-depth: 2
+page-layout: full
 format:
   html:
     code-fold: false
+    css: roadmap.css
 ---
 
-::: {.callout-note}
-**Last Updated:** This page updates automatically as new content is published.
+::: {.roadmap-hero}
+<span class="roadmap-eyebrow">RESEARCHINFUSER · LEARNING HUB</span>
 
-This guide is continuously updated with practical strategies for academic productivity.
+# Build a Better Research Workflow
+
+Learn practical systems for finding and organizing research, writing with confidence, running reproducible experiments, and collaborating effectively.
+
+[Start learning](#start-here){.btn .btn-primary} [Explore learning paths](#learning-paths){.btn .btn-outline-secondary}
+
+<div class="roadmap-stats" aria-label="Roadmap overview">
+  <span><strong>5</strong> learning paths</span>
+  <span><strong>33</strong> planned lessons</span>
+  <span><strong>2</strong> published guides</span>
+</div>
 :::
 
-## About Academic Productivity
+::: {.roadmap-section}
+## Start Here {#start-here}
 
-Academic productivity isn't about working more hours—it's about working smarter with the right systems and workflows.
+New to research productivity? Begin with the two published guides in the Literature Management series.
 
-This comprehensive guide covers:
+::: {.roadmap-start-grid}
+::: {.roadmap-start-card}
+<span class="roadmap-status published">Published · Part 1</span>
 
-- **Literature Management:** Efficient searching, organizing, and using research papers
-- **Writing Systems:** From drafts to published papers
-- **Research Workflows:** Reproducible experiments and documentation
-- **Time Management:** Balancing research, teaching, and administrative duties
-- **Collaboration:** Working effectively with supervisors, co-authors, and teams
+### [The Literature Management Crisis Every PhD Scholar Faces](../2026/01/02/literature-management-crisis/)
 
----
+Recognize the hidden costs of scattered PDFs, incomplete citations, and unstructured reading habits.
 
-## 📚 Content by Topic
-
-Navigate through different aspects of academic productivity using the tabs below.
-
-::: {.panel-tabset}
-
-### Literature Management
-
-A foundational series focused on how PhD scholars search, manage, and use research literature systematically.
-
-**Prerequisite:** None – start here if you're new  
-**Duration:** 6 parts (2 published, 4 upcoming)  
-**Commitment:** ~30 min per post  
-**Progress:** 2 of 6 parts published (33%)
-
-<progress value="2" max="6" style="width: 100%; height: 25px;"></progress>
-
-#### Published
-
-✅ [Part 1: The Literature Management Crisis Every PhD Scholar Faces](../2026/01/02/literature-management-crisis/)
-
-- Understanding common pitfalls in literature management
-- The hidden costs of poor organization
-- Signs you need a systematic approach
-
-✅ [Part 2: Building Your Research Library: The Systematic Search Framework](../2026/01/03/research-library-guide/)
-
-- How to conduct comprehensive literature searches
-- Database selection strategies
-- Building sustainable search workflows
-
-#### Coming Next
-
-🔜 **Part 3: Systematic Storage of Research Papers**  
-Reference managers, export formats, file naming, and folder structures
-
-🔜 **Part 4: From Papers to Notes**  
-Extracting insights without re-reading PDFs repeatedly
-
-🔜 **Part 5: Using Literature During Writing**  
-Citations, cross-referencing, and reviewer-ready sections
-
-🔜 **Part 6: Advanced Literature Workflows**  
-Integration with writing tools and automation strategies
-
-::: {.callout-tip}
-## Release Schedule & Voting
-New parts released every 2-3 weeks. [Vote for which part to prioritize next →](#overall-priority-voting)
+[Read Part 1](../2026/01/02/literature-management-crisis/){.roadmap-text-link}
 :::
+
+::: {.roadmap-start-card}
+<span class="roadmap-status published">Published · Part 2</span>
+
+### [Building Your Research Library: The Systematic Search Framework](../2026/01/03/research-library-guide/)
+
+Choose databases, plan systematic searches, and establish a repeatable discovery workflow.
+
+[Read Part 2](../2026/01/03/research-library-guide/){.roadmap-text-link}
+:::
+:::
+:::
+
+::: {.roadmap-section}
+## Explore Learning Paths {#learning-paths}
+
+Choose a topic based on your current research needs. Published lessons are linked; planned lessons are shown for orientation.
+
+::: {.roadmap-card-grid}
+::: {.roadmap-path-card}
+<span class="roadmap-card-icon" aria-hidden="true">📚</span>
+<span class="roadmap-status published">Active series</span>
+
+### [Literature Management](#literature-roadmap)
+
+Discover, organize, read, synthesize, and reuse academic literature.
+
+<div class="roadmap-card-footer"><span>2 of 6 published</span><span>33%</span></div>
+<progress value="2" max="6" aria-label="Literature Management: 2 of 6 published"></progress>
+
+[View learning path](#literature-roadmap){.roadmap-text-link}
+:::
+
+::: {.roadmap-path-card}
+<span class="roadmap-card-icon" aria-hidden="true">✍️</span>
+<span class="roadmap-status planned">Planned</span>
 
 ### Writing & Publishing
 
-Academic writing workflows for thesis, papers, and reproducible documents.
+Quarto writing, manuscripts, citation workflows, peer review, and publication.
 
-**Prerequisite:** None  
-**Duration:** 8 parts (planned)  
-**Status:** Planning phase  
-**Progress:** 0 of 8 parts published (0%)
+<div class="roadmap-card-footer"><span>8 planned lessons</span></div>
 
-<progress value="0" max="8" style="width: 100%; height: 25px;"></progress>
+[See planned topics](#planned-paths){.roadmap-text-link}
+:::
 
-#### Planned Series
-
-📋 **Research Writing with Quarto** (4 parts)
-
-- Part 1: Setting up your academic writing environment
-- Part 2: Writing thesis chapters with dynamic citations
-- Part 3: Converting to multiple formats (PDF, Word, HTML)
-- Part 4: Collaborative writing workflows
-
-📋 **From Thesis to Publication** (2 parts)
-
-- Part 1: Converting dissertation chapters into journal papers
-- Part 2: Handling revisions, rebuttals, and reviewer comments
-
-📋 **Citation Management Deep Dive** (2 parts)
-
-- Part 1: Mastering reference managers (Zotero, Mendeley, EndNote)
-- Part 2: BibTeX, CSL styles, and troubleshooting citations
+::: {.roadmap-path-card}
+<span class="roadmap-card-icon" aria-hidden="true">🔬</span>
+<span class="roadmap-status planned">Planned</span>
 
 ### Research Workflows
 
-Organizing experiments, code, and data for reproducibility and long-term reuse.
+Reproducible code, experiments, datasets, and research documentation.
 
-**Prerequisite:** Basic familiarity with your research tools  
-**Duration:** 7 parts (planned)  
-**Status:** Planning phase  
-**Progress:** 0 of 7 parts published (0%)
+<div class="roadmap-card-footer"><span>7 planned lessons</span></div>
 
-<progress value="0" max="7" style="width: 100%; height: 25px;"></progress>
+[See planned topics](#planned-paths){.roadmap-text-link}
+:::
 
-#### Planned Series
-
-📋 **Reproducible Research Fundamentals** (3 parts)
-
-- Part 1: Organizing code, data, and experiments systematically
-- Part 2: Version control basics for researchers (Git concepts)
-- Part 3: Documentation practices that future-you will appreciate
-
-📋 **AI & ML Research Workflows** (3 parts)
-
-- Part 1: Structuring machine learning research projects
-- Part 2: Managing datasets, experiments, and results
-- Part 3: From Jupyter notebooks to publishable research
-
-📋 **Lab Notebooks & Documentation** (1 part)
-
-- Digital vs. paper lab notebooks and best practices
+::: {.roadmap-path-card}
+<span class="roadmap-card-icon" aria-hidden="true">🗓️</span>
+<span class="roadmap-status planned">Planned</span>
 
 ### Time & Project Management
 
-Balancing research, teaching, writing, and administrative duties effectively.
+Build sustainable planning systems for research, teaching, and projects.
 
-**Prerequisite:** None  
-**Duration:** 6 parts (planned)  
-**Status:** Planning phase  
-**Progress:** 0 of 6 parts published (0%)
+<div class="roadmap-card-footer"><span>6 planned lessons</span></div>
 
-<progress value="0" max="6" style="width: 100%; height: 25px;"></progress>
+[See planned topics](#planned-paths){.roadmap-text-link}
+:::
 
-#### Planned Series
-
-📋 **PhD Time Management Strategies** (3 parts)
-
-- Part 1: Weekly and monthly planning for researchers
-- Part 2: Balancing coursework, research, and teaching
-- Part 3: Protecting deep work time and managing interruptions
-
-📋 **Project Management for Researchers** (2 parts)
-
-- Part 1: Breaking down large research projects into milestones
-- Part 2: Tools and systems (Notion, Obsidian, plain text)
-
-📋 **Managing Multiple Projects** (1 part)
-
-- Context switching, prioritization, and when to say no
+::: {.roadmap-path-card}
+<span class="roadmap-card-icon" aria-hidden="true">🤝</span>
+<span class="roadmap-status planned">Planned</span>
 
 ### Collaboration & Communication
 
-Working effectively with supervisors, co-authors, reviewers, and research teams.
+Work effectively with supervisors, co-authors, teams, and conference audiences.
 
-**Prerequisite:** None  
-**Duration:** 6 parts (planned)  
-**Status:** Planning phase  
-**Progress:** 0 of 6 parts published (0%)
+<div class="roadmap-card-footer"><span>6 planned lessons</span></div>
 
-<progress value="0" max="6" style="width: 100%; height: 25px;"></progress>
-
-#### Planned Series
-
-📋 **Supervisor-Student Communication** (2 parts)
-
-- Part 1: Structuring effective meetings and progress reports
-- Part 2: Managing expectations and receiving feedback
-
-📋 **Co-authorship Workflows** (2 parts)
-
-- Part 1: Version control for collaborative writing
-- Part 2: Division of labor and resolving authorship disputes
-
-📋 **Conference Presentations** (2 parts)
-
-- Part 1: From paper to slides - what to include
-- Part 2: Handling Q&A and networking at conferences
-
+[See planned topics](#planned-paths){.roadmap-text-link}
+:::
+:::
 :::
 
----
+::: {.roadmap-section}
+## Literature Management Roadmap {#literature-roadmap}
 
-## 📊 Help Shape the Content {#overall-priority-voting}
+Follow this six-part sequence from identifying research-library problems to building an integrated literature workflow.
 
-Your input directly influences what gets published next. Vote below to prioritize which topic I should publish next:
+::: {.roadmap-timeline}
+::: {.roadmap-step .is-published}
+<span class="roadmap-step-number">1</span>
+<div class="roadmap-step-content">
+<span class="roadmap-status published">Published</span>
 
-<iframe data-tally-src="https://tally.so/embed/kdek9M?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="ResearchInfuser Content Voting"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+### [Understand the Problem](../2026/01/02/literature-management-crisis/)
 
-::: {.callout-tip}
-## How It Works
-- Vote for your top priority topic
-- Results are visible to everyone after voting
-- Content schedule is updated based on votes
-- New polls are added as series expand
+The Literature Management Crisis Every PhD Scholar Faces
+</div>
 :::
 
----
+::: {.roadmap-step .is-published}
+<span class="roadmap-step-number">2</span>
+<div class="roadmap-step-content">
+<span class="roadmap-status published">Published</span>
 
-## � How to Provide Feedback
+### [Discover Research](../2026/01/03/research-library-guide/)
 
-Content priority is shaped by community input:
-
-- **Blog Comments** - Share what topics would help your research
-- **Social Media** - Participate in polls when posted
-- **Direct Contact** - Email suggestions and requests
-
-::: {.callout-tip}
-## Want to Add Voting?
-
-To enable interactive voting on this page:
-1. Create free polls at [tally.so](https://tally.so) or [poll.ly](https://poll.ly)
-2. Embed them in each tab section
-3. Share results with your community
+Building Your Research Library: The Systematic Search Framework
+</div>
 :::
 
----
+::: {.roadmap-step}
+<span class="roadmap-step-number">3</span>
+<div class="roadmap-step-content">
+<span class="roadmap-status planned">Upcoming</span>
 
-## 📬 Stay Updated
+### Organize Your Library
 
-New productivity content is announced via:
+Systematic Storage of Research Papers — reference managers, metadata, export formats, naming, and folder structures.
+</div>
+:::
 
-- **RSS Feed:** [Subscribe to ResearchInfuser RSS](/feed.xml)
-- **YouTube:** Subscribe to ResearchInfuser *(channel link to be added)*
-- **Blog Index:** [View all ResearchInfuser posts](../index.qmd)
+::: {.roadmap-step}
+<span class="roadmap-step-number">4</span>
+<div class="roadmap-step-content">
+<span class="roadmap-status planned">Upcoming</span>
 
-::: {.callout-tip}
-## Quick Navigation
+### Read and Synthesize
 
-- [Latest Posts](../index.qmd) - Browse recent content
-- [Literature Management Crisis](../2026/01/02/literature-management-crisis/) - Start here if you're new
+From Papers to Notes — extract insights and connect findings without repeatedly reading the same PDFs.
+</div>
+:::
+
+::: {.roadmap-step}
+<span class="roadmap-step-number">5</span>
+<div class="roadmap-step-content">
+<span class="roadmap-status planned">Upcoming</span>
+
+### Write with Literature
+
+Using Literature During Writing — citations, synthesis, cross-referencing, and reviewer-ready sections.
+</div>
+:::
+
+::: {.roadmap-step}
+<span class="roadmap-step-number">6</span>
+<div class="roadmap-step-content">
+<span class="roadmap-status planned">Upcoming</span>
+
+### Automate Your Workflow
+
+Advanced Literature Workflows — connect reference management, writing tools, and automation.
+</div>
+:::
+:::
+:::
+
+::: {.roadmap-section}
+## Planned Learning Paths {#planned-paths}
+
+These outlines describe future content; they are not yet published guides.
+
+::: {.roadmap-details-grid}
+<details class="roadmap-details">
+<summary>Writing & Publishing <span>8 lessons</span></summary>
+
+**Research Writing with Quarto (4):** setting up your writing environment; thesis chapters and dynamic citations; PDF, Word, and HTML output; collaborative writing.
+
+**From Thesis to Publication (2):** converting chapters to journal papers; revisions, rebuttals, and reviewer comments.
+
+**Citation Management (2):** reference managers; BibTeX, CSL styles, and citation troubleshooting.
+</details>
+
+<details class="roadmap-details">
+<summary>Research Workflows <span>7 lessons</span></summary>
+
+**Reproducible Research Fundamentals (3):** code and data organization; Git basics; documentation.
+
+**AI & ML Research Workflows (3):** project structure; datasets and experiments; notebooks to publishable research.
+
+**Lab Notebooks (1):** digital and paper lab notebooks.
+</details>
+
+<details class="roadmap-details">
+<summary>Time & Project Management <span>6 lessons</span></summary>
+
+**PhD Time Management (3):** weekly planning; balancing responsibilities; deep work.
+
+**Project Management for Researchers (2):** milestones; practical tools and systems.
+
+**Managing Multiple Projects (1):** prioritization and context switching.
+</details>
+
+<details class="roadmap-details">
+<summary>Collaboration & Communication <span>6 lessons</span></summary>
+
+**Supervisor–Student Communication (2):** meetings and progress reports; feedback and expectations.
+
+**Co-authorship Workflows (2):** collaborative version control; division of labor and authorship discussions.
+
+**Conference Presentations (2):** paper-to-slides; Q&A and networking.
+</details>
+:::
+:::
+
+::: {.roadmap-section .roadmap-vote}
+## Help Shape the Roadmap {#overall-priority-voting}
+
+Which topic should be published next? Vote to help prioritize upcoming guides.
+
+<iframe data-tally-src="https://tally.so/embed/kdek9M?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" loading="lazy" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="ResearchInfuser Content Voting"></iframe>
+
+<script>
+(function () {
+  const src = "https://tally.so/widgets/embed.js";
+  function load() {
+    if (window.Tally) window.Tally.loadEmbeds();
+    else document.querySelectorAll('iframe[data-tally-src]:not([src])').forEach(function (el) { el.src = el.dataset.tallySrc; });
+  }
+  if (window.Tally) load();
+  else if (!document.querySelector('script[src="' + src + '"]')) {
+    const script = document.createElement("script");
+    script.src = src;
+    script.onload = load;
+    script.onerror = load;
+    document.body.appendChild(script);
+  }
+})();
+</script>
+:::
+
+::: {.roadmap-section .roadmap-subscribe}
+## Stay Updated {#stay-updated}
+
+New guides are published as they become available. Follow the feed to see the latest content.
+
+[Subscribe via RSS](/feed.xml){.btn .btn-primary} [Browse all posts](../index.qmd){.btn .btn-outline-secondary}
 :::
