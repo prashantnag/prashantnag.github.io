@@ -1,0 +1,26 @@
+- title: "Introduction to Programming"
+  university: "Institute for Excellence in Higher Education (IEHE), Bhopal"
+  role: "Guest Faculty"
+  type: "Theory/Practical"
+  description: "Taught the C language using the terminal."
+  date: "2017-01-03"
+  semester:
+    - name: "B.Sc. (CS) Sem I, 2016–17"
+
+- title: "Data Structures"
+  university: "Institute for Excellence in Higher Education (IEHE), Bhopal"
+  role: "Guest Faculty"
+  type: "Theory/Practical"
+  date: "2017-01-02"
+  semester:
+    - name: "B.Sc. (CS) Sem III, 2016–17"
+
+- title: "Linux Programming"
+  university: "Institute for Excellence in Higher Education (IEHE), Bhopal"
+  role: "Guest Faculty"
+  type: "Theory/Practical"
+  description: "Taught shell scripting."
+  date: "2017-01-01"
+  semester:
+    - name: "B.Sc. (CS) Sem V, 2016–17"
+

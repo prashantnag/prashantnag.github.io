@@ -1,5 +1,22 @@
 <ul class="recent-updates">
   <% for (const item of items) { %>
-    <li><% if (item.path || item.href) { %><a href="<%- item.path || item.href %>" class="recent-updates-title"><%- item.title %></a><% } else { %><span class="recent-updates-title"><%- item.title %></span><% } %><% if (item.date) { %> (<%- item.date %>)<% } %></li>
+    <%
+      // Normalise the path before matching: Windows builds pass backslashes ("/publications\articles\...")
+      const path = item.path ? "/" + item.path.replace(/\\/g, "/").replace(/^\.?\/+/, "") : "";
+      let category = "News";
+      let colour = "grey";
+      let section = "/";
+      let sectionTitle = "All news";
+      if (path.includes("/research/")) { category = "Paper"; colour = "blue"; section = "/research/"; sectionTitle = "All publications"; }
+      else if (path.includes("/ResearchInfuser/")) { category = "Blog"; colour = "green"; section = "/ResearchInfuser/"; sectionTitle = "All ResearchInfuser posts"; }
+      else if (!item.href && item.location) { category = "Talk"; colour = "red"; section = "/talks/"; sectionTitle = "All talks"; }
+      // Talks have no page of their own, so their title links to the talks page
+      const href = item.path || item.href || (category === "Talk" ? "/talks/" : "");
+    %>
+    <li <%= metadataAttrs(item) %>>
+      <a href="<%- section %>" class="badge recent-updates-pill pill-<%- colour %>" title="<%- sectionTitle %>"><%- category %></a>
+      <% if (href) { %><a href="<%- href %>" class="recent-updates-title"><%- item.title %></a><% } else { %><span class="recent-updates-title"><%- item.title %></span><% } %>
+      <% if (item.date) { %> <span class="recent-updates-date">(<%- item.date %>)</span><% } %>
+    </li>
   <% } %>
 </ul>

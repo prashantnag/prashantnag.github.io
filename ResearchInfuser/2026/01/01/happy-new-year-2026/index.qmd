@@ -19,7 +19,7 @@ As we step into 2026, I'm excited to share some wonderful news with the academic
 
 ## What's Coming This Year
 
-Over the coming months, I'll be creating and uploading **comprehensive video tutorials and educational content** specifically designed for scholars, researchers, PhD students, faculty, and educators. These tutorials will focus on my [Software Suite](https://prashantnag.com/softwares/), which I've developed and refined through years of experience in the research workflow.
+Over the coming months, I'll be creating and uploading **comprehensive video tutorials and educational content** specifically designed for scholars, researchers, PhD students, faculty, and educators. These tutorials will focus on my [Software Suite](https://prashantnag.com/about/#software-suite), which I've developed and refined through years of experience in the research workflow.
 
 ## My Mission
 
@@ -47,7 +47,7 @@ Content will be released in structured series, starting with essential research 
 If you'd like early access to tutorials, updates, and examples:
 
 - Bookmark this blog
-- Explore the [Software Suite](https://prashantnag.com/softwares/)
+- Explore the [Software Suite](https://prashantnag.com/about/#software-suite)
 - Subscribe to upcoming ResearchInfuser video content
 
 ## Stay Connected

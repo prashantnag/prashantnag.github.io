@@ -1,0 +1,49 @@
+---
+title: "Open-Source Projects"
+description: "Quarto extensions, reproducible research tools, and academic software."
+toc: false
+comments: false
+---
+
+I develop open-source tools and reusable resources for research, academic writing, and teaching.
+
+## Quarto Extensions
+
+### MANIT templates
+
+```{=html}
+<div class="template-card">
+  <a href="https://github.com/ResearchInfuser/manit-thesis" class="template-card-img-link"><img src="https://raw.githubusercontent.com/ResearchInfuser/manit-thesis/HEAD/manit-thesis.jpg" class="template-card-img" alt="MANIT PhD Thesis Template example"></a>
+  <div class="template-card-body">
+    <h4><a href="https://github.com/ResearchInfuser/manit-thesis">MANIT PhD Thesis Template</a></h4>
+    <p>Format PhD theses according to MANIT (Maulana Azad National Institute of Technology) guidelines.</p>
+    <pre class="template-card-cmd"><code>quarto use template ResearchInfuser/manit-thesis</code></pre>
+  </div>
+</div>
+
+<div class="template-card">
+  <a href="https://github.com/ResearchInfuser/manit-pre-thesis" class="template-card-img-link"><img src="https://raw.githubusercontent.com/ResearchInfuser/manit-pre-thesis/HEAD/manit-pre-thesis.jpg" class="template-card-img" alt="MANIT Pre-Thesis Synopsis Template example"></a>
+  <div class="template-card-body">
+    <h4><a href="https://github.com/ResearchInfuser/manit-pre-thesis">MANIT Pre-Thesis Synopsis Template</a></h4>
+    <p>Format Pre-Thesis Synopsis submissions according to MANIT guidelines.</p>
+    <pre class="template-card-cmd"><code>quarto use template ResearchInfuser/manit-pre-thesis</code></pre>
+  </div>
+</div>
+
+<div class="template-card">
+  <a href="https://github.com/ResearchInfuser/manit-presentation" class="template-card-img-link"><img src="https://raw.githubusercontent.com/ResearchInfuser/manit-presentation/HEAD/_extensions/presentation/_images/logo/manit_logo.png" class="template-card-img" alt="MANIT logo"></a>
+  <div class="template-card-body">
+    <h4><a href="https://github.com/ResearchInfuser/manit-presentation">MANIT Presentation Template</a></h4>
+    <p>Create MANIT Bhopal presentations with the Metropolis theme design, in both Beamer (PDF) and RevealJS (HTML) formats.</p>
+    <pre class="template-card-cmd"><code>quarto use template ResearchInfuser/manit-presentation</code></pre>
+  </div>
+</div>
+```
+
+## More on GitHub
+
+All source code, including academic automation, teaching utilities, and reproducible research workflows, is on [GitHub](https://github.com/prashantnag).
+
+## Software Toolkit
+
+Explore the [Software Suite](../about/index.qmd#software-suite) I use for academic research and software development.

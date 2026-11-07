@@ -1,5 +1,5 @@
 ---
-title: "Talks"
+title: "Talks & Presentations"
 exclude-from-recent: true
 listing:
   - id: talks-counts

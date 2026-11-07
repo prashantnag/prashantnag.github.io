@@ -12,7 +12,7 @@ pub-info:
     <strong>Prashant Kumar Nag</strong>, “Question Bank: Computation and Visualization through Scilab</em>.
   links:
   - name: Preprint
-    url: ./publications/chapters/Scilab BookBank 2023/Question-Bank.pdf
+    url: ./research/chapters/Scilab BookBank 2023/Question-Bank.pdf
     local: true
     icon: fa-solid fa-file-pdf
 haiku:

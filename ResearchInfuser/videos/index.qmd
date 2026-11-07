@@ -1,0 +1,14 @@
+---
+title: "Videos"
+description: "Video tutorials on research tools and academic workflows."
+exclude-from-recent: true
+toc: false
+comments: false
+code-tools: false
+---
+
+ResearchInfuser video tutorials walk through research tools and academic workflows step by step, for scholars, researchers, faculty, and educators.
+
+[Watch on YouTube](https://www.youtube.com/@ResearchInfuser){.btn .btn-primary}
+
+Video companions to the written guides will be listed here as they are published.

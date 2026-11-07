@@ -1,54 +1,131 @@
+
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Prashant Kumar Nag"
-  open-graph: true
   site-url: "https://prashantnag.com"
+
+  description: >-
+    Academic portfolio of Prashant Kumar Nag.
+    Research in Artificial Intelligence, Machine Learning,
+    Natural Language Processing and Human Emotion Analysis.
+    Creator of ResearchInfuser.
+
+  open-graph: true
+
   twitter-card:
     creator: "@prashantnag93"
+
   google-analytics:
     tracking-id: "G-8NSMVYVH2C"
     anonymize-ip: true
+
   cookie-consent:
-    type: implied
+    type: express
     style: simple
     palette: dark
-  
-  search: 
+
+  search:
     location: navbar
     type: overlay
-  
+
   navbar:
     pinned: true
-
+    collapse: true
+    collapse-below: xl
     background: "#234460"
-    
+
     tools:
       - icon: rss
         href: index.xml
 
     left:
-      - href: index.qmd
-        text: Home
+
+      # Educational Publishing Platform
       - href: ResearchInfuser/index.qmd
-        text: ResearchInfuser Blog
-      - href: publications/index.qmd
-        text: Publications
+        text: ResearchInfuser
+
+      # Academic Research
+      - href: research/index.qmd
+        text: Research
+      
+      # Teaching
       - href: teaching/index.qmd
         text: Teaching
+      
       - href: talks/index.qmd
         text: Talks
-      - href: softwares/index.qmd
-        text: Software Suite
+
+      # Open-Source Development
+      - href: projects/index.qmd
+        text: Projects
+  
+      # Professional Profile
       - href: about/index.qmd
         text: About
 
+  sidebar:
+    - id: research
+      title: "Research"
+      style: floating
+      contents:
+        - text: Research Overview
+          href: research/index.qmd
+
+        - section: Publications
+          contents:
+            - text: Journal Articles
+              href: research/index.qmd#journal-articles
+
+            - text: Conference Proceedings
+              href: research/index.qmd#conference-proceedings
+
+            - text: Book Chapters
+              href: research/index.qmd#book-chapters
+
+    - id: researchinfuser
+      title: "ResearchInfuser"
+      style: floating
+      collapse-level: 2
+      search: true
+
+      contents:
+        - text: Overview
+          href: ResearchInfuser/index.qmd
+
+        - text: Start Here
+          href: ResearchInfuser/start-here.qmd
+
+        - section: Explore Content
+          contents:
+            - text: Topics
+              href: ResearchInfuser/topics/index.qmd
+
+            - text: Learning Paths
+              href: ResearchInfuser/series/index.qmd
+
+            - text: Videos
+              href: ResearchInfuser/videos/index.qmd
+
+            - text: Quick Tips
+              href: ResearchInfuser/tips/index.qmd
+
+        - section: Resources
+          contents:
+            - text: Academic Productivity
+              href: ResearchInfuser/academic-productivity/index.qmd
+
   page-footer:
-    left: "© 2016–2026, Prashant Kumar Nag <a rel='me' href='https://github.com/prashantnag'></a>"
+    left: >-
+      © 2016–2026, Prashant Kumar Nag
+      <a rel="me" href="https://github.com/prashantnag"></a>
+
     right:
       - icon: github
         href: https://github.com/prashantnag
+
     background: "#234460"
 
 resources:
@@ -56,23 +133,27 @@ resources:
   - robots.txt
 
 date-format: "D MMMM YYYY"
+
 freeze: auto
-
-
 
 format:
   html:
     theme:
       - default
       - styles.scss
-    # css: styles.css
+
     include-in-header: header.html
+
     grid:
       body-width: 900px
+
     toc: false
     code-link: true
+    code-copy: true
+
     fig-cap-location: margin
     reference-location: margin
     footnotes-hover: true
-    highlight-style: monokai
 
+    highlight-style: monokai
+    smooth-scroll: true

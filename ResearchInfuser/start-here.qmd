@@ -1,0 +1,18 @@
+---
+title: "Start Here"
+description: "New to ResearchInfuser? Begin here."
+exclude-from-recent: true
+toc: false
+comments: false
+code-tools: false
+---
+
+ResearchInfuser publishes practical guides, video tutorials, and learning paths that help scholars, researchers, faculty, and educators streamline their academic workflows.
+
+## Your first steps
+
+1. **Read the Literature Management series.** Begin with [The Literature Management Crisis Every PhD Scholar Faces](2026/01/02/literature-management-crisis/index.qmd) and continue to [Building Your Research Library](2026/01/03/research-library-guide/index.qmd).
+2. **Follow the roadmap.** The [Academic Productivity Roadmap](academic-productivity/index.qmd) orders every guide into structured [learning paths](series/index.qmd).
+3. **Browse by subject.** Find articles on a specific skill under [Topics](topics/index.qmd).
+4. **Watch.** Follow along with the [video tutorials](videos/index.qmd).
+5. **Set up your tools.** Explore the [Software Suite](../about/index.qmd#software-suite) used for research and development.

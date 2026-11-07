@@ -1,0 +1,75 @@
+# TODO: replace "Sony" and "Unique" with the institutions' full names
+- title: "Introduction to Programming"
+  university: "Sony"
+  role: "Assistant Professor"
+  type: "Theory/Practical"
+  date: "2016-01-09"
+  semester:
+    - name: "M.Sc. (CS) Sem I, 2015–16"
+
+- title: "Introduction to Programming"
+  university: "Sony"
+  role: "Assistant Professor"
+  type: "Theory/Practical"
+  date: "2016-01-08"
+  semester:
+    - name: "B.Sc. (CS) Sem I, 2015–16"
+
+- title: "Data Structures"
+  university: "Sony"
+  role: "Assistant Professor"
+  type: "Theory"
+  date: "2016-01-07"
+  semester:
+    - name: "B.Sc. (CS) Sem III, 2015–16"
+
+- title: "Linux Programming"
+  university: "Sony"
+  role: "Assistant Professor"
+  type: "Practical"
+  date: "2016-01-06"
+  semester:
+    - name: "B.Sc. (CS) Sem V, 2015–16"
+
+- title: "Introduction to Programming"
+  university: "Unique"
+  role: "Contract Faculty"
+  type: "Theory/Practical"
+  date: "2016-01-05"
+  semester:
+    - name: "B.Sc. (CA) Sem I, 2015–16"
+
+- title: "Computer Fundamentals"
+  university: "Unique"
+  role: "Contract Faculty"
+  type: "Theory"
+  date: "2016-01-04"
+  semester:
+    - name: "B.Com. (CA) Sem I, 2015–16"
+
+- title: "Internet and Web Design"
+  university: "Unique"
+  role: "Contract Faculty"
+  type: "Practical"
+  date: "2016-01-03"
+  semester:
+    - name: "BCA Sem II, 2015–16"
+
+- title: "Introduction to Programming"
+  university: "Institute for Excellence in Higher Education (IEHE), Bhopal"
+  role: "Guest Faculty"
+  type: "Theory/Practical"
+  description: "Taught the C language using the terminal."
+  date: "2016-01-02"
+  semester:
+    - name: "B.Sc. (CS) Sem I, 2015–16"
+
+- title: "Linux Programming"
+  university: "Institute for Excellence in Higher Education (IEHE), Bhopal"
+  role: "Guest Faculty"
+  type: "Theory/Practical"
+  description: "Taught shell scripting."
+  date: "2016-01-01"
+  semester:
+    - name: "B.Sc. (CS) Sem V, 2015–16"
+

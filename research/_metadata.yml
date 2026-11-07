@@ -4,10 +4,12 @@ date-format: "MMMM YYYY"
 # Enable banner style title blocks
 title-block-banner: "#234460"
 
-# Default for table of contents
+sidebar: research
+
+# Default for table of contents (right side, since the Research sidebar is on the left)
 toc: true
 toc-title: Contents
-toc-location: left
+toc-location: right
 
 # Default knitr options
 execute:
