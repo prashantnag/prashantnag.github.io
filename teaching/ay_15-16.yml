@@ -1,6 +1,6 @@
 # TODO: replace "Sony" and "Unique" with the institutions' full names
 - title: "Introduction to Programming"
-  university: "Sony"
+  university: "Sony College of Management and Technology, Chhindwara"
   role: "Assistant Professor"
   type: "Theory/Practical"
   date: "2016-01-09"
@@ -8,7 +8,7 @@
     - name: "M.Sc. (CS) Sem I, 2015–16"
 
 - title: "Introduction to Programming"
-  university: "Sony"
+  university: "Sony College of Management and Technology, Chhindwara"
   role: "Assistant Professor"
   type: "Theory/Practical"
   date: "2016-01-08"
@@ -16,7 +16,7 @@
     - name: "B.Sc. (CS) Sem I, 2015–16"
 
 - title: "Data Structures"
-  university: "Sony"
+  university: "Sony College of Management and Technology, Chhindwara"
   role: "Assistant Professor"
   type: "Theory"
   date: "2016-01-07"
@@ -24,7 +24,7 @@
     - name: "B.Sc. (CS) Sem III, 2015–16"
 
 - title: "Linux Programming"
-  university: "Sony"
+  university: "Sony College of Management and Technology, Chhindwara"
   role: "Assistant Professor"
   type: "Practical"
   date: "2016-01-06"
@@ -32,7 +32,7 @@
     - name: "B.Sc. (CS) Sem V, 2015–16"
 
 - title: "Introduction to Programming"
-  university: "Unique"
+  university: "Unique Girls College Parasia, Chhindwara"
   role: "Contract Faculty"
   type: "Theory/Practical"
   date: "2016-01-05"
@@ -40,7 +40,7 @@
     - name: "B.Sc. (CA) Sem I, 2015–16"
 
 - title: "Computer Fundamentals"
-  university: "Unique"
+  university: "Unique Girls College Parasia, Chhindwara"
   role: "Contract Faculty"
   type: "Theory"
   date: "2016-01-04"
@@ -48,7 +48,7 @@
     - name: "B.Com. (CA) Sem I, 2015–16"
 
 - title: "Internet and Web Design"
-  university: "Unique"
+  university: "Unique Girls College Parasia, Chhindwara"
   role: "Contract Faculty"
   type: "Practical"
   date: "2016-01-03"
