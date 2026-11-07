@@ -2,6 +2,7 @@
 title: "Academic Productivity Roadmap"
 description: "Practical learning paths for literature management, academic writing, reproducible research, project planning, and collaboration."
 date-modified: last-modified
+exclude-from-recent: true
 categories: [productivity, workflow, research-methods]
 toc: true
 toc-depth: 2

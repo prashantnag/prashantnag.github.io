@@ -68,13 +68,17 @@ $code-color: #212529 !default;
 
 
 div.quarto-about-trestles {
+	// Photo column fits the photo; the updates card gets the rest
 	.about-entity {
+		flex: 0 0 auto;
+
+		// No frame or shadow, so the photo's white background blends with the page
+		// Fixed size keeps the photo column narrow so the updates card gets the space
 		.about-image {
 			width: 260px !important;
 			height: 330px !important;
-            object-fit: contain;
-			// border-radius: 50% !important;
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+			max-width: 100%;
+			object-fit: contain;
 		}
 		.about-link {
 			&:hover {
@@ -86,6 +90,24 @@ div.quarto-about-trestles {
 			column-gap: .2em;
 			font-size: 20pt;
 		}
+		// Name and role under the photo: small and plain, name in bold
+		#title-block-header {
+			h1.title {
+				color: inherit;
+				font-weight: bold;
+				font-size: 1.2rem;
+			}
+			p.subtitle {
+				font-weight: normal;
+				font-size: 1rem;
+				padding: 0;
+				margin: -0.3em 0 0;
+			}
+		}
+	}
+
+	.about-contents {
+		border-left: none;
 	}
 }
 
@@ -574,6 +596,18 @@ pre.text, pre.sourceCode, .cell-output pre {
                 max-width: 96px;
                 height: auto;
             }
+
+            .logo-placeholder {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 96px;
+                height: 96px;
+                border-radius: 12px;
+                background-color: rgba($Navy-Blue, 0.08);
+                color: $Navy-Blue;
+                font-size: 2.6rem;
+            }
         }
 
         .course-title {
@@ -768,6 +802,215 @@ h3.recent-heading {
 .frontpage-listing a,
 .recent-heading a {
     text-decoration: none;
+}
+
+/* Projects page: Quarto extension/template cards (whole card glows on hover) */
+.template-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1.5px solid rgba($Navy-Blue, 0.2);
+    border-radius: 14px;
+    background: #eeeeee;
+    padding: 1rem 1.25rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+        border-color: $Navy-Blue;
+        box-shadow: 0 0 16px 1px rgba($Navy-Blue, 0.18), 0 6px 16px rgba($Navy-Blue, 0.12);
+    }
+}
+
+.template-card-img-link {
+    display: contents;
+}
+
+.template-card-img {
+    width: 140px;
+    height: 200px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.template-card-body {
+    min-width: 0;
+
+    h4 {
+        margin-top: 0;
+    }
+
+    h4 a {
+        text-decoration: none;
+    }
+}
+
+.template-card-cmd {
+    margin: 0.5rem 0 0;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    background: #ffffff;
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+// Stack image above text on phones
+@media (max-width: 575.98px) {
+    .template-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Separate homepage action cards above Recent updates. */
+.home-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    font-family: $headings-font-family;
+}
+
+.home-action {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    align-content: start;
+    gap: 0.5rem 0.6rem;
+    position: relative;
+    padding: 1.1rem;
+    border: 1.5px solid rgba($Navy-Blue, 0.2);
+    border-radius: 14px;
+    background: #eeeeee;
+    box-shadow: 0 2px 6px rgba($Navy-Blue, 0.05);
+    color: $Navy-Blue;
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+        color: $Navy-Blue;
+        background: $white;
+        border-color: rgba($Navy-Blue, 0.55);
+        box-shadow: 0 8px 20px rgba($Navy-Blue, 0.15);
+        transform: scale(1.035);
+        z-index: 1;
+    }
+
+    &:focus-visible {
+        outline: 2px solid $Navy-Blue;
+        outline-offset: 2px;
+    }
+}
+
+.home-action-icon {
+    font-size: 1.15rem;
+    line-height: 1.35;
+}
+
+.home-action-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.home-action-description {
+    grid-column: 1 / -1;
+    color: $Charcoal-Grey;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 575.98px) {
+    .home-actions {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-action {
+        transition: none;
+
+        &:hover,
+        &:focus-visible {
+            transform: none;
+        }
+    }
+}
+
+/* Homepage "Recent updates" card: one merged list, a type pill stands in for the bullet */
+.home-card {
+    border: 1.5px solid rgba($Navy-Blue, 0.2);
+    border-radius: 14px;
+    background: #eeeeee;
+    padding: 1rem 1.25rem;
+
+    .recent-heading {
+        margin-top: 0;
+    }
+
+    .frontpage-listing {
+        margin-bottom: 0;
+        padding-bottom: 0 !important;
+    }
+
+    .frontpage-listing .recent-updates {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+
+    .frontpage-listing .recent-updates li {
+        list-style: none;
+        position: relative;
+        padding: 2px 4px 2px 4.2rem;
+        margin: 0.05rem 0;
+        border-radius: 4px;
+        transition: background-color 0.15s ease;
+
+        &:hover {
+            background-color: rgba($Navy-Blue, 0.06);
+        }
+    }
+
+    .recent-updates-date {
+        color: #7b7b7b;
+    }
+}
+
+.recent-updates-pill {
+    position: absolute;
+    left: 4px;
+    top: 0.35em;
+    width: 3.4rem;
+    padding: 5px 5px 3px 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+$pill-colors: (
+    "blue": #4673b8,
+    "red": #bd666d,
+    "green": #2c9f42,
+    "grey": $Navy-Blue,
+);
+
+@each $name, $color in $pill-colors {
+    .recent-updates-pill.pill-#{$name} {
+        background: rgba($color, 0.25);
+        color: $color;
+
+        &:hover {
+            background: $color;
+            color: #fff !important;
+        }
+    }
 }
 
 .frontpage-listing a:hover,

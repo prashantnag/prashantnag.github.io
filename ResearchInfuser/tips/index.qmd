@@ -1,0 +1,12 @@
+---
+title: "Quick Tips"
+description: "Short, practical tips for everyday research work."
+exclude-from-recent: true
+toc: false
+comments: false
+code-tools: false
+---
+
+Quick Tips are bite-sized techniques you can apply in a few minutes: shortcuts, settings, and habits for research tools and academic writing.
+
+The first tips are on the way. Meanwhile, start with the [Learning Paths](../series/index.qmd).

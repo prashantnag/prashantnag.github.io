@@ -1,8 +1,7 @@
 ---
-title: "Blog"
+title: "ResearchInfuser"
 exclude-from-recent: true
-author: "Prashant Kumar Nag"
-description: "ResearcherInfuser blog"
+description: "Guides, tutorials, and learning paths for researchers, scholars, and educators."
 listing:
   - id: posts_2026
     contents: "2026/**/index.qmd"
@@ -17,6 +16,8 @@ listing:
 page-layout: full
 toc-title: Year
 toc-location: right
+toc: false
+sidebar: researchinfuser
 date-format: "MMMM D, YYYY"
 code-tools: false
 comments: false
@@ -33,6 +34,8 @@ engine: knitr
 ## 📚 Academic Productivity Roadmap
 
 New to the blog? Follow a structured [learning roadmap](academic-productivity/index.qmd) for literature management, academic writing, reproducible research, and collaboration instead of browsing posts chronologically.
+
+First visit? See [Start Here](start-here.qmd).
 :::
 
 ## 2026

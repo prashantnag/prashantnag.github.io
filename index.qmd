@@ -1,10 +1,17 @@
 ---
+title: 'Dr. Prashant Kumar Nag'
+subtitle: "Assistant Professor<br>Department of Computer Applications<br>Galgotias College of Engineering and Technology, Greater Noida, India"
+pagetitle: "Prashant Kumar Nag"
 about:
   template: trestles
   image: images/passport.png
   links:
     - icon: github
       href: https://github.com/prashantnag
+    - text: "{{< ai cv >}}"
+      href: cv/index.qmd
+    - icon: mortarboard
+      href: https://scholar.google.com/citations?user=REku3NkAAAAJ
     - icon: envelope
       href: mailto:prashantnag.workmail@gmail.com
     - icon: linkedin
@@ -15,15 +22,16 @@ about:
       href: https://www.youtube.com/@ResearchInfuser
 comments: false
 toc: false
+page-layout: full
 
 listing:
   - id: recent-publications
     contents:
-      - publications/
+      - research/
     exclude:
       exclude-from-recent: true
     sort: "date desc"
-    max-items: 3
+    max-items: 2
     template: html/home/updates.ejs
     sort-ui: false
     filter-ui: false
@@ -34,7 +42,7 @@ listing:
     exclude:
       exclude-from-recent: true
     sort: "date desc"
-    max-items: 3
+    max-items: 2
     template: html/home/updates.ejs
     sort-ui: false
     filter-ui: false
@@ -45,38 +53,59 @@ listing:
     exclude:
       exclude-from-recent: true
     sort: "date desc"
-    max-items: 3
+    max-items: 2
     template: html/home/updates.ejs
-    sort-ui: false
-    filter-ui: false
-
-  - id: recent-news
-    contents: news.yml
-    sort: "date desc"
-    max-items: 3
-    template: html/home/news-updates.ejs
-    field-types:
-      date: date
     sort-ui: false
     filter-ui: false
 ---
 
-### [Recent publications](/publications/) {.recent-heading}
+```{=html}
+<nav class="home-actions" aria-label="Explore my work">
+  <a class="home-action" href="research/index.html">
+    <i class="bi bi-journal-text home-action-icon" aria-hidden="true"></i>
+    <span class="home-action-title">Explore Research</span>
+    <span class="home-action-description">Research interests and publications.</span>
+  </a>
+  <a class="home-action" href="ResearchInfuser/index.html">
+    <i class="bi bi-book home-action-icon" aria-hidden="true"></i>
+    <span class="home-action-title">Learn with ResearchInfuser</span>
+    <span class="home-action-description">Practical guides and research workflows.</span>
+  </a>
+  <a class="home-action" href="ResearchInfuser/academic-productivity/index.html">
+    <i class="bi bi-signpost-split home-action-icon" aria-hidden="true"></i>
+    <span class="home-action-title">Academic Productivity</span>
+    <span class="home-action-description">Learning paths for a better research workflow.</span>
+  </a>
+</nav>
+```
+
+::: {.home-card}
+### Recent updates {.recent-heading}
 
 ::: {#recent-publications .frontpage-listing}
 :::
-
-### [Recent talks](/talks/) {.recent-heading}
-
 ::: {#recent-talks .frontpage-listing}
 :::
-
-### [Recent blog posts](/ResearchInfuser/) {.recent-heading}
-
 ::: {#recent-blog-posts .frontpage-listing}
 :::
-
-### Recent news items {.recent-heading}
-
-::: {#recent-news .frontpage-listing}
 :::
+
+```{=html}
+<script>
+  // Merge the three "Recent updates" listings into one list sorted by date
+  document.addEventListener("DOMContentLoaded", () => {
+    // The about template emits root-absolute internal links ("/cv/index.html"),
+    // which break when the site is opened from disk; make them page-relative.
+    document.querySelectorAll('a.about-link[href^="/"]:not([href^="//"])')
+      .forEach(a => a.setAttribute("href", a.getAttribute("href").replace(/^\/(\.\/)?/, "")));
+
+    const lists = [...document.querySelectorAll(".home-card .recent-updates")];
+    if (lists.length < 2) return;
+    const items = lists.flatMap(ul => [...ul.children]);
+    items.sort((a, b) =>
+      Number(b.dataset.listingDateSort || 0) - Number(a.dataset.listingDateSort || 0));
+    items.forEach(li => lists[0].appendChild(li));
+    lists.slice(1).forEach(ul => ul.closest(".frontpage-listing").remove());
+  });
+</script>
+```

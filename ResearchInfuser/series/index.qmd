@@ -1,0 +1,19 @@
+---
+title: "Learning Paths"
+description: "Structured, multi-part series that build one research skill step by step."
+exclude-from-recent: true
+toc: false
+comments: false
+code-tools: false
+---
+
+Learning paths are ordered series. Read them from Part 1 onward.
+
+## Literature Management
+
+1. [The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)](../2026/01/02/literature-management-crisis/index.qmd)
+2. [Building Your Research Library: The Systematic Search Framework](../2026/01/03/research-library-guide/index.qmd)
+
+## More paths
+
+See the [Academic Productivity Roadmap](../academic-productivity/index.qmd) for upcoming paths on academic writing, reproducible research, and collaboration.
