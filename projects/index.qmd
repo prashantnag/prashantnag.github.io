@@ -1,7 +1,12 @@
 ---
 title: "Open-Source Projects"
 description: "Quarto extensions, reproducible research tools, and academic software."
-toc: false
+toc: true
+toc-title: "On This Page"
+toc-location: right
+toc-expand: true
+grid:
+  body-width: 800px
 comments: false
 ---
 
