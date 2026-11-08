@@ -15,10 +15,6 @@ pub-info:
     url: ./research/chapters/Scilab BookBank 2023/Question-Bank.pdf
     local: true
     icon: fa-solid fa-file-pdf
-haiku:
-  - Stuck between “ism”s,
-  - liberal global theory
-  - has rich past; future.
 ---
 
 ## Citation

@@ -26,10 +26,6 @@ pub-info:
     url: https://www.zotero.org/save?type=doi&q=10.1007/s11042-023-14524-9
     icon: ai ai-zotero
 doi: 10.1007/s11042-023-14524-9
-haiku: 
-  - When money is scarce;
-  - when objectives are not shared—
-  - don’t collaborate.
 ---
 
 ## Important links

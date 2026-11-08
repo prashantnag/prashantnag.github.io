@@ -25,10 +25,6 @@ pub-info:
     url: https://www.zotero.org/save?type=doi&q=10.1111/oik.07621
     icon: ai ai-zotero
 doi: 10.1145/3478586.3478629
-haiku: 
-  - Fitness, turnover,
-  - stability, evenness—
-  - all due to constraints.
 ---
 
 ## Important links
