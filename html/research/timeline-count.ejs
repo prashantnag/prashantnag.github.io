@@ -48,7 +48,8 @@ function toYear(item) {
 }
 
 function publicationType(item) {
-  const path = String(item.path || "");
+  // Normalise Windows backslashes ("research\conferences\...") before matching
+  const path = String(item.path || "").replace(/\\/g, "/");
   const status = String(item.status || "").toLowerCase();
   if (path.includes("/conferences/")) return "Conference";
   if (path.includes("/chapters/")) return "Book Chapter";
@@ -91,8 +92,7 @@ const timelineYears = [...years].reverse();
   const yTypes = typeCounts.get(year) || new Map();
   const breakdown = [...yTypes.entries()]
     .sort((a, b) => b[1] - a[1])
-    .map(([t, n]) => typeLabel(t, n))
-    .join(" · ");
+    .map(([t, n]) => typeLabel(t, n));
 %>
     <li class="timeline-count-item">
       <span class="timeline-count-dot" aria-hidden="true"></span>
@@ -100,7 +100,7 @@ const timelineYears = [...years].reverse();
         <span class="timeline-count-year"><%- year %></span>
         <span class="timeline-count-total"><%- total %></span>
       </div>
-      <div class="timeline-count-types"><%- breakdown %></div>
+      <div class="timeline-count-types"><% for (const label of breakdown) { %><span class="timeline-count-type"><%- label %></span><% } %></div>
     </li>
 <% } %>
   </ol>

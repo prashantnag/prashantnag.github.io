@@ -1,9 +1,17 @@
 - title: "AICTE Training and Learning (ATAL) Academy FDP: Concept of Trends of VR & AR for Gaming"
+  type: "FDP"
   date: 2019-11-25
   description: "National FDP on Virtual Reality and Augmented Reality for Gaming"
   location: Department of Mathematics, Bioinformatics and Computer Applications, MANIT, Bhopal, Madhya Pradesh
 
 - title: "AICTE Training and Learning (ATAL) Academy FDP: Analytics of Things and Big Data"
+  type: "FDP"
   date: 2019-09-27
   description: "National FDP on Naive Bayes algorithm and Big Data Analytics"
   location: Department of Mathematics, Bioinformatics and Computer Applications, MANIT, Bhopal, Madhya Pradesh
+
+- title: "Certificate Course in Cryptography (CCC)"
+  type: "Course"
+  date: 2019-04-04
+  description: "Instructor for Cryptography Fundamentals at Vocational Course Cell, IEHE"
+  location: Institute for Excellence in Higher Education (IEHE), Bhopal, Madhya Pradesh

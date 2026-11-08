@@ -30,10 +30,6 @@ listing:
     contents: talks_2018.yml
     sort: "date desc"
     template: ../html/talks/listing.ejs
-  - id: talks_2017
-    contents: talks_2017.yml
-    sort: "date desc"
-    template: ../html/talks/listing.ejs
 title-block-banner: "#234460"
 page-layout: full
 toc: true
@@ -84,9 +80,4 @@ Except where noted, all content is ©Prashant Kumar Nag.
 ## 2018
 
 ::: {#talks_2018}
-:::
-
-## 2017
-
-::: {#talks_2017}
 :::

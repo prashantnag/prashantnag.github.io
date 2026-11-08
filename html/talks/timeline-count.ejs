@@ -46,10 +46,21 @@ function toYear(item) {
   return "Unknown";
 }
 
+function typeLabel(type, n) {
+  // "Conference" -> "Conferences"; acronyms like FDP -> "FDPs"
+  return `${n} ${type}${n === 1 ? "" : "s"}`;
+}
+
 const counts = new Map();
+const typeCounts = new Map();
 for (const item of items) {
   const y = toYear(item);
   counts.set(y, (counts.get(y) || 0) + 1);
+
+  const t = String(item.type || "Talk");
+  if (!typeCounts.has(y)) typeCounts.set(y, new Map());
+  const yTypes = typeCounts.get(y);
+  yTypes.set(t, (yTypes.get(t) || 0) + 1);
 }
 
 const years = [...counts.keys()].sort((a, b) => {
@@ -64,6 +75,9 @@ const timelineYears = [...years].reverse();
   <ol class="timeline-count-track">
 <% for (const year of timelineYears) {
   const total = counts.get(year) || 0;
+  const breakdown = [...(typeCounts.get(year) || new Map()).entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([t, n]) => typeLabel(t, n));
 %>
     <li class="timeline-count-item">
       <span class="timeline-count-dot" aria-hidden="true"></span>
@@ -71,7 +85,7 @@ const timelineYears = [...years].reverse();
         <span class="timeline-count-year"><%- year %></span>
         <span class="timeline-count-total"><%- total %></span>
       </div>
-      <div class="timeline-count-types"><%- total %> talk<%- total === 1 ? "" : "s" %></div>
+      <div class="timeline-count-types"><% for (const label of breakdown) { %><span class="timeline-count-type"><%- label %></span><% } %></div>
     </li>
 <% } %>
   </ol>

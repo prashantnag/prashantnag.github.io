@@ -724,6 +724,30 @@ pre.text, pre.sourceCode, .cell-output pre {
             text-align: right;
         }
 
+        // Talk type badge (Conference, Workshop, FDP, ...) under the date
+        .metadata {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            .date {
+                margin-bottom: 0.3em;
+            }
+        }
+
+        .talk-type {
+            display: inline-block;
+            font-size: 0.72em;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $Navy-Blue;
+            background-color: shift-color($Navy-Blue, -86%);
+            border-radius: 999px;
+            padding: 0.15em 0.6em;
+            white-space: nowrap;
+        }
+
         ul.talk-links {
             padding: 0 0.5em;
             background-color: shift-color($Navy-Blue, -91%);
@@ -1038,40 +1062,52 @@ $pill-colors: (
 .timeline-count-strip {
     margin: 0.9rem 0 1.5rem;
 
+    // Desktop: all years in one row, each centred under its dot,
+    // with the connecting line drawn through the middle of every dot
     .timeline-count-track {
         list-style: none;
         margin: 0;
-        padding: 0.5rem 0.25rem 0;
+        padding: 0.5rem 0 0.25rem;
         display: flex;
-        gap: 0.8rem;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        overflow-x: auto;
         position: relative;
+    }
 
+    .timeline-count-item {
+        position: relative;
+        flex: 1 1 0;
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 0.3rem;
+
+        // Line segment through this item's dot, joined to its neighbours
         &::before {
             content: "";
             position: absolute;
             left: 0;
             right: 0;
-            top: 1.45rem;
+            top: 6px;
             border-top: 2px solid shift-color($Navy-Blue, -80%);
             z-index: 0;
         }
-    }
-
-    .timeline-count-item {
-        position: relative;
-        z-index: 1;
-        min-width: 150px;
-        max-width: 220px;
+        &:first-child::before { left: 50%; }
+        &:last-child::before { right: 50%; }
+        &:only-child::before { display: none; }
     }
 
     .timeline-count-dot {
-        width: 10px;
-        height: 10px;
+        position: relative;
+        z-index: 1;
+        width: 14px;
+        height: 14px;
         border-radius: 50%;
         background: $Navy-Blue;
         display: block;
-        margin: 0 auto 0.35rem;
+        margin: 0 0 0.45rem;
         border: 2px solid $white;
         box-shadow: 0 0 0 1px shift-color($Navy-Blue, -65%);
     }
@@ -1109,6 +1145,12 @@ $pill-colors: (
         line-height: 1.25;
         color: $gray-700;
         max-width: 220px;
+
+        // One publication type per line so long breakdowns don't push into the next year
+        .timeline-count-type {
+            display: block;
+            white-space: nowrap;
+        }
     }
 
     // Phones: the horizontal strip wraps into rows the connecting line can't
@@ -1120,7 +1162,12 @@ $pill-colors: (
             gap: 0.75rem;
             padding: 0.25rem 0 0 1.5rem;
 
+            overflow-x: visible;
+
             &::before {
+                content: "";
+                position: absolute;
+                z-index: 0;
                 left: 0.6rem;
                 right: auto;
                 top: 0.75rem;
@@ -1133,9 +1180,14 @@ $pill-colors: (
         .timeline-count-item {
             min-width: 0;
             max-width: none;
+            padding: 0;
+            text-align: left;
+            flex-direction: row;
+            &::before { display: none; }
             display: flex;
             flex-wrap: wrap;
-            align-items: center;
+            // Top-align so the dot stays level with the year when a year lists several types
+            align-items: flex-start;
             column-gap: 0.6rem;
             row-gap: 0.2rem;
         }
@@ -1143,13 +1195,15 @@ $pill-colors: (
         // Centre the dot on the vertical line, level with the year pill
         .timeline-count-dot {
             position: absolute;
+            width: 10px;
+            height: 10px;
             left: calc(-0.9rem - 4px);
             top: calc(0.8rem - 5px);
             margin: 0;
         }
 
         .timeline-count-types {
-            margin-top: 0;
+            margin-top: 0.3rem;
             max-width: none;
         }
     }
