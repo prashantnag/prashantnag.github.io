@@ -103,6 +103,8 @@ My research spans artificial intelligence, deep learning, affective computing, a
   // Add the number of entries in each section to the contents list
   // (and the Research sidebar on pages that have it), e.g. "Journal Articles (7)". Counts come from the listings,
   // so they update automatically when a paper is added.
+  // Match TOC links by data-scroll-target: on the live site Quarto rewrites
+  // their href to the full URL (https://.../research/#books) before this runs.
   document.addEventListener("DOMContentLoaded", () => {
     const n = id => document.querySelectorAll(`#listing-${id} li.project`).length;
     const counts = {
@@ -116,7 +118,7 @@ My research spans artificial intelligence, deep learning, affective computing, a
     for (const [anchor, count] of Object.entries(counts)) {
       if (!count) continue;
       const links = document.querySelectorAll(
-        `#TOC a[href="#${anchor}"], #quarto-sidebar a[href$="#${anchor}"]`);
+        `#TOC a[data-scroll-target="#${anchor}"], #quarto-sidebar a[href$="#${anchor}"]`);
       links.forEach(a => {
         if (a.querySelector(".toc-count")) return;
         const target = a.querySelector(".menu-text") || a;
