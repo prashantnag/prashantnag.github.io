@@ -1095,6 +1095,49 @@ $pill-colors: (
         color: $gray-700;
         max-width: 220px;
     }
+
+    // Phones: the horizontal strip wraps into rows the connecting line can't
+    // follow, so stack the years vertically with the line down the left side
+    @include media-breakpoint-down(sm) {
+        .timeline-count-track {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 0.75rem;
+            padding: 0.25rem 0 0 1.5rem;
+
+            &::before {
+                left: 0.6rem;
+                right: auto;
+                top: 0.75rem;
+                bottom: 0.75rem;
+                border-top: none;
+                border-left: 2px solid shift-color($Navy-Blue, -80%);
+            }
+        }
+
+        .timeline-count-item {
+            min-width: 0;
+            max-width: none;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            column-gap: 0.6rem;
+            row-gap: 0.2rem;
+        }
+
+        // Centre the dot on the vertical line, level with the year pill
+        .timeline-count-dot {
+            position: absolute;
+            left: calc(-0.9rem - 4px);
+            top: calc(0.8rem - 5px);
+            margin: 0;
+        }
+
+        .timeline-count-types {
+            margin-top: 0;
+            max-width: none;
+        }
+    }
 }
 
 // Timeline listings (publications and talks)

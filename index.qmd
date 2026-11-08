@@ -6,19 +6,19 @@ about:
   template: trestles
   image: images/passport.png
   links:
-    - icon: github
+    - text: "{{< fa brands github title='GitHub' >}}"
       href: https://github.com/prashantnag
-    - text: "{{< ai cv >}}"
-      href: cv/index.qmd
-    - icon: mortarboard
+    - text: "{{< ai google-scholar title='Google Scholar' >}}"
       href: https://scholar.google.com/citations?user=REku3NkAAAAJ
-    - icon: envelope
+    - text: "{{< ai cv title='CV' >}}"
+      href: cv/index.qmd
+    - text: "{{< fa envelope title='Email' >}}"
       href: mailto:prashantnag.workmail@gmail.com
-    - icon: linkedin
+    - text: "{{< fa brands linkedin title='LinkedIn' >}}"
       href: https://www.linkedin.com/in/prashantnag/
-    - icon: twitter
+    - text: "{{< fa brands x-twitter title='X (Twitter)' >}}"
       href: https://twitter.com/nagprashant
-    - icon: youtube
+    - text: "{{< fa brands youtube title='YouTube' >}}"
       href: https://www.youtube.com/@ResearchInfuser
 comments: false
 toc: false
