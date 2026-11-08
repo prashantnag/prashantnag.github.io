@@ -6,6 +6,10 @@ listing:
     contents: talks_*.yml
     sort: "date desc"
     template: ../html/talks/timeline-count.ejs
+  - id: talks_2026
+    contents: talks_2026.yml
+    sort: "date desc"
+    template: ../html/talks/listing.ejs
   - id: talks_2024
     contents: talks_2024.yml
     sort: "date desc"
@@ -50,6 +54,11 @@ Except where noted, all content is ©Prashant Kumar Nag.
 ## Timeline
 
 ::: {#talks-counts}
+:::
+
+## 2026
+
+::: {#talks_2026}
 :::
 
 ## 2024

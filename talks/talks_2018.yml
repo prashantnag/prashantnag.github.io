@@ -18,6 +18,13 @@
 
 - title: "NPTL Awareness Workshop and Online Learning: Learning Management System (Moodle)"
   type: "Workshop"
-  date: 2018-02-03
+  date: 2018-01-29
+  end-date: "2018-02-03"
   description: "National Workshop on how to configure and use Moodle for classes"
   location: NPTL Local Chapter & ICT Cell, IEHE, Bhopal, Madhya Pradesh
+
+- title: "Techcellence Tech Fest"
+  type: "Expert Talk"
+  date: 2018-01-25
+  description: "Expert Talk at the Computer Forum: Emerging Technologies and Digital Skills"
+  location: Institute for Excellence in Higher Education (IEHE), Bhopal, Madhya Pradesh
