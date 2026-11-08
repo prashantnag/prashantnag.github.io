@@ -12,12 +12,8 @@ about:
       href: https://scholar.google.com/citations?user=REku3NkAAAAJ
     - text: "{{< ai cv title='CV' >}}"
       href: cv/index.qmd
-    - text: "{{< fa envelope title='Email' >}}"
-      href: mailto:prashantnag.workmail@gmail.com
     - text: "{{< fa brands linkedin title='LinkedIn' >}}"
       href: https://www.linkedin.com/in/prashantnag/
-    - text: "{{< fa brands x-twitter title='X (Twitter)' >}}"
-      href: https://twitter.com/nagprashant
     - text: "{{< fa brands youtube title='YouTube' >}}"
       href: https://www.youtube.com/@ResearchInfuser
 comments: false

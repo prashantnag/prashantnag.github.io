@@ -80,6 +80,21 @@ div.quarto-about-trestles {
 			max-width: 100%;
 			object-fit: contain;
 		}
+		// Homepage profile links: one centred row
+		.about-links {
+			display: flex;
+			// Quarto stacks these in a column below 992px; keep them in a row
+			flex-direction: row;
+			width: auto;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: center;
+			gap: 0.65rem;
+		}
+		.about-links .about-link {
+			margin: 0;
+			white-space: nowrap;
+		}
 		.about-link {
 			&:hover {
 				background-color: $Navy-Blue;
@@ -1325,4 +1340,21 @@ $pill-colors: (
     border-radius: 6px;
     padding: 0.4rem 0.6rem;
     margin: 0.5rem 0 0 0;
+}
+
+// Mobile sidebar toggle bar (ResearchInfuser, Research): it sits on the navy
+// banner, so make the toggle icon and breadcrumb text white instead of grey
+.quarto-secondary-nav {
+	.quarto-btn-toggle,
+	.quarto-btn-toggle i,
+	.quarto-page-breadcrumbs .breadcrumb-item,
+	.quarto-page-breadcrumbs .breadcrumb-item a,
+	.quarto-page-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+		color: $white !important;
+		opacity: 1;
+	}
+
+	.quarto-page-breadcrumbs .breadcrumb-item a:hover {
+		text-decoration: underline;
+	}
 }
