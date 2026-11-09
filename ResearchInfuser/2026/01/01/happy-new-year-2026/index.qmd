@@ -1,7 +1,13 @@
 ---
 title: "Happy New Year 2026!"
 date: 2026-01-01
-description: "Announcing comprehensive educational video tutorials and resources designed for scholars, researchers, faculty, and educators to streamline academic workflows"
+description: "Announcing comprehensive educational video tutorials and resources designed for scholars, researchers, faculty, and educators to streamline academic workflows"
+
+image: "img/header.png"
+twitter-card:
+  image: "img/header.png"
+open-graph:
+  image: "img/header.png"
 categories:
   - Announcement
   - Education

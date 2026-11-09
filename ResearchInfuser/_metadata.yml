@@ -24,7 +24,7 @@ format:
 # Default for table of contents
 toc: true
 toc-title: Contents
-toc-location: left
+toc-location: right
 
 freeze: true
 

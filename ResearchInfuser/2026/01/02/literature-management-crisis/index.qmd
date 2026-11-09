@@ -1,7 +1,13 @@
 ---
 title: "The Literature Management Crisis Every PhD Scholar Faces (But No One Talks About)"
 date: 2026-01-02
-description: "Most PhD scholars face the same silent struggle—managing research papers without a system. This post explores why early literature habits shape the entire PhD journey."
+description: "Most PhD scholars face the same silent struggle—managing research papers without a system. This post explores why early literature habits shape the entire PhD journey."
+
+image: "img/header.png"
+twitter-card:
+  image: "img/header.png"
+open-graph:
+  image: "img/header.png"
 categories:
   - Literature Management
   - Research Skills

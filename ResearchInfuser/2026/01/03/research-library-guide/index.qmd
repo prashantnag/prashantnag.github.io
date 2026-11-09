@@ -1,7 +1,13 @@
 ---
 title: "Building Your Research Library: The Systematic Search Framework"
 date: 2026-01-03
-description: "Move beyond random Google searches. Learn the systematic approach to finding research literature that ensures completeness, repeatability, and academic rigor."
+description: "Move beyond random Google searches. Learn the systematic approach to finding research literature that ensures completeness, repeatability, and academic rigor."
+
+image: "img/header.png"
+twitter-card:
+  image: "img/header.png"
+open-graph:
+  image: "img/header.png"
 categories:
   - Literature Management
   - Research Skills
@@ -11,6 +17,8 @@ citation: true
 format: 
   html: 
     code-fold: false
+filters:
+  - details
 ---
 
 ## From Chaos to System
@@ -43,6 +51,7 @@ If institutional access is limited, add:
 
 ### What If You Don't Have Institutional Access?
 
+::: {.details summary="Show free alternatives to subscription databases"}
 Use these **free alternatives:**
 
 - **Google Scholar** (free, comprehensive)
@@ -53,6 +62,7 @@ Use these **free alternatives:**
 - **ResearchGate** / **Academia.edu** (request papers from authors)
 
 Most preprint servers (arXiv, bioRxiv, SSRN) are completely free.
+:::
 
 ## The Search String: Your Research Fingerprint
 
@@ -94,6 +104,7 @@ AND NOT
 
 Each database has slightly different syntax:
 
+::: {.details summary="Show example search syntax for Scopus, Web of Science, IEEE Xplore, PubMed and Google Scholar"}
 | Database | Example Search |
 |----------|----------------|
 | **Scopus** | `TITLE-ABS-KEY("machine learning" AND education)` |
@@ -101,6 +112,7 @@ Each database has slightly different syntax:
 | **IEEE Xplore** | `("All Metadata":"machine learning" AND "All Metadata":education)` |
 | **PubMed** | `("machine learning"[Title/Abstract] AND education[Title/Abstract])` |
 | **Google Scholar** | `allintitle: machine learning education` |
+:::
 
 Check each database's advanced search help page for exact syntax.
 
