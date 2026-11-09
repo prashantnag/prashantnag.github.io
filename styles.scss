@@ -651,11 +651,23 @@ pre.text, pre.sourceCode, .cell-output pre {
             }
         }
 
+        // Course titles use the heading colour, linked or not
         .course-title {
-            font-weight: 500;
+            font-weight: $headings-font-weight;
             font-size: 1.25em;
             margin-bottom: 0.2em;
             line-height: 1.2;
+            color: $headings-color;
+
+            a {
+                color: inherit;
+                font-weight: inherit;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
 
         .course-details {
@@ -722,25 +734,29 @@ pre.text, pre.sourceCode, .cell-output pre {
         margin-bottom: 1.5em;
         column-gap: 1em;
 
+        // Date column fixed at 20%; the text column takes the rest (and may shrink)
         .body {
-            flex: 1 0 80%;
+            flex: 1 1 0;
+            min-width: 0;
         }
 
         .metadata {
-            flex: 1 0 20%;
+            flex: 0 0 20%;
         }
 
+        // Same title and description style as the Teaching course entries
         .title {
-            font-weight: 500;
-            font-size: 1.2em;
+            font-weight: $headings-font-weight;
+            font-size: 1.25em;
             margin-bottom: 0.2em;
             line-height: 1.2;
+            color: $headings-color;
         }
 
         .description {
             font-weight: 300;
-            font-size: 1em;
-            margin-bottom: 0.3em;
+            font-size: 1.1em;
+            margin-bottom: 0.5em;
         }
 
         .date {
