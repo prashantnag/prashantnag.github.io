@@ -130,6 +130,7 @@ website:
 
 resources:
   - CNAME
+  - fonts/
   - robots.txt
 
 date-format: "D MMMM YYYY"
@@ -145,6 +146,7 @@ format:
     include-in-header: header.html
 
     fontsize: 1.0625rem
+    mainfont: "Libron, Georgia, serif"
 
     grid:
       body-width: 900px

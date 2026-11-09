@@ -1,18 +1,15 @@
 /*-- scss:defaults --*/
 
+// ============================================================================
+// Brand colours
+// ============================================================================
+
 $Navy-Blue: #234460;
 $Charcoal-Grey: #36454f;
-$Deep-Blue: #487191;
-$Light-Grey: #aaa;
-$White: #ffffff;
-$Almost-Black: #0f0f0f;
 $Silver: #ebebeb;
-$Off-White: #faf8f8;
-$Medium-Grey: #666;
-$Cool-Grey: #868e96;
 $link: #376c98;
-$Blue: #0d6efd;
 
+// Bootstrap greys and palette
 $white:    #ffffff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -37,31 +34,26 @@ $green:   #118230 !default;
 $teal:    #20c997 !default;
 $cyan:    #3093CF !default;
 
-// Fonts
-
-:root {
-  --bs-font-sans-serif: 'Fira Sans', sans-serif;
-  --bs-font-monospace: "Hack", monospace;
-}
-
-body {
-  font-family: 'Merriweather', Georgia, Serif;
-  line-height: 1.5em;
-  background-color: #faf8f8;
-}
-
-$navbar-font-family: "Fira Sans", sans-serif !default;
-$headings-font-family: "Fira Sans", sans-serif !default;
-$toc-font-family: "Fira Sans", sans-serif !default;
-$footer-font-family: "Fira Sans", sans-serif !default;
 $link-color: $link !default;
 
-// Code styling
-$code-bg: #e9ecef !default;
-$code-color: #212529 !default;
+// Secondary text (dates in the home page "Recent updates")
+$muted-color: #7b7b7b;
 
+// ============================================================================
+// Fonts
+// ============================================================================
+// As on robjhyndman.com: body text in Libron (self-hosted in fonts/, set as
+// `mainfont` in _quarto.yml), and Fira Sans for headings and every interface
+// element (navbar, sidebar, contents list, footer, listings).
 
+$ui-font-family: "Fira Sans", sans-serif;
+$font-family-sans-serif: $ui-font-family;
+$headings-font-family: $ui-font-family !default;
+
+// ============================================================================
 // Headings and body text, following robjhyndman.com (rjh.scss)
+// ============================================================================
+
 $h1-font-size: 1.6rem !default;
 $h2-font-size: 1.4rem !default;
 $h3-font-size: 1.2rem !default;
@@ -71,7 +63,147 @@ $headings-font-weight: 600 !default;
 $headings-color: #40607d !default;
 $body-color: #3c3c3c !default;
 
+// ============================================================================
+// Listings: ResearchInfuser posts, Talks and Teaching share one text style.
+// Change these to restyle all three listings together.
+// ============================================================================
+
+$listing-font-family: $ui-font-family;
+$listing-line-height: 1.3;
+
+$listing-title-size: 1.3em;
+$listing-title-weight: 400;
+$listing-title-line-height: 1.2;
+// Titles that aren't links (talks, courses); post titles keep the link colour
+$listing-title-color: $headings-color;
+
+$listing-description-size: 1em;
+$listing-description-weight: 300;
+
+$listing-date-size: 0.85em;
+$listing-date-weight: 300;
+
+// ============================================================================
+// Cards (home page action cards, "Recent updates", Quarto template cards)
+// ============================================================================
+
+$card-bg: #eeeeee;
+$card-border: 1.5px solid rgba($Navy-Blue, 0.2);
+$card-radius: 14px;
+
+// Code styling
+$code-bg: #e9ecef !default;
+$code-color: #212529 !default;
+
+
 /*-- scss:rules --*/
+
+// ============================================================================
+// Shared mixins
+// ============================================================================
+
+// A listing row: metadata (date) | body | optional image
+@mixin listing-entry {
+    display: flex;
+    flex-direction: row;
+    font-family: $listing-font-family;
+    line-height: $listing-line-height;
+}
+
+@mixin listing-title($color: null) {
+    font-weight: $listing-title-weight;
+    font-size: $listing-title-size;
+    margin-bottom: 0.2em;
+    line-height: $listing-title-line-height;
+    color: $color;
+}
+
+@mixin listing-description {
+    font-weight: $listing-description-weight;
+    font-size: $listing-description-size;
+    margin-bottom: 0.3em;
+}
+
+@mixin listing-date {
+    font-weight: $listing-date-weight;
+    font-size: $listing-date-size;
+    margin-top: 0.3em;
+    text-align: right;
+}
+
+// Research profile badges (Google Scholar, ORCID, Scopus, ...) used on the
+// Research and About pages, styled like robjhyndman.com
+@mixin profile-badge {
+    font-family: $ui-font-family;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    max-width: 100%;
+    background: rgba($Navy-Blue, 0.12);
+    color: $Navy-Blue;
+    font-weight: normal;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    padding: 4px 12px 3px;
+    border-radius: 15px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.15s ease, color 0.15s ease;
+
+    &:hover {
+        background: $Navy-Blue;
+        color: $white !important;
+    }
+
+    // Inline SVG icons (the modern arXiv logo) sized like the font icons
+    .badge-svg-icon {
+        width: 1em;
+        height: 1em;
+        flex-shrink: 0;
+    }
+}
+
+// Card with a glow on hover (Quarto template cards)
+%card-link {
+    border: $card-border;
+    border-radius: $card-radius;
+    background: $card-bg;
+    padding: 1rem 1.25rem;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+
+    &:hover {
+        border-color: $Navy-Blue;
+        box-shadow:
+            0 0 16px 1px rgba($Navy-Blue, 0.18),
+            0 6px 16px rgba($Navy-Blue, 0.12);
+    }
+}
+
+// ============================================================================
+// Base elements
+// ============================================================================
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+// Interface text in Fira Sans; body text is Libron (as on robjhyndman.com).
+// Add a selector here to move another element to the interface font.
+nav,
+.footer,
+input,
+button,
+.badge,
+.quarto-title-meta,
+div.quarto-about-trestles .about-entity,
+.quarto-category,
+.quarto-listing-category,
+.listing-category,
+.recent-updates {
+    font-family: $ui-font-family;
+}
 
 // Headings (robjhyndman.com): roomier h1, and h2 underlined in a light navy
 h1 {
@@ -89,109 +221,23 @@ h2 {
     border-bottom: 1px solid lighten($Navy-Blue, 30%);
 }
 
-// Modification in About Page
-
-
-
-div.quarto-about-trestles {
-	// Photo column fits the photo; the updates card gets the rest
-	.about-entity {
-		flex: 0 0 auto;
-
-		// No frame or shadow, so the photo's white background blends with the page
-		// Fixed size keeps the photo column narrow so the updates card gets the space
-		.about-image {
-			width: 260px !important;
-			height: 330px !important;
-			max-width: 100%;
-			object-fit: contain;
-		}
-		// Homepage profile links: one centred row
-		.about-links {
-			display: flex;
-			// Quarto stacks these in a column below 992px; keep them in a row
-			flex-direction: row;
-			width: auto;
-			flex-wrap: nowrap;
-			justify-content: center;
-			align-items: center;
-			gap: 0.65rem;
-		}
-		.about-links .about-link {
-			margin: 0;
-			white-space: nowrap;
-		}
-		.about-link {
-			&:hover {
-				background-color: $Navy-Blue;
-				color: $Silver;
-			}
-			border: none;
-			text-decoration: none;
-			column-gap: .2em;
-			font-size: 20pt;
-		}
-		// Name and role under the photo: small and plain, name in bold
-		#title-block-header {
-			h1.title {
-				color: inherit;
-				font-weight: bold;
-				font-size: 1.2rem;
-			}
-			p.subtitle {
-				font-weight: normal;
-				font-size: 1rem;
-				padding: 0;
-				margin: -0.3em 0 0;
-			}
-		}
-	}
-
-	.about-contents {
-		border-left: none;
-	}
-}
-
-
-
-body {
-    -webkit-font-smoothing: antialiased;
-}
-
-.rtl {
-    direction: rtl;
-}
-
-
-.home {
-    .quarto-title-banner {
-        margin-bottom: 0;
-    }
-}
-
-#title-block-header {
-    &.home {
-        margin-block-end: 0.5rem;
-    }
-}
-
-.home {
-    .quarto-title-banner {
-        margin-bottom: 0;
-    }
-
-    #title-block-header {
-        margin-block-end: 0;
-    }
-}
-
 // Shrink blocks of code
 pre.text, pre.sourceCode, .cell-output pre {
     font-size: 0.775em;
 }
 
+.btn-primary {
+    color: $Silver;
+    background-color: $Navy-Blue;
+    border-color: $Navy-Blue;
+}
+
+// ============================================================================
+// Navbar, contents list, sidebar, footer, title banner
+// ============================================================================
+
 .navbar {
-    font-family: $navbar-font-family;
+    font-family: $ui-font-family;
 }
 
 // Put all the icons in a single row in the hamburger menu
@@ -200,7 +246,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 #TOC {
-    font-family: $toc-font-family;
+    font-family: $ui-font-family;
     padding-bottom: 0.1em;
     font-weight: 300;
 
@@ -213,75 +259,60 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
+// Left sidebar menu (ResearchInfuser, publication pages): Quarto lets it inherit
+// the body font (Libron); use the interface font like the navbar and contents
+#quarto-sidebar {
+    font-family: $ui-font-family;
+}
+
 .sidebar nav[role="doc-toc"]>ul li a {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 }
 
+// Entry counts added to the Research page contents ("Journal Articles (7)")
+.toc-count {
+    color: $gray-600;
+    font-size: 0.9em;
+}
 
-// Blog categories
-
-#quarto-margin-sidebar {
-    .quarto-listing-category-title {
-        margin-left: 0.5em;
+// Mobile sidebar toggle bar (ResearchInfuser, Research): it sits on the navy
+// banner, so make the toggle icon and breadcrumb text white instead of grey
+.quarto-secondary-nav {
+    .quarto-btn-toggle,
+    .quarto-btn-toggle i,
+    .quarto-page-breadcrumbs .breadcrumb-item,
+    .quarto-page-breadcrumbs .breadcrumb-item a,
+    .quarto-page-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
+        color: $white !important;
+        opacity: 1;
     }
 
-    .quarto-listing-category {
-        font-family: $toc-font-family;
-        font-weight: 300;
-        font-size: 1em;
-        line-height: 1.1;
-        padding-left: 0.6rem;
-        margin-left: 0.5em;
-        border-left: 1px solid $gray-200;
+    .quarto-page-breadcrumbs .breadcrumb-item a:hover {
+        text-decoration: underline;
+    }
+}
 
-        .category {
-            padding-bottom: 0.5rem;
-        }
+#title-block-header {
+    .quarto-title-banner {
+        font-family: $ui-font-family;
 
-        .active {
-            font-weight: 400;
-            color: $Navy-Blue;
-        }
-
-        .quarto-category-count {
-            font-weight: 200;
-            font-size: 0.8em;
-            color: $gray-600;
+        .description {
+            font-size: 1.1em;
+            margin-top: 1em !important;
         }
     }
 }
 
-.listing-category {
-	&:hover {
-		background-color: $Navy-Blue;
-		color: $Silver !important;
-		opacity: .6;
-	}
-	line-height: 1.8em !important;
-	padding: 1px 5px 0 5px;
-	margin-left: -5px;
-	margin-right: 5px;
-}
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
     flex-wrap: wrap;
     border: 0 !important;
     min-height: 3em;
-    font-family: $footer-font-family;
+    font-family: $ui-font-family;
 
     a {
         color: $Navy-Blue;
-    }
-
-    .faux-block {
-        display: block;
-        padding-bottom: 0.4em;
-    }
-
-    .fingerprint {
-        font-family: $font-family-monospace;
-        font-size: 0.8em;
     }
 
     // In the default Quarto template, .nav-footer-center has position: absolute
@@ -325,24 +356,243 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
-#title-block-header {
-    .quarto-title-banner {
-        font-family: $headings-font-family;
+// ============================================================================
+// Home page (about: trestles)
+// ============================================================================
 
-        .description {
-            font-size: 1.1em;
-            margin-top: 1em !important;
+div.quarto-about-trestles {
+    // Photo column fits the photo; the updates card gets the rest
+    .about-entity {
+        flex: 0 0 auto;
+
+        // No frame or shadow, so the photo's white background blends with the page
+        // Fixed size keeps the photo column narrow so the updates card gets the space
+        .about-image {
+            width: 260px !important;
+            height: 330px !important;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        // Homepage profile links: one centred row
+        .about-links {
+            display: flex;
+            // Quarto stacks these in a column below 992px; keep them in a row
+            flex-direction: row;
+            width: auto;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0.65rem;
+        }
+
+        .about-link {
+            margin: 0;
+            white-space: nowrap;
+            border: none;
+            text-decoration: none;
+            column-gap: .2em;
+            font-size: 20pt;
+
+            &:hover {
+                background-color: $Navy-Blue;
+                color: $Silver;
+            }
+        }
+
+        // Name and role under the photo: small and plain, name in bold
+        #title-block-header {
+            h1.title {
+                color: inherit;
+                font-weight: bold;
+                font-size: 1.2rem;
+            }
+
+            p.subtitle {
+                font-weight: normal;
+                font-size: 1rem;
+                padding: 0;
+                margin: -0.3em 0 0;
+            }
+        }
+    }
+
+    .about-contents {
+        border-left: none;
+    }
+
+    section.recent-heading {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+// Action cards above "Recent updates"
+.home-actions {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    font-family: $ui-font-family;
+
+    @media (max-width: 575.98px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.home-action {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    align-content: start;
+    gap: 0.5rem 0.6rem;
+    position: relative;
+    padding: 1.1rem;
+    border: $card-border;
+    border-radius: $card-radius;
+    background: $card-bg;
+    box-shadow: 0 2px 6px rgba($Navy-Blue, 0.05);
+    color: $Navy-Blue;
+    text-decoration: none;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+
+    &:hover,
+    &:focus-visible {
+        color: $Navy-Blue;
+        background: $white;
+        border-color: rgba($Navy-Blue, 0.55);
+        box-shadow: 0 8px 20px rgba($Navy-Blue, 0.15);
+        transform: scale(1.035);
+        z-index: 1;
+    }
+
+    &:focus-visible {
+        outline: 2px solid $Navy-Blue;
+        outline-offset: 2px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        transition: none;
+
+        &:hover,
+        &:focus-visible {
+            transform: none;
         }
     }
 }
 
-// Blog
+.home-action-icon {
+    font-size: 1.15rem;
+    line-height: 1.35;
+}
+
+.home-action-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.home-action-description {
+    grid-column: 1 / -1;
+    color: $Charcoal-Grey;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+// "Recent updates" card: one merged list, a type pill stands in for the bullet
+.home-card {
+    border: $card-border;
+    border-radius: $card-radius;
+    background: $card-bg;
+    padding: 1rem 1.25rem;
+
+    h3.recent-heading {
+        margin-top: 0;
+        margin-bottom: 0.35rem;
+    }
+
+    .frontpage-listing {
+        margin-bottom: 0;
+        padding-bottom: 0 !important;
+
+        a,
+        a:hover,
+        a:focus {
+            text-decoration: none;
+        }
+    }
+
+    .recent-updates {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+
+        li {
+            list-style: none;
+            position: relative;
+            padding: 2px 4px 2px 4.2rem;
+            margin: 0.05rem 0;
+            border-radius: 4px;
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            transition: background-color 0.15s ease;
+
+            &:hover {
+                background-color: rgba($Navy-Blue, 0.06);
+            }
+        }
+    }
+
+    .recent-updates-title {
+        white-space: normal;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .recent-updates-date {
+        color: $muted-color;
+    }
+}
+
+.recent-updates-pill {
+    position: absolute;
+    left: 4px;
+    top: 0.35em;
+    width: 3.4rem;
+    padding: 5px 5px 3px 5px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 15px;
+    transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+$pill-colors: (
+    "blue": #4673b8,
+    "red": #bd666d,
+    "green": #2c9f42,
+    "grey": $Navy-Blue,
+);
+
+@each $name, $color in $pill-colors {
+    .recent-updates-pill.pill-#{$name} {
+        background: rgba($color, 0.25);
+        color: $color;
+
+        &:hover {
+            background: $color;
+            color: #fff !important;
+        }
+    }
+}
+
+// ============================================================================
+// ResearchInfuser post listing
+// ============================================================================
+
 .blog {
     .blog-entry {
-        display: flex;
-        flex-direction: row;
-        font-family: $headings-font-family;
-        line-height: 1.3;
+        @include listing-entry;
         margin-bottom: 1.5em;
         column-gap: 1em;
 
@@ -364,24 +614,17 @@ pre.text, pre.sourceCode, .cell-output pre {
             }
         }
 
+        // The visible title is a link, so it keeps the link colour
         .title {
-            font-weight: 500;
-            font-size: 1.3em;
-            margin-bottom: 0.2em;
-            line-height: 1.2;
+            @include listing-title;
         }
 
         .description {
-            font-weight: 300;
-            font-size: 1em;
-            margin-bottom: 0.3em;
+            @include listing-description;
         }
 
         .date {
-            font-weight: 300;
-            font-size: 0.85em;
-            margin-top: 0.3em;
-            text-align: right;
+            @include listing-date;
         }
 
         .post-categories {
@@ -420,202 +663,126 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
-.blog-post {
-    .quarto-title .quarto-categories {
-        margin-top: 1.5em;
-
-        .quarto-category {
-            background-color: $Navy-Blue;
-            border-color: $gray-200;
-            color: $white;
-            font-size: 0.65em;
-            opacity: 1;
-        }
+// Category filter in the right margin (ResearchInfuser)
+#quarto-margin-sidebar {
+    .quarto-listing-category-title {
+        margin-left: 0.5em;
     }
 
-    .quarto-title-author-orcid img {
-        margin-bottom: -3px;
-    }
-
-    .quarto-title-meta-contents .doi::before {
-        content: "";
-        background-image: url(/files/doi.svg);
-        background-size: 1.1em;
-        display: inline-block;
-        width: 1.1em;
-        height: 1.1em;
-        margin-bottom: -3px;
-    }
-}
-
-
-// Research
-.quarto-title-block {
-    .haiku {
-        text-align: right;
-        font-family: $headings-font-family;
-        margin: 1.3em 0;
-        font-size: 1.6em;
+    .quarto-listing-category {
+        font-family: $ui-font-family;
         font-weight: 300;
-        font-style: italic;
-    }
+        font-size: 1em;
+        line-height: 1.1;
+        padding-left: 0.6rem;
+        margin-left: 0.5em;
+        border-left: 1px solid $gray-200;
 
-    .quarto-title .quarto-categories {
-        padding-bottom: 0;
-        flex-wrap: wrap;
-        row-gap: 0.4em;
-    }
+        .category {
+            padding-bottom: 0.5rem;
+        }
 
-    .project-details {
-        background-color: rgba($Navy-Blue, 0.1);
-        padding: 0.75em;
-        margin: 1em 0;
-    }
+        .active {
+            font-weight: 400;
+            color: $Navy-Blue;
+        }
 
-    .quarto-title-meta-heading.manual {
-        margin-top: 2em !important;
-    }
-
-    .project-links {
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    .project-link {
-        display: inline-block;
-        white-space: nowrap;
-        padding: 0 1em 0 0;
-        font-weight: bold;
-    }
-
-}
-
-.back-nav {
-    margin-bottom: 1.5em;
-}
-
-.research {
-    .back-nav a {
-        color: shift-color($Navy-Blue, -50%);
-    }
-
-    .quarto-title .quarto-categories .quarto-category {
-        background-color: shift-color($Navy-Blue, -75%);
-        color: $Navy-Blue;
-        font-size: 0.65em;
-        opacity: 1;
-    }
-
-    .project-categories {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0.35em 0 0.35em;
-        padding-top: 0.35em;
-        padding-left: 0.5em;
-        padding-bottom: 0;
-        row-gap: 0.4em;
-        column-gap: 0.4em;
-        font-family: $headings-font-family;
-
-        .project-category {
-            padding: 0.25em 0.75em 0.25em 0em;
-            font-size: 0.7em;
-            text-transform: uppercase;
+        .quarto-category-count {
+            font-weight: 200;
+            font-size: 0.8em;
+            color: $gray-600;
         }
     }
 }
 
-.project-list {
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 2em;
+.listing-category {
+    line-height: 1.8em !important;
+    padding: 1px 5px 0 5px;
+    margin-left: -5px;
+    margin-right: 5px;
 
-        li.project {
-            margin-bottom: 2.5em;
-            border-left: 6px solid shift-color($Navy-Blue, -90%);
-
-            p {
-                margin: 0;
-            }
-        }
+    &:hover {
+        background-color: $Navy-Blue;
+        color: $Silver !important;
+        opacity: .6;
     }
+}
 
-    .project-content {
-        padding-left: 0.5em;
+// ============================================================================
+// Talks listing
+// ============================================================================
 
-        .status {
-            font-size: 1rem;
-            font-weight: 250;
-            padding: 0.2em;
-            margin-right: 0.5em;
-        }
-    }
+.talks {
+    .talk-entry {
+        @include listing-entry;
+        margin-bottom: 1.5em;
+        column-gap: 1em;
 
-    .haiku {
-        margin: 0.4rem 0 0rem;
-        font-family: $headings-font-family;
-        font-weight: 300;
-        font-style: italic;
-        text-align: right;
-        color: $gray-600;
-        font-size: 1.1em;
-
-        @media (max-width: map-get($grid-breakpoints, md)) {
-            font-size: 0.95rem;
-        }
-    }
-
-    ul.project-links {
-        margin-bottom: 0;
-    }
-
-    .project-details-listing {
-        margin-top: 0.8em;
-        background-color: shift-color($Navy-Blue, -90%);
-        font-size: 0.9rem;
-
-        @media (max-width: map-get($grid-breakpoints, md)) {
-            font-size: 0.95rem;
+        // Date column fixed at 20%; the text column takes the rest (and may shrink)
+        .body {
+            flex: 1 1 0;
+            min-width: 0;
         }
 
-        .project-link {
+        // Date and talk type badge, right-aligned
+        .metadata {
+            flex: 0 0 20%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .title {
+            @include listing-title($listing-title-color);
+        }
+
+        .description {
+            @include listing-description;
+        }
+
+        .date {
+            @include listing-date;
+            margin-bottom: 0.3em;
+        }
+
+        // Talk type badge (Conference, Workshop, FDP, ...) under the date
+        .talk-type {
             display: inline-block;
+            font-size: 0.72em;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: $Navy-Blue;
+            background-color: shift-color($Navy-Blue, -86%);
+            border-radius: 999px;
+            padding: 0.15em 0.6em;
             white-space: nowrap;
-            padding: 0.5em 0.5em 0.5em 1em;
-            
-            a {
-                color: $Navy-Blue;
-                text-decoration: none;
-                
-                &:hover {
-                    color: darken($Navy-Blue, 10%);
-                }
-            }
         }
 
-        .details {
-            background-color: $Navy-Blue;
-            padding-right: 1.5em;
+        ul.talk-links {
+            padding: 0 0.5em;
+            background-color: shift-color($Navy-Blue, -91%);
+            margin-bottom: 0;
 
-            a {
-                color: #FFFFFF;
-                
-                &:hover {
-                    color: lighten($Navy-Blue, 30%);
-                }
+            .talk-link {
+                display: inline-block;
+                white-space: nowrap;
+                margin: 0;
+                padding: 0.5em 1em 0.5em 0;
+                font-size: 0.85em;
             }
         }
     }
 }
+
+// ============================================================================
+// Teaching listing
+// ============================================================================
 
 .teaching {
     .course-entry {
-        display: flex;
-        flex-direction: row;
+        @include listing-entry;
         align-items: flex-start;
-        font-family: $headings-font-family;
-        line-height: 1.3;
         margin-bottom: 3em;
         column-gap: 0.7em;
 
@@ -651,13 +818,9 @@ pre.text, pre.sourceCode, .cell-output pre {
             }
         }
 
-        // Course titles use the heading colour, linked or not
+        // Linked or not, course titles look the same; links underline on hover
         .course-title {
-            font-weight: $headings-font-weight;
-            font-size: 1.25em;
-            margin-bottom: 0.2em;
-            line-height: 1.2;
-            color: $headings-color;
+            @include listing-title($listing-title-color);
 
             a {
                 color: inherit;
@@ -678,9 +841,7 @@ pre.text, pre.sourceCode, .cell-output pre {
         }
 
         .course-description {
-            font-weight: 300;
-            font-size: 1.1em;
-            margin-bottom: 0.5em;
+            @include listing-description;
         }
 
         .course-role {
@@ -724,322 +885,199 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
-// Talks
-.talks {
-    .talk-entry {
-        display: flex;
-        flex-direction: row;
-        font-family: $headings-font-family;
-        line-height: 1.3;
-        margin-bottom: 1.5em;
-        column-gap: 1em;
+// ============================================================================
+// Research: publication listing and publication pages
+// ============================================================================
 
-        // Date column fixed at 20%; the text column takes the rest (and may shrink)
-        .body {
-            flex: 1 1 0;
-            min-width: 0;
-        }
-
-        .metadata {
-            flex: 0 0 20%;
-        }
-
-        // Same title and description style as the Teaching course entries
-        .title {
-            font-weight: $headings-font-weight;
-            font-size: 1.25em;
-            margin-bottom: 0.2em;
-            line-height: 1.2;
-            color: $headings-color;
-        }
-
-        .description {
-            font-weight: 300;
-            font-size: 1.1em;
-            margin-bottom: 0.5em;
-        }
-
-        .date {
-            font-weight: 300;
-            font-size: 0.85em;
-            margin-top: 0.3em;
-            text-align: right;
-        }
-
-        // Talk type badge (Conference, Workshop, FDP, ...) under the date
-        .metadata {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-
-            .date {
-                margin-bottom: 0.3em;
-            }
-        }
-
-        .talk-type {
-            display: inline-block;
-            font-size: 0.72em;
-            font-weight: 600;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: $Navy-Blue;
-            background-color: shift-color($Navy-Blue, -86%);
-            border-radius: 999px;
-            padding: 0.15em 0.6em;
-            white-space: nowrap;
-        }
-
-        ul.talk-links {
-            padding: 0 0.5em;
-            background-color: shift-color($Navy-Blue, -91%);
-            margin-bottom: 0;
-
-            .talk-link {
-                display: inline-block;
-                white-space: nowrap;
-                margin: 0;
-                padding: 0.5em 1em 0.5em 0;
-                font-size: 0.85em;
-            }
-        }
-    }
-}
-
-.btn-primary {
-    color: $Silver;
-    background-color: $Navy-Blue;
-    border-color: $Navy-Blue;
-}
-
-.quarto-about-trestles section.recent-heading {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-h3.recent-heading {
-    margin-top: 0.9rem;
-    margin-bottom: 0.35rem;
-}
-
-.frontpage-listing {
-    margin-bottom: 1.2rem;
-}
-
-.news {
-    .news-entry {
-        border-left: 4px solid shift-color($Navy-Blue, -85%);
-        padding: 0.5rem 0 0.5rem 0.8rem;
-        margin-bottom: 0.8rem;
+// Publication pages (html/research/title-block.html)
+.quarto-title-block {
+    .haiku {
+        text-align: right;
+        font-family: $ui-font-family;
+        margin: 1.3em 0;
+        font-size: 1.6em;
+        font-weight: 300;
+        font-style: italic;
     }
 
-    .news-date {
-        margin: 0;
-        font-size: 0.85rem;
-        color: $gray-600;
+    .quarto-title .quarto-categories {
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        row-gap: 0.4em;
     }
 
-    .news-title {
-        margin: 0.2rem 0;
-        font-weight: 500;
+    .project-details {
+        background-color: rgba($Navy-Blue, 0.1);
+        padding: 0.75em;
+        margin: 1em 0;
     }
 
-    .news-outlet {
-        margin: 0;
-        font-size: 0.9rem;
-        color: $gray-700;
-    }
-}
-
-.frontpage-listing .recent-updates,
-.frontpage-listing .recent-news {
-    padding-left: 1.2rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    list-style-position: outside;
-    line-height: 1.25;
-}
-
-.frontpage-listing .recent-updates li,
-.frontpage-listing .recent-news li {
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    margin: 0;
-    padding: 0;
-}
-
-.frontpage-listing .recent-updates li + li,
-.frontpage-listing .recent-news li + li {
-    margin-top: 0.2rem;
-}
-
-.frontpage-listing .recent-updates-title,
-.frontpage-listing .recent-news-title {
-    white-space: normal;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-}
-
-.frontpage-listing a,
-.recent-heading a {
-    text-decoration: none;
-}
-
-/* Separate homepage action cards above Recent updates. */
-.home-actions {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-    margin-bottom: 1.25rem;
-    font-family: $headings-font-family;
-}
-
-.home-action {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    align-items: start;
-    align-content: start;
-    gap: 0.5rem 0.6rem;
-    position: relative;
-    padding: 1.1rem;
-    border: 1.5px solid rgba($Navy-Blue, 0.2);
-    border-radius: 14px;
-    background: #eeeeee;
-    box-shadow: 0 2px 6px rgba($Navy-Blue, 0.05);
-    color: $Navy-Blue;
-    text-decoration: none;
-    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
-
-    &:hover,
-    &:focus-visible {
-        color: $Navy-Blue;
-        background: $white;
-        border-color: rgba($Navy-Blue, 0.55);
-        box-shadow: 0 8px 20px rgba($Navy-Blue, 0.15);
-        transform: scale(1.035);
-        z-index: 1;
+    .quarto-title-meta-heading.manual {
+        margin-top: 2em !important;
     }
 
-    &:focus-visible {
-        outline: 2px solid $Navy-Blue;
-        outline-offset: 2px;
-    }
-}
-
-.home-action-icon {
-    font-size: 1.15rem;
-    line-height: 1.35;
-}
-
-.home-action-title {
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.35;
-}
-
-.home-action-description {
-    grid-column: 1 / -1;
-    color: $Charcoal-Grey;
-    font-size: 0.85rem;
-    line-height: 1.5;
-}
-
-@media (max-width: 575.98px) {
-    .home-actions {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .home-action {
-        transition: none;
-
-        &:hover,
-        &:focus-visible {
-            transform: none;
-        }
-    }
-}
-
-/* Homepage "Recent updates" card: one merged list, a type pill stands in for the bullet */
-.home-card {
-    border: 1.5px solid rgba($Navy-Blue, 0.2);
-    border-radius: 14px;
-    background: #eeeeee;
-    padding: 1rem 1.25rem;
-
-    .recent-heading {
-        margin-top: 0;
-    }
-
-    .frontpage-listing {
-        margin-bottom: 0;
-        padding-bottom: 0 !important;
-    }
-
-    .frontpage-listing .recent-updates {
-        margin: 0;
+    .project-links {
         padding: 0;
-        line-height: 1.5;
+        margin-bottom: 0;
     }
 
-    .frontpage-listing .recent-updates li {
+    .project-link {
+        display: inline-block;
+        white-space: nowrap;
+        padding: 0 1em 0 0;
+        font-weight: bold;
+    }
+}
+
+.back-nav {
+    margin-bottom: 1.5em;
+}
+
+.research {
+    .back-nav a {
+        color: shift-color($Navy-Blue, -50%);
+    }
+
+    .quarto-title .quarto-categories .quarto-category {
+        background-color: shift-color($Navy-Blue, -75%);
+        color: $Navy-Blue;
+        font-size: 0.65em;
+        opacity: 1;
+    }
+
+    .project-categories {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.35em 0 0.35em;
+        padding-top: 0.35em;
+        padding-left: 0.5em;
+        padding-bottom: 0;
+        row-gap: 0.4em;
+        column-gap: 0.4em;
+        font-family: $ui-font-family;
+
+        .project-category {
+            padding: 0.25em 0.75em 0.25em 0em;
+            font-size: 0.7em;
+            text-transform: uppercase;
+        }
+    }
+}
+
+// Publication listing (html/research/listing.ejs)
+.project-list {
+    ul {
         list-style: none;
-        position: relative;
-        padding: 2px 4px 2px 4.2rem;
-        margin: 0.05rem 0;
-        border-radius: 4px;
-        transition: background-color 0.15s ease;
+        padding: 0;
+        margin: 0 0 2em;
 
-        &:hover {
-            background-color: rgba($Navy-Blue, 0.06);
+        li.project {
+            margin-bottom: 2.5em;
+            border-left: 6px solid shift-color($Navy-Blue, -90%);
+
+            p {
+                margin: 0;
+            }
         }
     }
 
-    .recent-updates-date {
-        color: #7b7b7b;
+    .project-content {
+        padding-left: 0.5em;
+
+        .status {
+            font-size: 1rem;
+            font-weight: 250;
+            padding: 0.2em;
+            margin-right: 0.5em;
+        }
     }
-}
 
-.recent-updates-pill {
-    position: absolute;
-    left: 4px;
-    top: 0.35em;
-    width: 3.4rem;
-    padding: 5px 5px 3px 5px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 15px;
-    transition: background-color 0.15s ease, color 0.15s ease;
-}
+    .haiku {
+        margin: 0.4rem 0 0rem;
+        font-family: $ui-font-family;
+        font-weight: 300;
+        font-style: italic;
+        text-align: right;
+        color: $gray-600;
+        font-size: 1.1em;
 
-$pill-colors: (
-    "blue": #4673b8,
-    "red": #bd666d,
-    "green": #2c9f42,
-    "grey": $Navy-Blue,
-);
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            font-size: 0.95rem;
+        }
+    }
 
-@each $name, $color in $pill-colors {
-    .recent-updates-pill.pill-#{$name} {
-        background: rgba($color, 0.25);
-        color: $color;
+    ul.project-links {
+        margin-bottom: 0;
+    }
 
-        &:hover {
-            background: $color;
-            color: #fff !important;
+    .project-details-listing {
+        margin-top: 0.8em;
+        background-color: shift-color($Navy-Blue, -90%);
+        font-size: 0.9rem;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            font-size: 0.95rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 0.5em 0.5em 0.5em 1em;
+
+            a {
+                color: $Navy-Blue;
+                text-decoration: none;
+
+                &:hover {
+                    color: darken($Navy-Blue, 10%);
+                }
+            }
+        }
+
+        .details {
+            background-color: $Navy-Blue;
+            padding-right: 1.5em;
+
+            a {
+                color: $white;
+
+                &:hover {
+                    color: lighten($Navy-Blue, 30%);
+                }
+            }
         }
     }
 }
 
-.frontpage-listing a:hover,
-.frontpage-listing a:focus,
-.recent-heading a:hover,
-.recent-heading a:focus {
-    text-decoration: none;
+// Research profile badges: up to three columns, capped in width so they
+// don't spread across the full-width page; fewer columns as the screen narrows
+.profile-badges {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+    max-width: 42rem;
+    gap: 12px 1rem;
+    margin: 1.25rem 0 1.75rem;
+
+    .badge {
+        @include profile-badge;
+        justify-self: start;
+    }
+
+    // Phones: badges wrap side by side instead of one per row
+    @media (max-width: 575.98px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        .badge {
+            font-size: 0.95rem;
+        }
+    }
 }
+
+// ============================================================================
+// Timeline count strips (Research and Talks)
+// ============================================================================
 
 .timeline-count-strip {
     margin: 0.9rem 0 1.5rem;
@@ -1098,7 +1136,7 @@ $pill-colors: (
         border: 1px solid $gray-300;
         color: $Navy-Blue;
         background: $white;
-        font-family: $headings-font-family;
+        font-family: $ui-font-family;
         font-weight: 600;
         border-radius: 999px;
         padding: 0.15rem 0.65rem;
@@ -1128,7 +1166,7 @@ $pill-colors: (
         color: $gray-700;
         max-width: 220px;
 
-        // One publication type per line so long breakdowns don't push into the next year
+        // One type per line so long breakdowns don't push into the next year
         .timeline-count-type {
             display: block;
             white-space: nowrap;
@@ -1140,10 +1178,8 @@ $pill-colors: (
     @include media-breakpoint-down(sm) {
         .timeline-count-track {
             flex-direction: column;
-            flex-wrap: nowrap;
             gap: 0.75rem;
             padding: 0.25rem 0 0 1.5rem;
-
             overflow-x: visible;
 
             &::before {
@@ -1151,27 +1187,24 @@ $pill-colors: (
                 position: absolute;
                 z-index: 0;
                 left: 0.6rem;
-                right: auto;
                 top: 0.75rem;
                 bottom: 0.75rem;
-                border-top: none;
                 border-left: 2px solid shift-color($Navy-Blue, -80%);
             }
         }
 
         .timeline-count-item {
             min-width: 0;
-            max-width: none;
             padding: 0;
             text-align: left;
             flex-direction: row;
-            &::before { display: none; }
-            display: flex;
             flex-wrap: wrap;
             // Top-align so the dot stays level with the year when a year lists several types
             align-items: flex-start;
             column-gap: 0.6rem;
             row-gap: 0.2rem;
+
+            &::before { display: none; }
         }
 
         // Centre the dot on the vertical line, level with the year pill
@@ -1185,161 +1218,56 @@ $pill-colors: (
         }
 
         .timeline-count-types {
-            margin-top: 0.3rem;
             max-width: none;
         }
     }
 }
 
-// Timeline listings (publications and talks)
-.timeline-listing {
-    margin-top: 1rem;
+// ============================================================================
+// About page
+// ============================================================================
 
-    .timeline-nav {
-        margin: 0 0 1.5rem;
-        padding: 0.5rem 0;
-        border-top: 1px solid $gray-300;
-        border-bottom: 1px solid $gray-300;
+// Three stacked columns of profile badges at the top (like robjhyndman.com/about)
+.about-badges {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 2.5rem;
+    margin: 0.5rem 0 2rem;
+
+    .badge-col {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
 
-    .timeline-nav-list {
-        list-style: none;
+    p {
+        margin: 0;
+    }
+
+    .badge {
+        @include profile-badge;
+    }
+
+    // Narrower screens: drop the columns and let all badges wrap side by side
+    @media (max-width: 767.98px) {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.5rem;
-        margin: 0;
-        padding: 0;
-    }
+        gap: 10px;
 
-    .timeline-nav-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.45rem;
-        text-decoration: none;
-        border: 1px solid $gray-300;
-        border-radius: 999px;
-        padding: 0.2rem 0.7rem;
-        font-family: $headings-font-family;
-        font-size: 0.85rem;
-        background: $white;
-    }
+        .badge-col {
+            display: contents;
+        }
 
-    .timeline-nav-count {
-        background: shift-color($Navy-Blue, -85%);
-        color: $Navy-Blue;
-        border-radius: 999px;
-        min-width: 1.5rem;
-        text-align: center;
-        padding: 0.05rem 0.35rem;
-        font-size: 0.75rem;
-    }
-
-    .timeline-year-block {
-        margin-bottom: 2rem;
-    }
-
-    .timeline-year-title {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        border-bottom: 2px solid shift-color($Navy-Blue, -80%);
-        margin: 0 0 0.9rem;
-        padding-bottom: 0.45rem;
-        font-family: $headings-font-family;
-        font-size: 1.25rem;
-    }
-
-    .timeline-year-total {
-        font-size: 0.88rem;
-        font-weight: 400;
-        color: $gray-700;
-    }
-
-    .timeline-cards {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: grid;
-        gap: 0.9rem;
-    }
-
-    .timeline-card {
-        border-left: 4px solid shift-color($Navy-Blue, -75%);
-        background: shift-color($Navy-Blue, -93%);
-        padding: 0.8rem 0.95rem;
-    }
-
-    .timeline-card-head {
-        display: flex;
-        justify-content: space-between;
-        gap: 0.75rem;
-        align-items: center;
-        margin-bottom: 0.45rem;
-    }
-
-    .timeline-badge {
-        display: inline-block;
-        font-family: $headings-font-family;
-        font-size: 0.72rem;
-        text-transform: uppercase;
-        letter-spacing: 0.04em;
-        background: $Navy-Blue;
-        color: $white;
-        border-radius: 999px;
-        padding: 0.1rem 0.6rem;
-    }
-
-    .timeline-date {
-        font-size: 0.82rem;
-        color: $gray-700;
-    }
-
-    .timeline-reference,
-    .timeline-title,
-    .timeline-meta {
-        margin: 0;
-    }
-
-    .timeline-location {
-        margin-top: 0.2rem;
-        color: $gray-700;
-    }
-
-    .timeline-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.35rem 0.8rem;
-        margin-top: 0.55rem;
-        font-size: 0.88rem;
-    }
-
-    .timeline-actions a {
-        text-decoration: none;
-        white-space: nowrap;
+        .badge {
+            font-size: 0.95rem;
+        }
     }
 }
-// Quarto extension/template cards
-%card-base {
-    border: 1.5px solid rgba($Navy-Blue, 0.2);
-    border-radius: 14px;
-    background: #eeeeee;
-    padding: 1rem 1.25rem;
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease;
-}
 
-// Cards that are a single link glow on hover
-%card-link {
-    @extend %card-base;
-
-    &:hover {
-        border-color: $Navy-Blue;
-        box-shadow:
-            0 0 16px 1px rgba($Navy-Blue, 0.18),
-            0 6px 16px rgba($Navy-Blue, 0.12);
-    }
-}
+// ============================================================================
+// Projects page: Quarto extension/template cards
+// ============================================================================
 
 .template-card {
     @extend %card-link;
@@ -1380,122 +1308,4 @@ $pill-colors: (
     border-radius: 6px;
     padding: 0.4rem 0.6rem;
     margin: 0.5rem 0 0 0;
-}
-
-// Mobile sidebar toggle bar (ResearchInfuser, Research): it sits on the navy
-// banner, so make the toggle icon and breadcrumb text white instead of grey
-.quarto-secondary-nav {
-	.quarto-btn-toggle,
-	.quarto-btn-toggle i,
-	.quarto-page-breadcrumbs .breadcrumb-item,
-	.quarto-page-breadcrumbs .breadcrumb-item a,
-	.quarto-page-breadcrumbs .breadcrumb-item + .breadcrumb-item::before {
-		color: $white !important;
-		opacity: 1;
-	}
-
-	.quarto-page-breadcrumbs .breadcrumb-item a:hover {
-		text-decoration: underline;
-	}
-}
-
-// Entry counts added to the Research page contents and sidebar ("Journal Articles (7)")
-.toc-count {
-	color: $gray-600;
-	font-size: 0.9em;
-}
-
-// Research profile badges (Google Scholar, ORCID, Scopus, ...) used on the
-// Research and About pages, styled like robjhyndman.com
-@mixin profile-badge {
-	display: inline-flex;
-	align-items: center;
-	gap: 0.35em;
-	max-width: 100%;
-	background: rgba($Navy-Blue, 0.12);
-	color: $Navy-Blue;
-	font-weight: normal;
-	font-size: 1.05rem;
-	line-height: 1.2;
-	padding: 4px 12px 3px;
-	border-radius: 15px;
-	text-decoration: none;
-	white-space: nowrap;
-	transition: background-color 0.15s ease, color 0.15s ease;
-
-	&:hover {
-		background: $Navy-Blue;
-		color: $white !important;
-	}
-
-	// Inline SVG icons (the modern arXiv logo) sized like the font icons
-	.badge-svg-icon {
-		width: 1em;
-		height: 1em;
-		flex-shrink: 0;
-	}
-}
-
-// Research page: up to three columns, capped in width so they don't spread
-// across the full-width page; fewer columns as the screen narrows
-.profile-badges {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
-	max-width: 42rem;
-	gap: 12px 1rem;
-	margin: 1.25rem 0 1.75rem;
-
-	.badge {
-		@include profile-badge;
-		justify-self: start;
-	}
-
-	// Phones: badges wrap side by side instead of one per row
-	@media (max-width: 575.98px) {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 10px;
-
-		.badge {
-			font-size: 0.95rem;
-		}
-	}
-}
-
-// About page: three stacked columns of badges at the top (like robjhyndman.com/about)
-.about-badges {
-	display: grid;
-	grid-template-columns: repeat(3, max-content);
-	column-gap: 2.5rem;
-	margin: 0.5rem 0 2rem;
-
-	.badge-col {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 10px;
-	}
-
-	p {
-		margin: 0;
-	}
-
-	.badge {
-		@include profile-badge;
-	}
-
-	// Narrower screens: drop the columns and let all badges wrap side by side
-	@media (max-width: 767.98px) {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 10px;
-
-		.badge-col {
-			display: contents;
-		}
-
-		.badge {
-			font-size: 0.95rem;
-		}
-	}
 }
