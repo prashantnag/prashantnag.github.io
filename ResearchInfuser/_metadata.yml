@@ -34,8 +34,6 @@ execute:
   message: true
   warning: true
 
-# Default author
-author:
-  - name: Prashant Kumar Nag
-    url:
-    orcid:
+# Author: set per post in each year folder's _metadata.yml (e.g. 2026/_metadata.yml),
+# so pages like this landing page and Start Here show no author.
+# (author: "" on a page does not hide it in Quarto 1.11; it merges with this default.)
