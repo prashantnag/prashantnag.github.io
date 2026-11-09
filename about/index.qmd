@@ -1,68 +1,48 @@
 ---
 title: "About Me"
-description: >-
-  About Dr. Prashant Kumar Nag, his academic background,
-  research, teaching, open-source development,
-  and digital productivity workflows.
 comments: false
 sidebar: false
 toc: true
 toc-title: "On This Page"
 toc-location: right
+grid:
+  body-width: 800px
 ---
+
+::::: {.about-badges}
+:::: {.badge-col}
+[{{< fa file-code >}} Curriculum Vitae](../cv/curriculum-vitae.html){.badge}
+
+[{{< fa file-pdf >}} Curriculum Vitae](../cv/Dr_Prashant_Kumar_Nag_Academic_CV_2026.pdf){.badge}
+
+[{{< fa brands github >}} GitHub](https://github.com/prashantnag){.badge}
+
+[{{< fa brands linkedin >}} LinkedIn](https://www.linkedin.com/in/prashantnag/){.badge}
+::::
+
+:::: {.badge-col}
+[{{< ai google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=REku3NkAAAAJ){.badge}
+
+[{{< ai semantic-scholar >}} Semantic Scholar](https://www.semanticscholar.org/author/Prashant-Kumar-Nag/2147432391){.badge}
+
+[{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-1601-1455){.badge}
+
+[{{< ai scopus >}} Scopus](https://www.scopus.com/authid/detail.uri?authorId=57408214000){.badge}
+::::
+
+:::: {.badge-col}
+[{{< ai clarivate >}} Web of Science](https://www.webofscience.com/wos/author/record/HPE-9262-2023){.badge}
+
+<a class="badge" href="https://arxiv.org/a/nag_p_3.html"><svg class="badge-svg-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z"/></svg> arXiv</a>
+
+[{{< fa brands youtube >}} YouTube](https://www.youtube.com/@ResearchInfuser){.badge}
+::::
+:::::
 
 ## Bio
 
 > **Dr. Prashant Kumar Nag** is an Assistant Professor in the Department of Computer Applications at [Galgotias College of Engineering and Technology (GCET)](https://www.galgotiacollege.edu/), Greater Noida, India. He received his Ph.D. in Computer Applications from [Maulana Azad National Institute of Technology (MANIT)](https://www.manit.ac.in/), Bhopal, where his doctoral research focused on designing efficient artificial intelligence and deep learning models for human emotion detection. His research interests include Artificial Intelligence, Deep Learning, Natural Language Processing, Affective Computing, Emotion Recognition, Machine Learning, and Healthcare Informatics, with a focus on building intelligent models for understanding human emotions from textual data and applying AI-driven methods to real-world problems. Dr. Nag has qualified the UGC-NET examination four times and received a national research fellowship for his doctoral research. Alongside teaching postgraduate courses in the MCA program, he is actively involved in student mentoring, curriculum development, training and placement activities, career planning initiatives, and outcome-based education practices. He is committed to research-driven teaching, interdisciplinary collaboration, and the development of practical AI solutions for education, healthcare, and society.
 
-<style>
-.bio-links a {
-  text-decoration: none;
-}
-</style>
-
-:::: {.columns .bio-links}
-
-::: {.column width="25%"}
-
-<ul class="fa-ul">
-  <li><a href="https://www.prashantnag.com"><i class="fa-li fa-solid fa-globe"></i>Website</a></li>
-  <li><a href="../cv/curriculum-vitae.html"><i class="fa-li fa-solid fa-file-pdf"></i>Curriculum Vitae</a></li>
-</ul>
-
-:::
-
-::: {.column width="25%"}
-
-<ul class="fa-ul">
-  <li><a href="https://orcid.org/0000-0002-1601-1455"><i class="fa-li fa-solid fa-id-badge"></i>ORCID</a></li>
-  <li><a href="https://scholar.google.com/citations?user=REku3NkAAAAJ"><i class="fa-li fa-solid fa-graduation-cap"></i>Google Scholar</a></li>
-  <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57408214000"><i class="fa-li fa-solid fa-book"></i>Scopus</a></li>
-</ul>
-
-:::
-
-::: {.column width="25%"}
-
-<ul class="fa-ul">
-  <li><a href="https://www.webofscience.com/wos/author/record/HPE-9262-2023"><i class="fa-li fa-solid fa-flask"></i>Web of Science</a></li>
-  <li><a href="https://www.semanticscholar.org/author/Prashant-Kumar-Nag/2147432391"><i class="fa-li fa-solid fa-brain"></i>Semantic Scholar</a></li>
-  <li><a href="https://arxiv.org/a/nag_p_1.html"><i class="fa-li fa-solid fa-file-lines"></i>arXiv</a></li>
-</ul>
-
-:::
-
-::: {.column width="25%"}
-
-<ul class="fa-ul">
-  <li><a href="https://www.linkedin.com/in/prashantnag/"><i class="fa-li fa-brands fa-linkedin"></i>LinkedIn</a></li>
-  <li><a href="https://github.com/prashantnag"><i class="fa-li fa-brands fa-github"></i>GitHub</a></li>
-  <li><a href="https://www.youtube.com/@ResearchInfuser"><i class="fa-li fa-brands fa-youtube"></i>YouTube</a></li>
-</ul>
-
-:::
-
-::::
 
 ## Beyond the Biography
 

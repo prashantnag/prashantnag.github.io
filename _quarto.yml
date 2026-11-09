@@ -144,6 +144,8 @@ format:
 
     include-in-header: header.html
 
+    fontsize: 1.0625rem
+
     grid:
       body-width: 900px
 
