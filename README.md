@@ -18,7 +18,7 @@ This website's design and structure draws inspiration from two excellent academi
 
 ### Design & Styling
 Primary inspiration from **[Andrew Heiss's website](https://github.com/andrewheiss/ath-quarto)**:
-- Custom SCSS styling system (`html/ath.scss`)
+- Custom SCSS styling system (`styles.scss`)
 - Badge components for links (PDF, DOI, arXiv, etc.)
 - Custom EJS listing templates for publications
 - Category and listing styling

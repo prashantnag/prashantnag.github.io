@@ -6,6 +6,7 @@ project:
 website:
   title: "Prashant Kumar Nag"
   site-url: "https://prashantnag.com"
+  favicon: images/favicon.png
 
   description: >-
     Academic portfolio of Prashant Kumar Nag.
@@ -131,6 +132,7 @@ website:
 resources:
   - CNAME
   - fonts/
+  - favicon.ico
   - robots.txt
 
 date-format: "D MMMM YYYY"
