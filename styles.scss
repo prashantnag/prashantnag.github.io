@@ -386,17 +386,30 @@ div.quarto-about-trestles {
             gap: 0.65rem;
         }
 
+        // Icons in the navy theme colour (Quarto's default is a faded grey);
+        // on hover a navy rounded square with a white icon (as on robjhyndman.com)
         .about-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             margin: 0;
             white-space: nowrap;
             border: none;
             text-decoration: none;
-            column-gap: .2em;
-            font-size: 20pt;
+            column-gap: 0.2em;
+            font-size: 1.667rem;
+            color: $Navy-Blue;
+            border-radius: 8px;
+            transition: background-color 0.15s ease, color 0.15s ease;
 
             &:hover {
                 background-color: $Navy-Blue;
-                color: $Silver;
+                color: $white;
+                opacity: 0.8;
+            }
+
+            @media (max-width: 991.98px) {
+                padding: 5pt !important;
             }
         }
 
