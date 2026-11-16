@@ -45,6 +45,19 @@ I develop open-source tools and reusable resources for research, academic writin
 </div>
 ```
 
+### GCET templates
+
+```{=html}
+<div class="template-card">
+  <a href="https://github.com/ResearchInfuser/gcet-course-file-template" class="template-card-img-link"><img src="https://raw.githubusercontent.com/ResearchInfuser/gcet-course-file-template/HEAD/docs/screenshots/course-coordinator-title-page.png" class="template-card-img" alt="GCET Course File Template title page example"></a>
+  <div class="template-card-body">
+    <h4><a href="https://github.com/ResearchInfuser/gcet-course-file-template">GCET Course File Template</a></h4>
+    <p>Generate a GCET-style academic Course File as a PDF or Word document from a single Excel workbook, in Course Coordinator, Subject Teacher, and Laboratory Course variants.</p>
+    <pre class="template-card-cmd"><code>git clone https://github.com/ResearchInfuser/gcet-course-file-template</code></pre>
+  </div>
+</div>
+```
+
 ## More on GitHub
 
 All source code, including academic automation, teaching utilities, and reproducible research workflows, is on [GitHub](https://github.com/prashantnag).
